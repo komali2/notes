@@ -67,6 +67,9 @@ Then the program is easy to read and easy to modify.
      of parameters, and produces dummy result of the correct time
 
 (define (double n) 0)
+***** Signature should be most specific as possible
+****** I.e. are you sure you don't just mean Number, but mean Natural Number?
+****** Sounds like good practice for type checking too
 
 **** Examples (wrapped in check-expect)
      The examples help us understand what a function must do. Multiple examples to illustrate behavior.
@@ -93,6 +96,9 @@ Then the program is easy to read and easy to modify.
   (* 2 n))
 
 **** Test and debug
+***** How many tests is enough?
+****** After running all tests, all code should have been run, at least
+****** "Code Coverage"
 *** Example problem:
     Design a function that consumes a number and produces twice that number.
 
@@ -133,10 +139,50 @@ For simplicity you may assume that just adding s is enough to pluralize a word.
 
 (define (plural n)
     (+ n "s"))
+*** Practice Problems
+**** Less than 5
+     Design a problem to check if the length of a string is less than 5.
 
+Signature
+; String -> Boolean
+
+Purpose
+; Determine if the string's length is less than 5
+
+Stub
+(define (isLessThanFive x) false)
+
+Examples
+(check-expect (isLessThanFive ('cat')) true)
+(check-expect (isLessThanFive ('banana')) false)
+(check-expect (isLessThanFive ('hello)) false)
+
+Inventory
+(define (isLessThanFive)
+  if (...isLessThanFive)
+  true
+  false
+)
+
+Code Body
+
+(define (isLessThanFive x)
+  ( < 5 x )
+)
 
 * How to Design Data (HtDD) Recipe (12 lectures, 5-8 hours)
   Learn to use the HtDD recipe to design data definitions for atomic data.
+** Goals
+*** be able to use the How to Design Data Definitions HtDD recipe
+**** to define data definitions for atomic data
+*** identify how problem domain information should be represented
+**** simple atomic data
+**** intervals
+**** enumerations
+**** itemizations
+**** mixed data itemizations
+*** use data driven templates recipe to generate templates for functions
+*** use how to design functions HtDF recipe to design functions
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
   Leanr how to use the HtDW recipe to design interactive programs with atomic world state
 * Compound Data (3 lectures, 4-6 hours)
