@@ -1,0 +1,13 @@
+#+TITLE: EDM Prod Class 1
+
+- tags :: music, production, ableton
+
+* Don't forget you can use the midi pitch effects tool to just change octave on the fly
+* If your sub bass is too clicky, mess with the attack on the envelope
+* Side chain click fixes
+** Ghost side chaining
+*** create a midi track that mirrors the kick
+*** put a really small, fast noise sample on it
+*** have the other instrument side chain off that
+** use the compressor from live version 8
+*** it has a different algorithm

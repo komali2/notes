@@ -1,0 +1,9 @@
+#+TITLE: standard deviation
+
+- tags :: [[file:20200225193832_math.org][math]], [[file:20200312204711-statistics.org][statistics]]
+
+* measurement that encompasses approx 68.2% of outcomes
+
+* When related to [[file:20200312204325-implied_volatility.org][Implied Volatility]]
+** means there is a 68% probability of a [[file:20200312202737-stocks.org][stock]] settling within the expected range as determined by [[file:20200312202748-options.org][options]] prices
+*** a 200$ stock with an [[file:20200312204325-implied_volatility.org][IV]] of 25% means there's a 68% probability the [[file:20200312202737-stocks.org][stocks]] is between 150$ and 250$ in one year

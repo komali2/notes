@@ -1,0 +1,25 @@
+#+TITLE: the interleaving effect: mixing it up boosts learning scientific american
+
+- tags :: [[file:20200224205504_learning.org][learning]], [[file:20200308142019_interleaving.org][interleaving]]
+- source :: https://www.scientificamerican.com/article/the-interleaving-effect-mixing-it-up-boosts-learning/
+
+* studying related skills or concepts in parallel is effective way to train the brain
+* blocking
+** practicing one skill at a time
+** common in schools, trianing programs, etc
+** different from interleaving
+** practice one skill before the next, i.e. AAABBBCCC
+** practice and learn scales, then practice and learn chords
+* interleaving
+** different than blocking style of learning
+** practice mixes, interleaves, practice on several related skills together
+** i.e. ABCABCABC
+** examples:
+*** a pianist might alternate practice between scales, chords, and arpeggios
+*** tennis player alternates practice between forehands, backhands, and volleys
+** outperforms blocking for a variety of subjects
+*** sports
+*** category learning
+*** math
+** study by doug rohrer and robert f dedrick https://psycnet.apa.org/record/2014-44133-001
+** practice a series of skills in a variety, rather than one at a time

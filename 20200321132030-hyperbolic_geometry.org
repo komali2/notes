@@ -1,0 +1,5 @@
+#+TITLE: hyperbolic geometry
+
+- tags :: math, geometry
+
+* angles of a triangle add up to less than 180 degrees

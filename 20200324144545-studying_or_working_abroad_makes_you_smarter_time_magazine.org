@@ -1,0 +1,10 @@
+#+TITLE: studying or working abroad makes you smarter time magazine
+#+ROAM_KEY: https://time.com/79937/how-studying-or-working-abroad-makes-you-smarter/
+
+- tags :: [[file:20200324144607-working_remote.org][working remote]], [[file:20200308141953_studying.org][studying]], [[file:20200324144623-intelligence.org][intelligence]], [[file:20200311211408-focus.org][focus]]
+
+* studying or [[file:20200324144607-working_remote.org][working abroad]] makes you think more complexly and [[file:20200324152322-creativity.org][creatively]]
+** william maddux, associate professor of organizational behavior at INSEAD
+** students who adeopted an open and adaptive attitude toward foreign culture
+*** became more able to make [[file:20200316165627-neural_memory_structures.org][connections]] among [[file:20200308141914_chunking.org][disparate ideas]]
+*** got more jobs after

@@ -1,0 +1,174 @@
+#+TITLE: khan academy pre algebra
+
+- tags :: [[file:20200225193832_math.org][math]], [[file:20200324175939-algebra.org][algebra]], [[file:20200324175947-multiplication.org][multiplication]], [[file:20200324175951-division.org][division]]
+
+* Divisibility tests
+** 2
+*** is the one's place divisible by 2?
+** 3
+*** Add all digits. Is the Sum divisible by 3?
+**** recursively add if necessary
+*** Why?
+**** You can break down
+     498
+    4 ( 1 + 99) + 9(1 + 9) + 9
+    [[file:20200324181441-distributive_property.org][distributive property]]: 4 * 1 + 4 * 99 = 4 (1 + 99)
+  4 + (4 * 99) + 9 + (9*9) + 8
+  Since 99 and 9 are both divisible by 3, the product of anything
+  times (something divisible by 3) will be divisible by 3
+** 4
+*** Are the last 2 digits divisible by 4?
+** 5
+*** Is the final digit a 5 or a 0?
+** 6
+*** Is it divisible by 2 AND 3?
+** 9
+*** Sum all digits. Is the sum divisible by 9?
+*** Why?
+**** same reasons at 3
+** 10
+*** 0 in the one's place
+
+* Recognizing divisibility
+* [[file:20200324183005-factors.org][Factor]]
+** Number A is a FACTOR of Number B if Number B can be divided by A without a remainder
+** 2 is a factor of 10
+** A [[file:20200324184154-whole_number.org][whole number]] that can [[file:20200324184158-divide.org][divide]] evenly into another number.
+* [[file:20200324184021-multiples_algebra.org][Multiple]]
+** Number A is a MULTIPLE of Number B if Number B can be multiplied by Number N to make Number A
+** Number N is another MULTIPLE of number B
+** 10 is a multiple of 2 (and 5)
+* Finding [[file:20200324183005-factors.org][factors]] of a number
+** Starting from one, test [[file:20200324183121-divisibility.org][divisibility]] while increasing
+** record the low and high number if [[file:20200324183121-divisibility.org][divisibility]] test passes
+** you're basically "working your way in"
+  120
+1 * 120, 2 * 60 etc, so you go 1..... 120, 1 2 .... 60 120
+** If asked whether something is a factor of another number, first just test the [[file:20200324183121-divisibility.org][divisibility]] of the "another number"
+  Which of the following Numbers ia  factor of 154: 3, 5, 6, 9, 14
+  First just check if 154 is [[file:20200324183740-divisible.org][divisible]] by 3, 5, 6 etc using the [[file:20200324183121-divisibility.org][divisibility]] tests
+* Finding [[file:20200324184021-multiples_algebra.org][multiples]] of a [[file:20200324184026-number.org][number]]
+** Just add the number up again and again and see if other numbers are there
+  which of the following numbers is a factor of 14? just add 14
+14 , 28, 42, 56, 70 etc
+* [[file:20200329143459-prime_numbers.org][prime numbers]]
+** simple, but the basis for tons of crazy stuff, like [[file:20200329143505-cryptography.org][cryptography]]
+** important!!
+** a number is [[file:20200329143459-prime_numbers.org][prime]] if:
+*** it's a [[file:20200329143515-natural_number.org][natural number]] (1, 2, 3) ([[file:20200329143529-positive_integers.org][positive integers]])
+*** divisible by exactly 2 natural numbers
+**** itself
+**** one
+** prime numbers:
+*** 1
+**** not prime
+**** because it's not divisible by EXACTLY 2 natural numbers
+**** even those it's divisible by one and itself
+*** 2
+**** prime
+**** divisible by one
+**** divisible by 2
+**** only even prime number
+*** 3
+**** prime
+**** divisible by one and three
+*** 4
+**** not prime
+**** divisible by 1, 2, 4
+* composite number
+** a non-prime number
+* determine if something is prime or composite
+** think of all the natural numbers you can divide into the number in question with no remainder
+* prime factorization
+** list out prime numbers, and going pu see which ones go into the number in question
+     75
+    /  \
+   3   25
+      /  \
+     5   5
+  this is done now, because the bottom numbers are all prime
+75 = 3 * 5 * 5
+** listing out all the smallest prime numbers that multiply to make up a number
+* exponential notation
+** collapse multiplications into exponents
+3 * 5 * 5 = 3 * 5^2
+* common divisibility examples
+** all numbers divisible by two numbers (x and y) are also divisible by all the prime factors of those numbers
+           12 and 20
+          /  \
+         2   6
+            /  \
+            2   3
+* Associative property of multiplication
+** numbers can be multiplied in any order, they will result in the same number
+5 * (2 * 9) = (5 * 2) * 9 = 90
+* inverse property of addition
+** if you add the negative of a number to that number, you results with 0
+** or if you add the positive of a number to a negative number, you result with 0
+* least common multiple
+** the lowest number that is a multiple of both number A and number B
+*** 36 is the least common multiple of 18 and 12
+** find by
+*** finding the prime factorization of both numbers
+*** then reducing down as follows:
+    18          12
+   /  \         / \
+   2  9       2     6
+     / \           /  \
+    3   3        2    3
+
+18 = 2 * 3 * 3
+12 = 2 * 2 * 3
+
+lcm(18, 12) = 2 * 3 * 3
+              2 * 2 * 3
+              x       x
+              only one gets through
+           =  2 * 2 * 3 * 3
+*** the least common multiple's prime factorization is a superset of both of the prime factorizations
+**** has all of their prime factors in it as many times as we have in any ONE of these
+*** or, brute force
+**** find the multiples of both
+18, 36, 54
+12, 24, 36
+* Greatest Common Factor
+** Also known asGreatest Common Divisor
+** Two methods to solve
+** What is the greatest common divisor of 20 and 40?
+*** what is the largest number that is divisible INTO both 20 and 40?
+**** 20 is divisible into 40
+**** 40 can be divided in 20
+**** 20 is the largest number divisible into 40 AND 20
+** What is the greatest common divisor of 10 and 7
+*** one way is to list all the factors of each of those number
+**** then figure out which is the biggest factor of both
+**** 10: 1, 2, 5, 10
+***** work left/right (1 * 10, 2 * 5)
+**** 7: 1, 7
+**** Only one common factor here: 1
+**** Thus, the greatest common factor, or greatest common divisor, is 1
+** gcd(21, 30)
+*** List method
+**** 21: 1, 3, 7, 21
+**** 30: 1, 2, 3, 5, 6, 10 15, 30
+**** Common factors: 1, 3
+**** Greatest common factor is 3
+*** Prime factorization technique:
+           21            30
+          /  \          /  \
+         3   7         3    10
+                           /  \
+                          2    5
+*** Can be faster
+** gcd(105, 30)
+*** prime factorization
+**** Find the common prime factors
+       105
+      /   \
+     5     21
+          /  \
+         3    7
+   105 = 3 * 5 * 7
+   30  = 2 * 3 * 5
+   3 and 5 are the common factors
+   so the GCP is 3 * 5 = 15

@@ -1,0 +1,16 @@
+#+TITLE: 30 second habit that can have a big impact on your life huffpost
+
+- tags :: [[file:20200326130617-work.org][work]], [[file:20200311211408-focus.org][focus]], [[file:20200326130558-meetings.org][meetings]]
+- source :: https://www.huffpost.com/entry/the-30-second-habit-that-_b_4808632?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuY291cnNlcmEub3JnL2xlYXJuL2xlYXJuaW5nLWhvdy10by1sZWFybi9zdXBwbGVtZW50L2ZXeWk1L3JlYWRpbmctY2h1bmtpbmc&guce_referrer_sig=AQAAAD9xb_60ZkILA9_dNh7syydMN15gpWaI3bfJji0mHXOJoacNnbSHBpL7JOZMaDX3OhFi9eWlZR8C1XtPzc83SNI6shk4ktRsXn4iEk0a45gfLfVdp3O9rGqTKDYU6HuJaPHEV4yH8MeDpF4251WLSJ0Dy-6XTNsj2f7uaILC1sn_
+
+* Immediately after every lecture, [[file:20200326130558-meetings.org][meeting]], or significant experience
+** take 30 seconds exactly to [[file:20200308172054_recall.org][write down the most important points]]
+** it's not [[file:20200224205634_note_taking.org][note taking]] - note taking doesn't excuse
+*** it's an act of [[file:20200326131122-interpretation.org][interpretation]], [[file:20200326131127-prioritization.org][prioritization]], and [[file:20200308180101_decision_making.org][decision-making]]
+** it's hard work
+** [[file:20200326131137-detail.org][detail]] is a trap
+*** don't capture everything
+*** you have to decide what matters
+*** 30 seconds helps limits this
+** do it right away
+** it will teach you to listen better and asking better questions

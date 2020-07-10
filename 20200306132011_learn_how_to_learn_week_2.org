@@ -1,0 +1,202 @@
+#+TITLE: learn how to learn week 2
+
+- tags :: [[file:20200224205504_learning.org][learning]], [[file:20200224205634_note_taking.org][note-taking, [[file:20200306130641_writer_s_block.org][writer's block]]]]
+
+* [[file:20200308141914_chunking.org][Chunks]]
+** compact packages of information that your mind can easily access
+** if you were learning a song, you wouldn't just listen to the whole thing and then try to play it back
+*** you might try first to learn how to smoothly play some passages
+*** then gradually try to put them together
+** for sports, you learn the little fundamentals and combine them
+** the best chunks are the ones that are so well ingrained that you don't have to think about connecting the neural pathways
+** language learning: to make sentences, you've got to combine many mini chunks
+** you gotta learn to chunk in math and science
+*** so they give you work through examples in textbooks
+**** often the solution is right there, you just gotta figure out how to put them together
+**** but you have to understand *why*, not just blindly follow directions
+** how to chunk
+1. [[file:20200308144013_focus.org][focused]] [[file:20200308143941_attention.org][attention]]
+2. [[file:20200308143926_understanding.org][understanding]]
+3. [[file:20200225193908_practice.org][practice]]
+*** put your undivided [[file:20200308143941_attention.org][attention]] on the information you want to chunk
+**** don't look at your messages every few minutes
+**** focus
+**** don't have TV going
+**** you're making new neural patterns and connecting them to existing ones
+***** that can't happen if some parts are unreachable because you're distracted
+*** [[file:20200308143926_understanding.org][understand]] the basic idea you're trying to chunk
+**** "synthesize the gist"
+**** figure out the main ideas
+***** let focused and diffused modes take turns in trying to understand
+**** just understanding how a problem was solved doesn't constitute a chunk
+***** "[[file:20200308143914_aha.org][aha]]" isn't all it takes
+***** You've got to review it regularly
+**** close the book and test yourself if you can solve the problem you think you understand
+**** when you actually understand it is when you can solve it by yourself
+**** just because you see it, understand it, doesn't mean you can do it
+**** *you have to do it yourself*
+*** Getting [[file:20200308143850_context_in_learning.org][context]] through [[file:20200225193908_practice.org][practice]]
+**** so you can understand how and WHEN to use this chunk
+**** go beyond initial problem, see more broadly
+**** see when to use, and when not to use the chunk
+**** top down learning is big picture
+**** bottom up learning is chunking, both processes are vital
+**** context is where bottom up and top down meet
+**** picture walk a book, reading headings and pictures, can help you form a context map
+**** learn major concepts or points first
+***** then, fill in the details
+***** even if you don't have everything, you can see the big picture
+** [[file:20200308143826_bottom_up_learning.org]["bottom-up" learning]]
+
+* [[file:20200308141942_illusion_of_competence.org][illusions of competence in learning]]
+** ineffective [[file:20200308141953_studying.org][study]] methods that make you think you learning something when you're not
+** [[file:20200308172054_recall.org][recall]]
+*** after you've read something, look away, and try to [[file:20200308172054_recall.org][recall]] what you read
+**** better than rereading a book
+*** a form of testing yourself
+*** the retrieval process itself enhances deep learning
+**** helps us build [[file:20200308141914_chunking.org][chunks]]
+*** helps make study time for focused and effective
+*** re-reading only helps if you do it way later so it becomes [[file:20200225194841_spaced_repetition.org][spaced repetition]]
+*** you've got to do solutions yourself to map patterns in your neurons
+*** the information must persist in your memory
+*** [[file:20200224205634_note_taking.org][highlighting and underlining]] must be done carefully
+**** it can trick you into thinking you've placed the concept into your brian
+**** one sentence or less per paragraph
+**** but, [[file:20200224205634_note_taking.org][marking margins]] to synthesize concepts is very helpful
+*** having the book open gives the [[file:20200308141942_illusion_of_competence.org][illusion of competence]]
+*** to avoid illusion of competence, test yourself
+**** test whether you really understand the material
+*** mistakes help correct your thinking
+*** recall when you're outside your usual place of study helps strengthen your grasp
+**** this is why sometimes you suck at tests, they're taken in a different place than where you usually study
+* [[file:20200308142000_overlearning.org][overlearning]]
+** spinning your wheels in [[file:20200224205504_learning.org][learning]]
+** studying the same thing over and over again
+** can help produce automaticity
+*** good for tennis, piano etc
+*** good for public speaking
+**** a ted talk can often practice for 70 hrs
+** but repetetive overlearning in a single session can be a waste of learning time
+** once you have the basic idea down, hammering away at it doesn't strengthen [[file:20200225194744_long_term_memory.org][long term memory]] connections
+** focusing a single technique is limiting
+*** it's like learning carpentry but only learning how to use the hammer
+*** a repeat study session is good and valuable
+**** can strengthen and deepen chunk learning patterns
+**** but, can be too easy
+**** can contribute to [[file:20200308141942_illusion_of_competence.org][illusions of competence]]
+** deliberate [[file:20200225193908_practice.org][practice]] - focusing on the difficult material, can help
+**** balance [[file:20200308141953_studying.org][studies]] by deliberately focusing on what's difficult
+** [[file:20200309205556_einstellung.org][einstellung]] = mindset
+*** initial simple thought
+*** a thought you've already had
+*** a pattern you've already developed
+*** may prevent learning new thing
+**** crowded [[file:20200225194129_focused_thinking.org][focused mode]] neural patterns that prevent you from springing to new place where solution is
+*** installing a roadblock because of the way you were initially looking at something
+*** initial [[file:20200308181852_intuition.org][intuition]] can hurt
+*** must unlearn wrong ideas even while learning new ones
+** jumping into water before learning to swim
+*** i.e. doing homework before doing any of the studies
+*** understanding how to obtain real solutions is important
+** mastering a new subject doesn't just mean learning new [[file:20200308141914_chunking.org][chunks]]
+*** it means learning how to select and use different [[file:20200308141914_chunking.org][chunks]]
+*** best way to do that is practice jumping around different kinds of problems - [[file:20200308142019_interleaving.org][interleaving]]
+* [[file:20200308142019_interleaving.org][interleaving]]
+** method of mastering a new subject by jumping around different kinds of problems
+** very important
+** once you understand the basic method or gist of an idea, [[file:20200225193908_practice.org][practice]] solving different types of problems
+** mix up your [[file:20200224205504_learning.org][learning]]
+** look up to the more varied problem sets found at the end of chapters
+** find out why some problems call for one technique while others call for another
+** teach brain to both know HOW and WHEN to use a technique
+** builds [[file:20200309205825_flexibility.org][flexibility]] and creativity
+** begin thinking more independently
+** allows you to make interesting new connections between chunks in different fields
+*** can take time
+** most paradigm shifts brought by young people or people in a different discipline
+*** people not blocked by einstellung
+*** entrenched people block new ideas
+** learning a variety of non academic disciplines is important
+* it's hard to learn when you're not interested
+** [[file:20200308174325_neuromodulator.org][neuromodulators]]
+*** diffusely projecting systems
+*** carry information about the importance and value of an experience to my future
+*** [[file:20200308174353_acetylcholine.org][acetylcholine]]
+**** form connections that are important for [[file:20200225194129_focused_thinking.org][focused learning]]
+**** project widely
+**** activate circuits that control [[file:20200308174515_synaptic_plasticity.org][synaptic plasticity]]
+**** leads to new [[file:20200225194744_long_term_memory.org][long term memory]]
+*** [[file:20200308174401_dopamine.org][dopamine]]
+**** controls [[file:20200308174558_motivation.org][motivation]]
+**** found in the brain stem
+**** part of brain system that controls reward learning
+**** in the [[file:20200308174658_basal_ganglia.org][basal ganglia]]
+**** released when we received an unexpected reward
+**** release widely
+**** affects decision making and value of sensory input
+**** involved with predicting future rewards
+**** can motivate to do something not rewarding now but is rewarding later
+**** increased artificially by addicting drugs
+***** fools brain into thinking something wonderful happened
+***** can hijack free will
+****  loss of dopamine leads to lack of motivation
+***** called [[file:20200308174857_anhedonia.org][anhedonia]]
+****** [[file:20200308174922_depression.org][loss of interest]] in things that once gave you pleasure
+***** severe loss causes tremor, slowness rigidity
+****** [[file:20200308174949_parkinson_s_disease.org][parkinson's disease]]
+***** ultimately leads to [[file:20200308175010_catatonia.org][catatonia]]
+**** part of the unconscious part of your brain
+**** if you promise to treat yourself after studying, that's tapping the [[file:20200308174401_dopamine.org][dopamine]] system
+*** [[file:20200308174405_serotonin.org][serotonin]]
+**** strongly affects social life
+**** [[file:20200308175140_prozac.org][prozac]] raises the level of serotonin activity
+**** linked to [[file:20200308175321_risk_taking.org][risk-taking]] behavior
+***** lower [[file:20200308174405_serotonin.org][serotonin]] leads to higher [[file:20200308175317_risk.org][risk]]
+***** inmates in [[file:20200308175301_jail.org][jail]] for violent [[file:20200308175258_crime.org][crime]] have lowest levels of [[file:20200308174405_serotonin.org][serotonin]] in society
+*** lots more information on brainfacts.org
+** [[file:20200308175415_emotion.org][emotions]] strongly affect [[file:20200224205504_learning.org][learning]]
+*** emotion is intertwined with [[file:20200308175447_perception.org][perception]] and [[file:20200308143941_attention.org][attention]]
+*** interact with [[file:20200224205504_learning.org][learning]] and [[file:20200225194352_memory.org][memory]]
+*** [[file:20200308175526_amygdala.org][amygdala]]
+**** almond shaped structure at the base of the brain
+**** major center where [[file:20200308175607_cognition.org][cognition]] and [[file:20200308175415_emotion.org][emotion]] are integrated
+**** part of the [[file:20200308180016_limbic_system.org][limbic system]]
+***** works with [[file:20200308180048_hippocampus.org][hippocampus]] to process [[file:20200225194352_memory.org][memory]] and [[file:20200308180101_decision_making.org][decision-making]] and [[file:20200308175415_emotion.org][emotional]] reactions
+*** Be happy to [[file:20200224205504_learning.org][learn]] effectively
+* the value of a library of chunks
+** The ability to combine chunks in new an original ways resulted in many historical innovations
+** Bill gates set aside extend week long reading periods
+*** hold many varied ideas in mind during one time
+*** helps generate innovative thinking
+** gradually build the number of chunks in your brain
+*** the bigger and more well practiced your chunked library is, the more easily you can solve problems
+*** not all you need to develop creative flexibility
+** chunks can help understand new concepts
+** a chunk is a way to compress information
+** [[file:20200308182105_compaction.org][compaction]]
+*** building a chunk library trains brain to recognize both specific concept as well as different types and classes
+**** helps you solve problems quickly
+**** helps find patterns to more quickly solve problems
+
+*** the better you get at making chunks, the bigger your chunks will become
+**** neural patterns will become darker, or more solid and fully ingrained
+**** a collection or library of neural patterns
+**** improves your diffuse mode's ability to connect two or more chunks in new ways to solve novel problems
+**** every new chunk fills in a larger portion of your knowledge puzzle
+** [[file:20200308182045_transfer.org][transfer]]
+*** you'll find a new chunk can be related to simlar chunks in this and different fields
+*** can help you [[file:20200308143926_understanding.org][understand]] new concepts
+** [[file:20200308182037_law_of_serendipity.org][law of serendipity]]
+*** lady luck favors the one who tries
+*** whatever first problem goes in, the second problem will go in more easily, the third even more so
+*** just focus on trying to get one problem solved
+** [[file:20200306130402_problem_solving.org][problem solving]] methods
+*** [[file:20200308181901_sequential.org][sequential]]
+**** each small step leads deliberately to [[file:20200308181936_solution.org][solution]]
+**** [[file:20200225194129_focused_thinking.org][focused mode]]
+*** [[file:20200308181905_holistic.org][holistic]], or [[file:20200308181911_global_proglem_solving.org][global]]
+**** [[file:20200225194142_diffused_thinking.org][diffused mode]]
+**** most difficult problems solved by [[file:20200308181852_intuition.org][intuition]]
+**** semi-random
+**** solutions should be verified carefully using [[file:20200225194129_focused_thinking.org][focused mode]]

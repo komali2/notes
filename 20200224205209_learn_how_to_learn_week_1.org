@@ -1,0 +1,169 @@
+#+TITLE: learn how to learn week 1
+
+- tags :: [[file:20200224205504_learning.org][learning]], [[file:20200224205634_note_taking.org][note-taking, [[file:20200306130641_writer_s_block.org][writer's block]]]]
+
+* Two modes of [[file:20200224210821_thinking.org][thinking]]
+** [[file:20200225194129_focused_thinking.org][Focused]]
+*** Seems to be associated with things you understand well
+*** Works on a "well paved road"
+** [[file:20200225194142_diffused_thinking.org][Diffused]]
+*** Dealing with when you have no idea what the thought pattern is you need to solve a problem
+*** Look at things broadly, from a big-picture perspective
+*** Lets you "hone in" on a solution, i.e. get to focused mode
+*** Some people that used diffused thinking
+**** Salvador Dali
+***** Would use [[file:20200224213734_dream.org][dream]] states to generate art
+**** Thomas Edison
+***** Would do similar, with ball bearings. Drop and move on.
+*** Let your mind go "back and forth"
+*** Kind of like lifting weights progressively.
+**** Little bit of work every day.
+* [[file:20200224213938_metaphor.org][metaphor]] Provides powerful means of learning
+* Most heavy lifting done below the surface of our [[file:20200224214214_consciousness.org][consciousness]]
+* Synapse turnover is high
+* [[file:20200225193201_procrastination.org][procrastination]]
+** when you about to start a task you don't wanna do, it activates[[file:20200225193505_pain.org][ pain]] centers of your brain
+*** but once you start the thing, that goes away
+** They recommend[[file:20200225193539_pomodoro.org][ pomodoro]] as a mechanism to get around it
+*** 25 minutes of no interruption activity
+*** followed by a reward
+*** i'm skeptical though
+* why are [[file:20200225193832_math.org][math]] and [[file:20200225193838_science.org][science]] hard?
+** maybe because it's abstract?
+*** emotional abstract terms don't seem as hard though but that's because we feel them
+** so it's important to [[file:20200225193908_practice.org][practice]] what you're working on
+** even if the concept is abstract, the neural patterns you create from practice are not
+** so when learning, study and study hard, but then take a break
+** this allows [[file:20200225194142_diffused_thinking.org][diffuse mode]] create a conceptual understanding
+*** build a strong neural structures
+* [[file:20200225194352_memory.org][memory]]
+** [[file:20200225194744_long_term_memory.org][long term]]
+*** storage warehouse
+*** distributed over a long area
+*** needs to be revisited a few times to ensure you can find information when you need it later
+*** FULL of stuff
+**** so requires repetition to ensure you can find stuff
+** [[file:20200225194758_working_memory.org][working]]
+*** pulled from [[file:20200225194744_long_term_memory.org][long term]] and what you're "thinking about"
+*** what you're imediately processing in your mind
+*** [[file:20200225194820_prefrontal_cortex.org][prefrontal cortex]]
+*** probably can only hold 4 "chunks" memory
+*** like a shitty blackboard, fuzzy, requiring repetition to keep things there
+**** like you gotta close your eyes to prevent invasive memories taking spaces
+*** new stuff goes here
+**** to move it into long term memory, use time and practice
+**** Used [[file:20200225194841_spaced_repetition.org][spaced repetition]]
+***** this works way better than cramming a ton of repetition into one day
+***** leaves time for "the mortar to set"
+* [[file:20200225195219_sleep.org][sleep]]
+** being awake creates 'toxic products"
+** sleeping opens up the pathways to clear out these toxic products
+** taking a test without sleep makes it harder to take that test, b/c of toxic metabolic products
+** also not getting enough sleep causes all sorts of medical issues
+** important part of memory and learning process
+*** tidies up memories
+*** erases pointless parts of memory
+*** strengthens bonds of important parts
+*** rehearses neural patterns
+*** deactivation of prefrontal cortext lets other parts of brain talk to eachother easily
+*** you can prime this [[file:20200225194142_diffused_thinking.org][diffused mode]] thinking by focusing on it before going to sleep
+**** you can study before sleep, or think about how you wnt to dream about it
+* interview with [[file:20200225195416_dr_terrence_sejnowski.org][dr terrence sejnowski]]
+** researches neural networks and computational neural science
+** elected to all 3 national academies, engineering, science, medicine
+*** one of 10 scientists in the world
+** when learning something new what do you do
+*** "get into the thick of it"
+    :LOGBOOK:
+    CLOCK: [2020-03-03 Tue 21:21]--[2020-03-03 Tue 21:46] =>  0:25
+    :END:
+**** Like jumping into a bio lab
+***  learning by doing
+** how do you pay attention to something boring
+*** asking a question
+*** you learn more by active engagement than passive thinking
+** how do you take advantage of [[file:20200225194142_diffused_thinking.org][diffuse mode thinking]]
+*** exercising or jogging
+**** "unconcious thoughts bubble to the surface
+**** take a notebook along with me so i can write down and remember what i was thining about
+** do you [[file:20200325101855-multitasking.org][multitask]]?
+*** yes, i gotta juggle all sorts of stuff
+*** get my best work done doing reflective mode
+*** But you can't do two things at the same time
+*** "[[file:20200325101848-context_switching.org][context switching]]" is more what multi tasking is
+**** this can be difficult
+*** This lets me accomplish a lot
+*** Used to thing All the [[file:20200325101919-neuron.org][neurons]] you have in your brain, you have had from birth
+**** some die tho lol
+*** But some in your [[file:20200308180048_hippocampus.org][hippocampus]], new neurons are being born through your adulthood
+*** give an animal an enriched environment, the [[file:20200308180048_hippocampus.org][hippocampus]] [[file:20200325101935-neural_connections.org][neuron connection]] strength increase up to 2x
+**** so find an enriching environment
+***** events
+**** or, exercise, as that also increases the number of neurons being born
+***** like, recess helps kids learn better
+*** being in a [[file:20200324152322-creativity.org][creative]] environment, with other creative people, can help
+**** talking to people, explaining ideas
+***** bouncing ideas off people
+** tests are like any other skill that can be learned
+*** don't get hung up on questions you get stuck on
+* [[file:20200225194129_focused_thinking.org][focused]] vs [[file:20200225194142_diffused_thinking.org][diffused]] more readings
+** Scott Young, "I was wrong about [[file:20200303212835_speed_reading.org][speed reading]]: Here are the facts," January 2015. This excellent blog post nicely summarizes what is known in relation to speed reading.
+   https://www.scotthyoung.com/blog/2015/01/19/speed-reading-redo/
+** [[file:20200303212931_john_dunlosky.org][John Dunlosky]], "Strengthening the Student Toolbox: Study Strategies to Boost Learning,"
+   https://www.aft.org/sites/default/files/periodicals/dunlosky.pdf
+   American Educator, Fall, 2013. This excellent, comprehensive article is written by one of the top researchers in learning.
+** Michael Friedman, "[[file:20200224205634_note_taking.org][Note-taking]] tools and tips," (October 15, 2014)
+   https://hwpi.harvard.edu/hilt/blog/note-taking-tools-and-tips
+   Harvard Initiative for Learning and Teaching.
+   This article, and an article embedded within it,
+   ("Notes on Note-Taking: Review of Research and Insights for Students and Instructors")
+   , have very useful insights into how to improve your note taking.
+* optional interview with benny the [[file:20200303213430_polyglot.org][polyglot]]
+** learning a language for the wrong reason isn't helpful
+*** you need a motivator
+*** best way is to spend time with people of that culture
+* optional interview with dr robert bilder
+** directs consortium for neuropsychiatric phenomics
+** sometimes people think if they solve a problem that's already been solved, it doesn't count
+*** solving the problem exercises your brain
+*** makes unique connections
+*** even if it's not created for the world or new, it's unique for you and is good
+*** [[file:20200303214248_leadership.org][leadership]] is the ability to disguise panic
+** [[file:20200306130119_success.org][to make progress]] you need some level of discomfort
+** there are five factors of a [[file:20200303214411_personality.org][personality]]
+** OCEAN
+*** openness
+**** associated with great achievement
+*** conscientiousness
+*** extraversion
+*** agreeableness
+**** correlates negatively with achievement. Disagreeability correlates with great achievement.
+***** [[file:20200303214601_nonconfonformity.org][nonconformism]]
+***** challenge the status quo, chalenge models
+***** don't believe things just because other people said them
+*** neuroticism
+** When [[file:20200306130402_problem_solving.org][solving a problem]], think of the "powers of ten"
+*** imagine a man in a hammock. Zoom out by ^10. It's 10 feet above. then 100, then 1000,
+*** eventually you're in the cosmos
+*** do the same but inside of him. cells, atoms, vaccuum space as infinite as the whole universe
+*** zoom out, zoom in on th eproblem
+*** get new perspective
+* optional interview with [[file:20200306130556_daphne_gray_grant.org][daphne gray-grant]]
+** [[file:20200306130641_writer_s_block.org][writer's block]]
+** Coach
+** www.publicationcoach.com
+** [[file:20200225194142_diffused_thinking.org][diffuse mode thinking]] is creative or writing mode
+** [[file:20200225194129_focused_thinking.org][focused thinking]] is editing mode
+** imagine both modes of thinking were people, and in a car. Only one can drive.
+** to help get into [[file:20200225194142_diffused_thinking.org][diffused mode thinking]], do a [[file:20200306130928_mind_map.org][mind map]]
+*** turn a paper sideways
+**** important to help break out of traditional thinking
+**** don't wanna just make an outline or whatever
+*** write topic in center of page
+*** begin writing anything that comes to mind
+**** "vomit" onto the page
+** [[file:20200306130928_mind_map.org][mind mapping]] is good for getting inspiration
+** try not to [[file:20200306131455_editing.org][edit]] when you write
+*** try turning off your monitor
+** if you're writing and it feels terrible, just get it out anyway, don't stop
+*** ignore the "nasty editing voice"

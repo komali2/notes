@@ -1,0 +1,200 @@
+#+TITLE: learn how to learn week 3
+
+- tags :: [[file:20200224205504_learning.org][learning]], [[file:20200224205634_note_taking.org][note-taking]], [[file:20200225193201_procrastination.org][procrastination]], [[file:20200225194352_memory.org][memory]], [[file:20200225194744_long_term_memory.org][long-term memory]]
+
+* zombie response
+** brain's default habits
+** good learning is a bit by bit activity
+* [[file:20200225193201_procrastination.org][procrastination]]
+** avoiding [[file:20200225193201_procrastination.org][procrastination]] important because you want to learn in regular intervals
+** [[file:20200311211430-willpower.org][willpower]] hard to come by
+*** uses a lot of neural energy
+*** shouldn't be used to fend off procrastination except when absolutely necessary
+** we [[file:20200225193201_procrastination.org][procrastinate]] things we find mildly uncomfortable
+*** we [[file:20200311211408-focus.org][focus]] instead on a more pleasant thing
+**** thus feel happy temporarily
+** but putting off studies can be more painful in the long term
+** keystone bad [[file:20200311211242-habit.org][habit]]
+*** habit that influences many other parts of your life
+*** so fix it, and get many more better changes
+** shares features with [[file:20200311211351-addiction.org][addiction]]
+*** easy to fool yourself it's better to surf the web than study
+*** start to tell yourself stories
+*** devise irrational excuses
+*** may tell yourself that [[file:20200225193201_procrastination.org][procrastination]] is innate and unchangeable
+** mastering [[file:20200311211242-habit.org][habits]] important to defeating [[file:20200225193201_procrastination.org][procrastination]], overcoming unthinking zombies - habits
+** strategies for defeating are simple
+** riding a bike or backing out driveway difficult at first
+*** influx of information is huge
+*** eventually, you get used to it, and your brain goes zombie mode, only paying attention to the necessary data
+** [[file:20200311211242-habit.org][habit]] is an energy saving force
+*** you don't have to think while you're performing the habit, thus saves energy
+* [[file:20200311211242-habit.org][habit]]
+** has several parts
+*** [[file:20200315131149-habit_cue.org][the cue]]
+**** trigger that launches yo uinto "zombie mode"
+**** seeing the first item in todo list
+**** seeing text message from friend
+**** cue is helpless and harlmess, your routine you do in reaction to it is what matters
+**** can be:
+***** location
+***** time
+***** how you feel
+***** reactions
+*** [[file:20200315131200-habit_routine.org][the routine]]
+**** the zombie mode you launch into after the cue
+**** could be useful or harmful
+*** the reward
+**** habits develop and continue because they reward us in some way
+**** [[file:20200225193201_procrastination.org][procrastination]] is an easy [[file:20200311211242-habit.org][habit]] to develop because the reward happens so quickly and easily
+**** finding ways to reward good [[file:20200308141953_studying.org][study]] habits is important for escaping procrastination
+**** think about why you're procrastinating
+***** can you supplement the good feelings of not having to do the hard work into something else?
+****** can you give a small indulgence? a mental reward for succeeding? A guiltless relaxation later
+***** adding a new reward can help overcome previous cravings
+****** this can cause rewiring
+****** setting a reward at a certain time can spur work with a mini-deadline
+*** the [[file:20200309182745_belief.org][belief]]
+**** [[file:20200311211242-habit.org][habits]] have power because of your belief
+**** to change your habit you have to change your underlying belief
+**** you have to believe you can change your procrastionation habit
+***** or you'll fall into older, easier belif
+***** it can help if you settle into a community
+***** likeminded friends can remind us of the values we forget in moments of weakness
+* use mental tips and tricks to help yourself
+* it's normal to have negative feelings when you start a study session
+** it' show you handle these feelings that matter
+** non-procrastinators put their negative feelings aside
+*** "quit wasting time and get on with it"
+** another helpful way to reframe things: Focus on Process, not Product
+** [[file:20200311211325-habits.org][Process]] means focusing on the flow of time and how to manage that time
+*** "i'm going to work on this assignment for 20 minutes"
+*** focus on this, focus on habits
+*** small chunks of time over days or even weeks
+*** who cares if you grasp it all in any one session
+**** point is to calmly put forth best effort for short period
+*** [[file:20200225193539_pomodoro.org][pomodoro]] is a good way to do this, just focus on finishing a pomodoro
+*** zombie brain likes this, because it can march mindlessly along
+*** allows you to avoid judging yourself
+*** when a distraction arises, you train yourself to let it flow by
+**** but also set yourself up so [[file:20200315130125-distraction.org][distractions]] are minimal
+***** quiet place
+***** noise canceling headphones
+** Product means focusing on the output itself
+*** i.e. a homework assignment
+*** Don't focus on this or you'll be more likely to [[file:20200225193201_procrastination.org][procrastinate]]
+*** you might fool yourself about how much time it'll actually take to get that product done
+- tags :: [[file:20200315130947-estimation.org][estimation]]
+*** makes you focus on the pain
+* harnessing [[file:20200311211325-habits.org][habits]] / zombies
+** don't want to ovverriding [[file:20200311211325-habits.org][habits]] entirely
+** you only need to apply effort to changing the [[file:20200315131149-habit_cue.org][cue]]
+*** changing reaction to the [[file:20200315131149-habit_cue.org][cue]]
+** [[file:20200225193201_procrastination.org][procrastination]] can be dangerous because it's a [[file:20200311211325-habits.org][habit]], [[file:20200224214526_unconscious.org][unconscious]], you don't even realize it's happening
+*** can prevent the biggest [[file:20200315130125-distraction.org][distraction]] by disabling [[file:20200315131149-habit_cue.org][cues]] like your cell phone
+**** or avoiding internet
+** key to rewiring your [[file:20200315131149-habit_cue.org][cues]] is to have a plan
+*** leave phone in car
+*** settling in a quiet study place at proper time with internet access disabled
+*** may not always perfectly but keep at it
+*** don't change everything at once, just change one thing at a time
+* juggling life and learning
+** keep a weekly list of [[file:20200315133807-todo_list.org][tasks]]
+*** then, write a list of tasks you can reasonably get done in a day
+**** keep items reasonably small
+**** mixing [[file:20200225194142_diffused_thinking.org][diffuse mode]] tasks can be really helpful
+***** walks
+***** exercise
+***** cleaning
+*** do this the day before
+*** this enlists your sleeping [[file:20200224214526_unconscious.org][unconscious]] mind in helping the tasks done
+*** task lists frees [[file:20200225194758_working_memory.org][working memory]] for [[file:20200306130402_problem_solving.org][problem solving]]
+**** you'll get better at [[file:20200315130947-estimation.org][estimating]] tasks over time
+**** you'll get more realistic about what you can do in a certain amount of time
+**** make notes after about what you actually got done
+*** plan your quitting time
+**** could be earlier than you might expect
+**** people who commit to healthy leisure time perform better than those who don't
+** try to work on most important and most disliked task first
+*** lol like i do for gym
+*** "eat your frogs first in the morning"
+* [[file:20200225194352_memory.org][memory]]
+** we have good [[file:20200316165718-visual_memory.org][visual]] and [[file:20200316165728-spatial_memory.org][spatial memory]] systems
+*** you'd remember a house layout you visited quite easily
+*** good at [[file:20200225194744_long_term_memory.org][long term memory]] for [[file:20200316165718-visual_memory.org][visual]] and [[file:20200316165728-spatial_memory.org][spatial memory]] systems
+*** mind is built to maintain general information about a place
+*** you can tap into these to remember other things
+*** we have a superior "where things are and how they look" memory system
+** to tap into your superpowered [[file:20200316165718-visual_memory.org][visual memory]] system:
+*** try making a very memorable visual image representing one key item you want to remember
+**** for newton's second law: f=ma
+***** flying muel
+***** f: flying m: muel
+** [[file:20200316165711-right_hemisphere.org][right hemisphere]] dominance for visuospatial attention is characteristic for most people
+** the more "neural hooks" you can use by invoking more senses, the better
+*** use smell, hear the wind whistling past, feel the wind on your face
+** to move something from [[file:20200225194758_working_memory.org][working memory]] in to [[file:20200225194744_long_term_memory.org][long term]]:
+*** idea should be memorable
+*** must be repeated
+**** otherwise [[file:20200316165700-metabolic_vampires.org][metabolic vampires]] will suck away neural pattern related to memory before it can solidify
+** [[file:20200225194841_spaced_repetition.org][repetition]] important
+*** to get it into [[file:20200225194744_long_term_memory.org][long term memory]]
+*** use [[file:20200225194841_spaced_repetition.org][spaced repetition]]
+*** writing or saying what you're trying to remember seems to work
+**** helps to deeply encode: convert into [[file:20200316165627-neural_memory_structures.org][neural memory structures]]
+*** when doing [[file:20200316165634-flash_cards.org][flash cards]], interleave them
+*** doing before sleep makes it so sleep can help encode them
+*** use anki
+*** to remember names, just try to retrieve them in a spaced repetition way
+** make it memorable, make it easier to recall
+** Create meaningful groups to improve [[file:20200225194352_memory.org][memory]]
+*** like [[file:20200324080523-acronyms.org][acronyms]]
+*** associate numbers with meaningful events
+**** or with a numeral system you're running with
+***** 100 meter dash, number of stitches, or what you'll feel at a given age
+*** or old people from texas eat spiders - to remember the bones of the skull
+** [[file:20200324080757-memory_palace_technique.org][memory palace technique]]
+*** call to mind a familiar place
+**** like layout of the house
+*** use as a visual notepad for whatever you want to [[file:20200324152515-memorization.org][remember]]
+*** try imagining walking through a place you know well, with shockingly memorable disparate things throughout
+**** like for your shopping list, giant bread, giant broken eggs on the couch, etc
+*** good for [[file:20200324152515-memorization.org][remembering]] lists
+*** can be slow at first
+**** takes time to conjure solid mental image
+*** studies show 95% [[file:20200324152515-memorization.org][memorization]] rate of 40 item list
+*** this makes [[file:20200324152515-memorization.org][memorization]] an exercise in creativity
+*** students that use this techniques perform better than those that don't
+*** using techniques like this speed up the acquisition of [[file:20200308141914_chunking.org][chunks]] and big picture templates
+*** allows expanding working memory with easy access to [[file:20200225194744_long_term_memory.org][long term memory]]
+*** will make you more [[file:20200324152322-creativity.org][creative]] as well
+** take a bit of time to commit the most important part of a class or whatever to memory during study
+*** such as with [[file:20200324080757-memory_palace_technique.org][memory palace]]
+* long term memory
+** HM - guy who didn't have long term memory
+*** epilepsy operation took out hippocampus on both sides of his brain
+**** hippocampus: horse sea monster greeks lol?
+*** he was amnesic as fuuuuuck
+*** In "mememnto" main character had the same thing
+*** HM could learn a new motor skill but couldn't remember learning it
+** hippocampus important for memorizing facts and events
+** memory consolidation: getting memory into the hippocampus from working memory
+*** a concussion can cause this
+** memories are not fixed - can change all the time
+** reconsolidation: memory chagnes every time it's recalled
+*** false memory implants are possible
+**** by suggesting or imagining, especially in children
+*** [[file:20200225194758_working_memory.org][short term]] -> [[file:20200225194744_long_term_memory.org][long term memory]]
+**** long term memory is inactive state
+*** reactivation moves memory from long term inactive state to short term active state
+**** then it gets reconsolidated
+** spending 10 minutes each day over a month rather than an hour in one go, you'll remember thing better
+** and, cramming doesn't work, it'll vanish really quick
+** brains have glial cells
+*** astrocyte most abundant glial cell
+**** provide nutrients to neurons
+**** maintain extra cellular ion balance
+**** involved with repair after injury
+**** may have a role in learning
+***** putting human astrocytes in mouse brains made the mouse learn faster
+***** einstein had shitloads of astrocytes

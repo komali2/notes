@@ -1,0 +1,12 @@
+#+TITLE: implied volatility
+
+
+- tags :: [[file:20200312202737-stocks.org][stocks]], [[file:20200312202748-options.org][options]], [[file:20200312202756-puts.org][puts]], [[file:20200312204201-option_calls.org][calls]]
+
+https://www.tastytrade.com/tt/learn/implied-volatility?_sp=99e98f2d-fa10-44a1-8915-8009fc2b4f47.1584071010931
+
+* Also called IV
+
+* determined by current price of an [[file:20200312202748-options.org][option]] contract on a particular [[file:20200312202737-stocks.org][stock]] or [[file:20200312204633-futures.org][future]]
+* represented as a percentage that indicates the annualized expected one [[file:20200312204550-standard_deviation.org][standard deviation]] range for the [[file:20200312202737-stocks.org][stock]] based on [[file:20200312202748-options.org][options]] prices
+** IV of 25% on a $200 stock represents a one standard deviation range of 50$ over the next year

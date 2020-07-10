@@ -1,0 +1,29 @@
+#+TITLE: greeks options
+
+
+- tags :: [[file:20200312202737-stocks.org][stocks]], [[file:20200312202748-options.org][options]], [[file:20200312202756-puts.org][puts]], [[file:20200312204201-option_calls.org][calls]]
+
+https://www.tastytrade.com/tt/learn/an-intro-to-the-greeks
+
+* greeks
+** helps parse informatoin the [[file:20200312202956-stock_market.org][market]] gives
+* [[file:20200312203415-beta.org][beta]]
+** weigh current position with designated benchmark
+** usually to SPY
+** calculated from 5 years of data
+* [[file:20200312204105-delta_options_measurement.org][Delta]]
+** rate of change of the option price with respect to the price of the underlying
+** can be positive or negative
+** probability that the option will expire ITM - in the money
+** keeping delta neutral is good wya to mitigate directional risk from market moves
+* [[file:20200312204116-theta_options_measurement.org][Theta]]
+** measure rate of change in options price relative to time
+** time decay
+** negative in long option positions
+** positive in short option positions
+** as expiration nears, rate of theta decay for OTM options slows
+*** much smaller part of OTM option's price the closer the option is to expiring
+** as expiration nears, rate of theta decay for ATM options faster
+* [[file:20200312204124-vega_options_measurement.org][Vega]]
+** shows exposure to changes in implied volatitily
+** represents change in an option's price given a 1% move in implied volatility, all else being equal

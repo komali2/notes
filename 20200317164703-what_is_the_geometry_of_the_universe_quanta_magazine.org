@@ -1,0 +1,72 @@
+#+TITLE: what is the geometry of the universe quanta magazine
+
+- tags :: [[file:20200317164748-universe.org][universe]], [[file:20200317164752-geometry.org][geometry]], [[file:20200225193832_math.org][math]], [[file:20200317165006-topology.org][topology]], [[file:20200317164803-astronomy.org][astronomy]], [[file:20200317164808-astropyhsics.org][astropyhsics]]
+https://www.quantamagazine.org/what-is-the-geometry-of-the-universe-20200316/
+
+* [[file:20200317164752-geometry.org][Geometry]] of the universe - fine grained local measurements of things like [[file:20200317164915-angle.org][angles]] and [[file:20200317164921-area.org][areas]]
+* [[file:20200317165006-topology.org][Topology]] of the universe - how local pieces are stitched together into an overarching shape
+* The universe is porbably smooth and homogeneous
+** looks the same at every point and in every direction
+** in geometrical terms this means [[file:20200317165149-shape.org][shape]] is either "flat" "spherical" or "hyperbolic"
+* [[file:20200317165206-flat_geometry.org][Flat Geometry]]
+** Probably what i learned in school
+** angles of a [[file:20200317165405-triangle.org][triangle]] add up to 180 [[file:20200317165411-degrees_geometry.org][degrees]]
+** [[file:20200317165350-area_geometry.org][area]] of a [[file:20200317165355-circle.org][circle]] is [[file:20200317165400-pi.org][pi]] r ^ 2
+** a simple example of a flat [[file:20200317165320-three_dimensional.org][3d]] [[file:20200317165149-shape.org][shape]] is ordinary [[file:20200317165331-infinite.org][infinite]] [[file:20200317165340-space_geometry.org][space]]
+*** also called [[file:20200317165307-euclidean.org][Euclidean]] space
+** [[file:20200318184934-torus.org][Torus]]' are kinda technically flat too, but their [[file:20200317165006-topology.org][topology]] is way different
+*** imagine walking around on one - lines loop back on themselves
+*** you could see the back of your head
+    what the fuck lol
+**** video game [[file:20200318185049-ideas.org][idea]] - wraparound on a torus geometry
+** A 3d torus isn't the only flat finite world, there are 9 others
+** there are also flat infinite worlds
+*** 3d analogue of an infinite cylinder
+* [[file:20200321130851-spherical_geometry.org][Spherical Geometry]]
+** A [[file:20200321131015-2d_sphere.org][2-dimensional sphere]] is the set of all points a fixed distance from some center point in [[file:20200321131028-3_dimensional.org][3d space]]
+** A [[file:20200321131109-3_dimensional_sphere.org][3-dimensional sphere]] is set of all points a fixed distance from some center point in [[file:20200321131103-4d_space.org][4d space]]
+*** Also called a [[file:20200321131109-3_dimensional_sphere.org][three-sphere]]
+** for a [[file:20200321131434-2_dimensional.org][2d]] being on a [[file:20200321131015-2d_sphere.org][2d sphere]], [[file:20200321131445-light.org][light]] travels in [[file:20200321131450-great_circle.org][great circles]]
+*** to you they seem like [[file:20200321131456-straight_line.org][straight lines]]
+*** As your friend walks away from you, they'll shrink in size
+*** until they reach the opposite pole, during which time they'll take up 100% of your visual field
+** It could be that our universe is a [[file:20200321131109-3_dimensional_sphere.org][3sphere]]
+*** it could be that our viewpoint isn't 100% ourselves
+**** b/c the [[file:20200321131711-circumference.org][circumference]] of the [[file:20200321131716-spherical_universe.org][spherical universe]] could be bigger than the size of the [[file:20200321131723-observable_universe.org][observable universe]]
+***** thus the backdrop is too far away to see
+*** we could detect through purely local measurements, unlike the torus
+*** spherical shapes differ from infinite euclidean space
+**** in global topology
+**** in fine-grained geometry
+***** straight lines are great circles, so triangles are puffier than in euclidean space
+****** the angles add up to more than 180 degrees
+***** So cosmologists test whether the universe is curved this way, with cosmic triangles
+****** for each hot/cold spot in cosmic microwave background
+******* the diameter across is known
+******* the distance from earth are known
+******* this forms 3 sides of a triangle
+******* we can measure the angle the spot subtends in the sky
+******* we can then check whether the combo of side lengths and angle measure is fitting for [[file:20200317165206-flat_geometry.org][flat]], [[file:20200321130851-spherical_geometry.org][spherical]], or [[file:20200321132030-hyperbolic_geometry.org][hyperbolic geometry]]
+****** These tests suggest the universe is flat or close to flat
+****** One team had evidence for spherical universe
+******* could have been a fluke though
+https://www.quantamagazine.org/what-shape-is-the-universe-closed-or-flat-20191104/
+* [[file:20200321132030-hyperbolic_geometry.org][Hyperbolic Geometry]]
+** Opens outward, unlike [[file:20200321130851-spherical_geometry.org][sphere]] which curves inward
+*** image floppy hats, coral reefs, saddles
+** modeled basically as a infinite expanse
+*** like [[file:20200317165206-flat_geometry.org][flat]] [[file:20200317165307-euclidean.org][euclidean space]]
+** can't fit a [[file:20200321131434-2_dimensional.org][2d]] [[file:20200321132030-hyperbolic_geometry.org][hyperbolic]] plane inside ordinary [[file:20200317165307-euclidean.org][euclidean]] space
+*** without distorting its [[file:20200317164752-geometry.org][geometry]]
+*** because [[file:20200321132030-hyperbolic_geometry.org][hyperbolic geometry]] expands outward much more quickly than [[file:20200317165206-flat_geometry.org][flat geometry]] does
+** [[file:20200321132806-poincare_disk.org][Poincare disk]]
+*** boundary [[file:20200317165355-circle.org][circle]] [[file:20200317165331-infinite.org][infinitely]] far from any interior point
+*** example of a [[file:20200321132717-hyperbolic_plane.org][hyperbolic plane]]
+*** have to cross [[file:20200317165331-infinite.org][infinitely]] many [[file:20200317165405-triangle.org][triangles]] to get to the boundary of the [[file:20200317165355-circle.org][circle]]
+*** [[file:20200321132717-hyperbolic_plane.org][hyperbolic plane]] stretches out to [[file:20200321132729-infinity.org][infinity]] in all directions, like [[file:20200321132722-euclidean_plane.org][euclidean plane]]
+*** in [[file:20200317165307-euclidean.org][euclidean geometry]], [[file:20200321131711-circumference.org][circumference]] of a [[file:20200317165355-circle.org][circle]] is [[file:20200321132914-proportional.org][proportional]] to [[file:20200321132926-radius.org][radius]]
+*** in [[file:20200321132030-hyperbolic_geometry.org][hyperbolic geometry]], [[file:20200321131711-circumference.org][circumference]] of a [[file:20200317165355-circle.org][circle]] grows [[file:20200321132918-exponentially.org][exponentially]] compared to its [[file:20200321132926-radius.org][radius]]
+**** the further someone walks away from you in hyperbolic geometry, the more quickly they could get lost
+** Quickest way between point A and point B is to take a shortcut through the center
+* The reason we may think the universe is flat is our ability to observe is so small compared to the size of the [[file:20200317164748-universe.org][universe]]
+** in both [[file:20200321132030-hyperbolic_geometry.org][hyperbolic]] and [[file:20200321130851-spherical_geometry.org][spherical geometry]], get small enough [[file:20200317165405-triangle.org][triangles]] and their [[file:20200317164915-angle.org][angles]] are very close to 180 degrees total

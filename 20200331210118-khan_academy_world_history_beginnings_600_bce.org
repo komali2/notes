@@ -1,0 +1,28 @@
+#+TITLE: khan academy world history beginnings 600 bce
+
+- tags :: [[file:20200331210143-history.org][history]], [[file:20200331210148-world.org][world]], [[file:20200331210153-bce.org][bce]]
+
+* History and prehistory
+** Anatomical [[file:20200331210712-humans.org][humans]] have been on earth for ~200,000 years
+*** 6,000 or 7,000 generations into the past
+** [[file:20200331210636-writing.org][writing]] is 5000 years old
+** [[file:20200331210702-agriculture.org][agriculture]] is 10 - 15000 years old
+** [[file:20200331210706-earth.org][earth]] has been here 4 billion years
+** [[file:20200331210658-prehistory.org][prehistory]]
+*** things that happened before writing
+** [[file:20200331210636-writing.org][writing]] isn't enough
+*** takes [[file:20200225193838_science.org][science]] and [[file:20200331210652-detective.org][detective]] work
+*** also, various groups that are writing have [[file:20200331211241-bias.org][bias]]
+*** or, writings can have been destroyed
+*** stories could be accounts or made up
+*** also, stories get modified generation to generation
+**** particularly oral tradition
+** [[file:20200331210846-anthropology.org][anthropology]]
+*** study of present and past humans and human society
+** [[file:20200331210851-archaeology.org][archaeology]]
+*** specifically the study of prehistory
+*** anthropology focused on the past
+** [[file:20200331210900-paleontology.org][paleontology]]
+*** old [[file:20200331210712-humans.org][human]] remains
+*** [[file:20200331211232-pre_human.org][pre-human]] remains
+*** can inform [[file:20200331210851-archaeology.org][archaeology]] or [[file:20200331211304-anthropology.org][anthropology]]

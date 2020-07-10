@@ -1,0 +1,156 @@
+#+TITLE: EDX How to Code: Simple Data
+#+ROAM_KEY: https://www.edx.org/course/how-to-code-simple-data
+
+- tags :: [[file:20200526214234-computer_science.org][computer science]]
+
+* Purpose
+** Learn how to read and right in programs in terms of higher level desgin structures
+** learn systematic program design methods
+* Welcome
+** Why is it hard to write programs?
+   All this is about the Design MEthod:
+
+A program is usually a poorly formed problem. Vague or incomplete task description.
+SO you gotta figure out what you want your program to do.
+So design method helps us figure that out.
+Also, we need to manage progrem complexity.
+Also, how to break the program down into smaller well chosen smaller pieces.
+And then we write one part of the program for each peice of the problem.
+Because of the dseign method, we fit the pieces together well and is well tested.
+Then the program is easy to read and easy to modify.
+** Think poorly formed problem -> well designed program
+** To do well in this course:
+1. Program design is learned by doing.
+   Type and watch
+   Try to rework lecture problemso n your own from scratch after a lectur
+   Work on practic e problems from scratch before looking at he solution.
+2. Don't worry about making mistakes
+* Beginning student language (8 lectures, 5-8 hours)
+  Learn to program with the core of the programming language used throughout the course.
+** Expressions
+*** To form an expression
+    (+ 3 4)
+(+ 3 ( * 23))
+(/ 12 (* 2 3 ))
+*** Semicolons are comments
+    ;(+3 4)
+*** Got sqrs too
+    (sqr 3)
+    (sqrt 3)
+* How to Design Functions (HtDF) Recipe (6 lectures, 4-7 hours)
+  Learn to use the HtDF recipe to design fucntions that consume simple primitive data.
+** Goals
+*** Be able to use the How to Design Function (HtDF) recipe to design fucntions that operate on primitive data
+*** Be able to read a complete function design and identify its different elements
+*** Be able to evaluate the different elements for clarity, simplicikty, and consistency with eachother
+*** Be able to eavaluate the entier design for how well it solves the given problem
+** HtDF recipe
+*** Definition
+    Systemizes the design of a function
+    Tells us how to define a function
+    And helps us define a high-quality function
+*** Makes hard problems easier
+**** But it can make easier functions harder, or more cumbersome, to design
+*** The recipe:
+**** Signature, purpose, stub
+     The signature says what the function consumes and produces
+
+;; Number -> Number
+   ^Consumes  ^ Produces
+
+     The purpose is a 1 line description of what the function produces in terms of what it consumes
+     The purpose has to say more than just the signature
+
+;; produce 2 times the given number
+
+     The stub is a code function definition that has the correct function name, has correct number
+     of parameters, and produces dummy result of the correct time
+
+(define (double n) 0)
+
+**** Examples (wrapped in check-expect)
+     The examples help us understand what a function must do. Multiple examples to illustrate behavior.
+     If you do an example right, it also functions as a unit test.
+
+(check-expect (double 3) 6)
+(check-expect (double 4.2) 8.4)
+
+     Having a good stub early in this process means you can run the tests right away and make sure
+     that they're well formed.
+
+**** Inventory - template and constants
+     The body of the template is the outline of the function
+     For now the body of the template is (...x) where x is the parameter to the function
+
+(define (double n) ;this is the template
+  (... n))
+
+     The ... means "do something"
+**** Code Body
+     Use everything from before to write this
+
+(define (double n)
+  (* 2 n))
+
+**** Test and debug
+*** Example problem:
+    Design a function that consumes a number and produces twice that number.
+
+    Number -> Number                    // Signature
+    // product 2 times the given number // purpose
+    (define (double n) 0)               // stub
+
+    Examples / tests:
+    (check-expect (double 3) 6)
+    (check-expect (double 4.2) 8.4)
+
+    Template:
+    (define (double n))
+*** Test
+**** First HtDF Problem
+ Problem: Design a function that pluralizes a given word.
+(Pluralize means to convert the word to its plural form.)
+For simplicity you may assume that just adding s is enough to pluralize a word.
+
+;Signature
+;; String -> String
+
+;Purpose
+;;Produce the given string with an "s" attached
+
+;Stub
+(define (plural n) 'butt')
+
+; Examples
+(check-expect (plural 'cat') 'cats')
+(check-expect (plural 'dogs) 'dogss)
+
+; Template
+;; (define (plural n)
+;;  (... n))
+
+; Code Body
+
+(define (plural n)
+    (+ n "s"))
+
+
+* How to Design Data (HtDD) Recipe (12 lectures, 5-8 hours)
+  Learn to use the HtDD recipe to design data definitions for atomic data.
+* How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
+  Leanr how to use the HtDW recipe to design interactive programs with atomic world state
+* Compound Data (3 lectures, 4-6 hours)
+  Leanr how to use the HtDW recipe to design interactive programs with compound world state
+* Self-reference (7 lectures, 5-7 hours)
+  Learn how to use well-formed self-referential data definitions to represent arbitrary sized data.
+* Reference (3 lectures, 4-6 horus)
+  Learn to predict and identify the correspondence between refercnes in a data definition and helper
+function calls in functions that operate on the data
+* Naturals (2 lectures, 3-4 horus)
+  Design an alternate data defiition for the natural numbers, and learn to write function
+using this new data definition
+* Helpers (6 lectures, 6-9 hours)
+  Learn a set of rules for desigining functions with helper functions
+* Binary Search Trees (6 lectures, 5-6 hours)
+  Design a data definition for Binary Search Trees, and learn to write functions operating
+on BSTs

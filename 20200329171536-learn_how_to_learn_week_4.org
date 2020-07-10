@@ -1,0 +1,164 @@
+#+TITLE: learn how to learn week 4
+
+- tags :: [[file:20200224205504_learning.org][learning]], [[file:20200224205634_note_taking.org][note-taking]], [[file:20200225193201_procrastination.org][procrastination]], [[file:20200225194352_memory.org][memory]], [[file:20200225194744_long_term_memory.org][long-term memory]]
+
+* how to become a better learner
+** exercise
+*** new neurons are born every day
+**** such as in the hippocampus
+***** area important for learning new things
+*** new neurons will die if you don't use them
+*** new experiences rescue them
+*** exercise also helps new neurons survive
+*** exercise better than any drug for helping memory
+** practice, but only when your brain is prepared
+*** sudden improvements occur in specific abilities at specific times
+**** up until puberty, best time to learn lagnuage
+**** stereopsis, the first two years of development
+***** if you don't get this, you get permanently impaired
+***** except, some doctor, susan barry, was able to fix this
+***** practice can repair as well as train the brain
+***** but it takes longer after the critical period
+** prefontal cortext
+*** learning
+*** planning
+*** language
+*** complex analysis in social behaviors
+*** decision making
+Okay terry. Thatw as the weirdest fuckin talk. Kinda useless
+* learning doesn't progress logically
+** it doesn't just add a neat package daily to your knowledge shelf
+** you can hit a wall in constructing your understanding
+** "knowledge collapse"
+*** occurs when your mind is restructuring your understanding
+*** and buildilng a solid foundation
+*** for example, a foreign language can suddenly seem incomprehensible
+*** expect exasperating steps backward in your understanding
+*** but it means your mind is wrestling deeply with the material
+*** afterwards, your knowledge base will leap forward
+* create a lively visual metaphor or analogy
+** a metaphor is just realizing that one thing is similar to another
+*** Jordan is shaped like a Nike Air Jordan sneaker
+** as you climb to more sophisticated levels, you can toss away or modify your metaphors
+** visualizing esoteric, complex, abstract topics can lead to cool stuff
+*** like when early engineers starting visualizing what molecules might be doing
+** they broke down, but it's ok
+** can help get people out of [[file:20200309205556_einstellung.org][einstellung]]
+** stories can help easily retain what you're trying to learn p
+** metaphors can help glue an idea into the mind
+*** because they're attaching to neural patterns that are already there
+**** like tracing something on a tracing paper
+* It takes a long time to learn something
+** Smooth [[file:20200330185336-repetition.org][repetition]] leads to you knowing what to do from a single thought
+** one chunk instead of recalling all the complex steps
+** when you understand *Why* ,  you don't have to keep reexplaining how
+*** you don't have to lay out 10 x 10 beans to know how to multiply
+*** you simply remember that you add exponents when you multiply numbers with exponents and the same base
+** YOUR mind constructing the patterns of meaning is better than just accepting what someone else has told you
+** rarely learn something complex by having someone else telling it to them
+** you shut down your [[file:20200309182739_conscious.org][conscious]] system and rely on your well trained [[file:20200308181852_intuition.org][intuition]]
+** consciously knowing why you do what you do slows you down
+* [[file:20200324144623-intelligence.org][intelligence]] matters, but not as much as you might think
+** it can make it easier to learn
+** but it can make it more difficult to be [[file:20200324152322-creativity.org][creative]]
+*** because of [[file:20200309205556_einstellung.org][einstellung]]
+*** can block you from fresh thoughts
+*** a superb working memory can hold so tight to prevent new thoughts come in
+** [[file:20200330185412-adhd.org][if you can't hold a lot in your mind]] in once, can't [[file:20200311211408-focus.org][focus]], have a smaller [[file:20200225194758_working_memory.org][working memory]]
+*** this means you can more easily generalize your knowledge into new, more [[file:20200324152322-creativity.org][creative]] memories
+*** b/c things aren't locked up so tightly, you can more easily get input from other parts of your brain
+**** including sensory input
+*** you may have to work harder to understand what's going on
+*** but once you get something chunked, you can put it through creative paces more easily
+* deliberate [[file:20200225193908_practice.org][practice]] on the toughest aspect material can uplift average brains into arena of high [[file:20200324144623-intelligence.org][intelligence]]
+** can practice certain mental patterns that deepen and enlarge your mind
+*** i should do this ASAP, already 29 lol
+* [[file:20200330185246-imposter_syndrome.org][imposter syndrome]]
+** feelings of inadequacy
+* [[file:20200330190123-myelin_sheath.org][Myelin sheath]]
+** fatty insulation that helps move signals more quickly along a neuron
+** evidence that they don't finish developing until 20s
+*** may be why teenagers don't have good impulse control
+** if you use neural circuits, it helps build the myelin sheath over them
+* practice strengthens and reinforces connections in different brain regions
+** you can enhance the development of neural circuits by practicing
+* perseverance can be key to success for the less brilliant
+** combined with the ability to quickly admit to errors
+* take responsibility for your own learning
+* watch out for people who criticize or undermine achievements you make
+** people around you can feel threatened by your achievement
+*** leading them to attack and demean
+** tune these people out
+** use natural contrariness to oppose prejudice from others about what you can accomplish
+* Right hemisphere helps us step back and put things into perspective
+** people w/ right brain damage harms people from stepping back and getting "aha"
+** functions as a devil's advocate
+** question the status quo
+** look
+* left hemisphere
+** clings to status quo
+** interprets the world
+*** will go to great lenghts to keep interpretations unchanging
+* if you whizz through a problem without checking your work
+** you're not using all the parts of your brain
+* [[file:20200330191456-focused_mode.org][focused mode]] is an easy time to make a mistake early on
+** lead to nonsensical results
+** may not notice/matter b/c your left hemisphere clung to analytical, upbeat approach that ignore errors
+** if you're absolutely certain that you got a problem, it may be an overconfident perspective
+** step back and re-check to allow for more interaction between hemispheres
+** [[file:20200330191358-richard_feynman.org][richard feynman]] - you must not fool yourself, and you're the easiest person to fool
+* teamwork
+** great way to get your work double checked
+** avoid blindspots
+** avoids naive focused mode skipping over errors you made
+** more easily catch where your thinking is gonna stray
+** larger scare diffuse mode outside of your brain
+** catch what you miss
+** catch what you can't see
+** explaining to friends builds your own understanding
+** also important to career building
+** avoid study sessions turning into socializing sessions
+*** if they start 5-15 mins late
+*** members haven't read
+*** best off finding another group
+* testing
+** a powerful learning experience
+** effort put into it is fundamentally important
+** 1hr studying vs 1hr taking a test
+*** retain more during the 1hr of taking a test
+** very good at concentrating the mind
+** make it an extension of the normal learning procedures
+** checklist of test preparedness:
+*** did you make a serious effort to understand the text?
+*** did you work with classmates on homework problems?
+*** did you attempt to outline every homework problem?
+*** did you participate actively in homework group discussions?
+*** did you consult with the instructor?
+*** did you understand all of your homework problem solutions?
+*** did you ask in class in class for explanations of homework problem solutions?
+*** did you go through a study guide if it exists?
+*** did you attempt to outline lots of problem solutions quickly?
+*** did you go over the study guide with classmates and quiz eachother?
+*** did you go to a review session?
+*** did you get a reasonable night's sleep before the test
+** start with the hard problem first
+*** difficult problems take time to solve, so you should work on them first
+*** also, they take diffuse mode to solve
+*** so start with hard and quickly jump to the easy ones
+*** when you get a test:
+**** outline over it
+**** start with the hardest problem
+***** pull away if you get stuck after a minute or two
+***** this loads the most difficult question into the mind using focused mode
+***** then loads it into diffused mode to let your subconscious mind go to work
+*** think like a chef: while you wait for steak to cook, cut onions, while the soup is boiling, chop garlic
+*** hard start - jump to easy technique
+*** helps avoid einstellung
+**** gives you a chance to look at the problem from different perspectives
+*** takes self discipline to pull yourself off a problem after being stuck for a minute or two
+**** i know this - hard to do this when i'm engineering something
+** shift thinking from fear to excitement
+*** this improves performance
+** if you're panicking, momentarily turn your attention to your breathing
+*** like [[file:20200330193321-meditation.org][meditation]]
+*** counteracting the fight or flight response that feeds anxiety

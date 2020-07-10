@@ -1,0 +1,5 @@
+#+TITLE: beta
+
+- tags :: [[file:20200312202737-stocks.org][stocks]], [[file:20200312202748-options.org][options]], [[file:20200312202756-puts.org][puts]], [[file:20200312204201-option_calls.org][calls]]
+
+ https://www.tastytrade.com/tt/learn/beta-weight?_sp=99e98f2d-fa10-44a1-8915-8009fc2b4f47.1584070443459

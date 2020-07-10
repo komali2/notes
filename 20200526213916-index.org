@@ -1,0 +1,8 @@
+#+TITLE: Index
+
+* Computer Science Curriculum:
+** Compsci
+*** https://github.com/ossu/computer-science#core-cs
+*** [[file:20200526214041-edx_how_to_code_simple_data.org][EDX How to Code: Simple Data]]
+** Math
+*** [[file:20200324175916-khan_academy_pre_algebra.org][Khan Academy pre algebra]]

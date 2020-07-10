@@ -1,0 +1,69 @@
+#+TITLE: intro to theory of the mind
+
+- tags :: [[file:20200309182101_theory_of_the_mind.org][theory of the mind]], [[file:20200224214214_consciousness.org][consciousness]], [[file:20200309182115_mind.org][mind]], [[file:20200309182121_brain.org][brain]], [[file:20200309182127_philosophy.org][philosophy]],
+
+* [[file:20200309183119_searle.org][Searle]]
+** logical and conceptual relations between [[file:20200309182233_mental_states.org][mental states]] aren't the whole story, you need to avoid [[file:20200309182223_circularity.org][circularity]] or [[file:20200309182226_infinite_regress.org][infinite regress]]
+** a network of [[file:20200309182315_intent.org][intentional mental states]] rest on a [[file:20200309182517_background_of_capacities.org][background]] of non-intentional capacities of interaction
+*** example: intentional mental state: desire to have a beer, and belief that there is beer in the fridge
+**** meaning is derived from the relation to eachother
+*** but these only function against a [[file:20200309182517_background_of_capacities.org][background of capacities]]
+*** the ability to move around and manipulate the world of physical objects
+*** is the unconscious, non-intentional set of capacities one doesn't think about
+*** is the terminus for intentional mental states
+*** allows [[file:20200309182315_intent.org][intentional]] mental states to have [[file:20200309182646_meaning.org][meaning]]
+*** you could move background [[file:20200309182745_belief.org][beliefs]] to a [[file:20200309182739_conscious.org][conscious]] mental state, i.e. into the network
+**** but then there is some other [[file:20200224214526_unconscious.org][unconscious]] [[file:20200309182820_non_intent.org][non-intentional]] background [[file:20200309182809_capacity.org][capacity]] or way of acting
+*** so the problem is the background is ambiguous
+**** you may behave as if you [[file:20200309182745_belief.org][believe]] you have [[file:20200309182739_conscious.org][conscious]], [[file:20200309182315_intent.org][intentional]] belief in the physical world, but so does an electric fan
+***** not because it isn't capable of thoughts but because it has no [[file:20200309182315_intent.org][intention]]
+**** capacity for action is an intentional capacity
+**** [[file:20200309183119_searle.org][searle's]] theory is an attempt to avoid the circularity or infinite regress that threatens all [[file:20200309183106_conceptual_role_theory.org][conceptual role theory]]
+***** but it can't vindicate such a theory as a complete [[file:20200309183100_theory_of_meaning.org][theory of meaning]]
+
+* [[file:20200329102111-causal_theory.org][Causal theories]]
+** A way to break out of circle or regress of mental states
+** Appeal to the causal relations the mental states bear to aspects of the physical world
+*** your mental state caused by the external world
+*** you have a belief that a cat on the  mat
+**** not only b/c  the logical and conceptual relations that belief bears to other mental states
+**** but also because there is a cat near you
+** SOme believe [[file:20200329102858-conceptual_role.org][conceptual role]] plays a part alongside the causal relations
+*** they distinguish between
+**** [[file:20200329102830-wide_content.org][wide content]]
+***** aspects of the intentional content or meaning of a mental state determined by causal relation to external world
+***** theories that emphasize this are "[[file:20200329102824-externalist.org][externalist]]"
+****** causal account
+**** [[file:20200329102838-narrow_content.org][narrow content]]
+***** aspect of [[file:20200309182315_intent.org][intentional]] content or meaning that is determined by a mental state's relations to other mental states
+***** theories that emphasize this are [[file:20200329102947-internalist.org][internalist]]
+****** conceptual role account
+** others believe that [[file:20200329102906-causal_relations.org][causal relations]] alone account for [[file:20200329102911-intentional_content.org][intentional content]] of mental states
+** Mind's [[file:20200329102906-causal_relations.org][causal interaction]] w/ physical world is a strong argument for [[file:20200329103046-materialism.org][materialism]]
+*** particularly [[file:20200329103046-materialism.org][materialist]] claim that the mind must be just another part of the physical world
+** tricky to explain mistakes
+*** you have mental state of cat but you actually interacted with a dog and are kinda blind
+*** [[file:20200329103318-asymmetric_dependence.org][asymmetric dependence]] tries to tackle this
+**** [[file:20200329103313-jerry_fodor.org][Jerry Fodor]] an influential proponent
+**** deals with [[file:20200329103309-parasitic_causal_connections.org][parasitic causal connections]]
+***** if you have a [[file:20200309182233_mental_states.org][mental state]] caused by cats that's also caused by dogs sometimes
+***** the dogs is parasitic on the cats [[file:20200309182233_mental_states.org][mental state]]
+** [[file:20200329103416-cartesian_evil_spirit.org][cartesian evil spirit]] is an argument against
+*** your thoughts representing cats might never have been caused by cats at all
+*** BUT, you can apply [[file:20200329102838-narrow_content.org][narrow content]] as a counter-argument
+**** your logical and conceptual connections about cats to other [[file:20200309182233_mental_states.org][mental states]] might be enough
+**** it might make those connections genuinely about cats
+**** even if they're caused by something else, such as a cartesian evil spirit
+**** but, if your thoughts could be about cats regardless, how can [[file:20200329102906-causal_relations.org][causal relations]] play any role in generating [[file:20200309182646_meaning.org][meaning]]?
+** open to same objection applied to [[file:20200309183106_conceptual_role_theory.org][conceptual role theory]]
+*** causal theory at most accounts for why a mental state means *this* rather than *that*
+*** but doesn't account for why the mental state has [[file:20200309182646_meaning.org][meaning]] at all
+*** only a mind with [[file:20200329103933-intentionality.org][intentionality]] that has come into being can cause the existence of mental states with meanings related to their causes
+**** so we don't have an explanation for intentionality
+*** smoke doesn't actually mean fire
+**** smoke doesn't mean anything
+**** smoke is just a meaningless arrangement of particles
+**** it's typically caused by fire, so our minds interpret it as a sign of fire
+**** the meaning is in all of us, not in the smoke
+** Karl Popper presented another objection to causal theory
+**

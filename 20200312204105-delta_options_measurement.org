@@ -1,0 +1,3 @@
+#+TITLE: Delta options measurement
+
+- tags :: [[file:20200312202737-stocks.org][stocks]], [[file:20200312202748-options.org][options]], [[file:20200312202756-puts.org][puts]], [[file:20200312204201-option_calls.org][calls]]
