@@ -4,5 +4,19 @@
 ** Compsci
 *** https://github.com/ossu/computer-science#core-cs
 *** [[file:20200526214041-edx_how_to_code_simple_data.org][EDX How to Code: Simple Data]]
-** Math
+**** Duration: 7 weeks
+**** Effort: 8-10 hours/week
+*** How To Code - Complex Data
+**** Duration: 6 weeks
+**** Effort: 8-10 Hours/week
+*** Programming Languages, Part A
+**** Duration: 5 weeks
+**** Effort: 4-8 Hours/week
+*** Programming Languages, Part B
+**** Duration: 3 weeks
+**** Effort: 4-8 hours/week
+*** Programming Languages, Part C
+**** Duration: 3 weeks
+**** Effort: 4-8 hours /week
+* Math
 *** [[file:20200324175916-khan_academy_pre_algebra.org][Khan Academy pre algebra]]

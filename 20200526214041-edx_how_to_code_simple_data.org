@@ -171,6 +171,14 @@ Code Body
 )
 
 * How to Design Data (HtDD) Recipe (12 lectures, 5-8 hours)
+  :PROPERTIES:
+  :Effort:   5:00
+  :END:
+  :LOGBOOK:
+  CLOCK: [2020-08-03 Mon 19:47]--[2020-08-03 Mon 20:17] =>  0:30
+  CLOCK: [2020-07-27 Mon 17:51]--[2020-07-27 Mon 18:02] =>  0:11
+  CLOCK: [2020-07-27 Mon 17:19]--[2020-07-27 Mon 17:23] =>  0:04
+  :END:
   Learn to use the HtDD recipe to design data definitions for atomic data.
 ** Goals
 *** be able to use the How to Design Data Definitions HtDD recipe
@@ -183,6 +191,211 @@ Code Body
 **** mixed data itemizations
 *** use data driven templates recipe to generate templates for functions
 *** use how to design functions HtDF recipe to design functions
+** Data Definitions
+   Data definitions explain how information is represented as data.
+   This is a crucial part of program design and has a significant
+     effect on the design of every function that operates on that data.
+*** Problem Domain
+    Imagine a traffic simulation function
+    The function alone doesn't say much
+
+(define (next-color c)
+  (cond [(= c 0) 2]
+        [(= c 1) 0]
+        [(= c 2) 1]))
+
+   Technically what it does is tell you what color to show next.
+   That's not clear. If they use the HtDF recipe it's more clear
+
+
+;;Part of a traffic simulation
+
+;; Natural -> Natural
+;; product next color of traffic light
+
+(check-expect (next-color 0) 2)
+(check-expect (next-color 1) 0)
+(check-expect (next-color 2) 1)
+
+;(define (next-color c) 0) ;stub
+
+;(define (next-color c) ;template
+;  (...c))
+
+(define (next-color c)
+  (cond [(= c 0) 2]
+        [(= c 1) 0]
+        [(= c 2) 1]))
+
+   While we know it expects a Natural, what this doesn't show is that
+     the function also expects only 0, 1, 2. 3 would be wrong because
+     it doesn't represent a color. Also, we're not exactly sure what
+     the 0, 1, 2, represent. We need more.
+**** The problem domain represents things in the program
+     Problem Domain                  program
+       "a light is red"                 0
+**** We represent information in the problem domain using data in the program
+**** we interpret data in the program as information in the problem domain
+**** Data definition tells you everything you need to know about representing information as data
+**** Changes the HtDF recipe by adding type definitions
+
+;; Data definitions
+;; TLColor is one of:
+;; - 0
+;; - 1
+;; - 2
+;; interp. color of a traffic light - 0 is red, 1 yelllow, 2 green
+#;
+(define (fn-for-tlcolor c)
+  (cond [(= c 0) (...)]
+        [(= c 1) (...)]
+        [(= c 2) (...)]))
+
+;; FUnctions:
+
+;; TLColor -> TLcolor
+;; product next color of traffic light
+(check-expect (next-color 0) 2)
+(check-expect (next-color 1) 0)
+(check-expect (next-color 2) 1)
+
+;(define (next-color c) 0) ;stub
+
+; Template from TLColor
+
+(define (next-color c)
+  (cond [(= c 0) 2]
+        [(= c 1) 0]
+        [(= c 2) 1]))
+**** Data Definition describes
+***** How to form data of a new type
+***** how to represent information as data
+***** how to interpret data as information
+***** template for operating on data
+**** Data definition simplifies function
+***** restricts data consumed
+***** restricts data produced
+***** helps generate examples
+***** provides template
+** Atomic non-distinct - how to design a Data Recipe
+*** Data definition Recipe:
+**** 1. A possible *structure definition*
+**** 2. a *type comment* that defines a new type name and describes how to form data
+**** 3. An *interpretation* that describes the correspondence between information and data
+**** 4. One or more *examples* of the data
+**** 5. A *template* for a 1 argument function operating on data of this type
+*** First thing to do is work out the form of the data we're trying to represent
+    We're trying to represent city names
+    But these city names are atomic - they can't be broken down any further
+**** atomic information should be represented as a type
+     :PROPERTIES:
+     :ORDERED:  t
+     :END:
+     ;;  CityName is String
+     ;; interp. the name of a city
+     (define CN1 "Boston")
+     (define CN2 "Vancouver")
+**** template:
+     (define (fn-for-city-name cn)
+       (...cn)
+     )
+     ;; Template rules used:
+     ;; Atomic non-distinct: string
+***** this all comes from some kind of table they have with data types on one side, and template format on right
+** HtDF With Non-Primitive Data
+*** Now, use above data definition to design a function that produces `true` if a given city is best
+    ;; Function recipe:
+    ;; Functions:
+    ;; CityName -> Boolean
+    ;; produce true if the given city is best in the world
+    (check-expect (best? "Boston") false)
+    (check-expect (best? "Hogsmeade") true)
+
+    (define (best? cn) false) ;stub
+
+    ;took template from CityName
+    (define (fn-for-city-name cn)
+      (if (string=? cn "Hogsmeade")
+      true
+      false
+      )
+     )
+
+    Sometimes your code is more cumbersome when you write it this way.
+    Just return string=? cn "Hogsmeade"
+** HtDF X Structure of Data Orthogonality
+*** HtDF and HtDD recipes are orthogonal - HtDF Works the same for all forms of data
+**** There are other types of data:
+***** atomic
+****** CityName
+***** distinct
+****** false
+***** interval
+****** SeatNum
+***** enumeration
+****** TrafficLightColor
+****** LetterGrade
+***** itemization
+****** CountDown
+**** No matter what HtDF works the same way for all those kinds of data
+*** Working with a systemic design process means you always know what to do next
+*** Plus you write readable consistent code that's well tested
+** Interval Data Definitions
+*** used for information that is numbers within a certain range
+    Problem:
+    Imagine that you are desigining a program to manage ticket sales for a theater that is
+    perfectly rectangular in shape.
+    Design a data definition to represent a seat number in a row, where each row has 32
+    seats. Just the seat number, not the row number.
+
+    So a seat number will be a number like 1, 2, 3.... all the way up to 32
+*** Here's what an interval data definition looks like:
+    ;; SeatNum is Natural[1, 32]
+    Say name of the value, its type, then it's (range) exclusive
+    Meanwhile [] inclusive. They can be mixed and matched.
+    ;; interp. seat numbers in a row, 1 and 32 are aisle seats
+    That's the correspondence between information and data, the interpretation
+    Include anytyhing that could help understand data
+
+    Examples:
+    (define SN1 1) ;aisle
+    (define SN2 12) ;middle
+    (define SN1 32) ;aisle
+
+    Template:
+    (define (fn-for-seat-num)
+      (... sn)
+    )
+
+    ; Template rules used:
+    ; - atomic non-distinct: Natural(1, 32)
+** Enumeration Data Definition
+*** used when the information to be represented consists of two or more *distinct* values
+    Problem:
+    As part of desigining a system to keep track of student grades, you are asked to design a data
+    definition to represent the letter grade ina  course, which is one of A, B, or C.
+    ; A, B, and C are all distinct values
+
+    Type comment:
+    ;; LeterGrade is one of:
+    ;; - "A"
+    ;; - "B"
+    ;; - "C"
+    ;; interp. the letter grade in a course
+    ;; examples are redundant for enumerations
+
+    Template:
+    (define (fn-for-letter-grade lg)
+    (cond [(string=? lg "A" (...)]
+          [(string=? lg "B" (...)]
+          [(string=? lg "C" (...)]))
+
+    ;;Template rules used:
+    ;; - one of: 3 cases
+    ;; atomic distinc value: "A"
+    ;; atomic distinc value: "B"
+    ;; atomic distinc value: "C"
+
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
   Leanr how to use the HtDW recipe to design interactive programs with atomic world state
 * Compound Data (3 lectures, 4-6 hours)
