@@ -1,7 +1,7 @@
 #+TITLE: EDX How to Code: Simple Data
 #+ROAM_KEY: https://www.edx.org/course/how-to-code-simple-data
 
-- tags :: [[file:20200526214234-computer_science.org][computer science]]
+- tags :: [[file:20200526214234-computer_science.org][computer science]], [[file:20200805181814-data_types.org][data types]],
 
 * Purpose
 ** Learn how to read and right in programs in terms of higher level desgin structures
@@ -175,6 +175,8 @@ Code Body
   :Effort:   5:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-05 Wed 18:19]--[2020-08-05 Wed 18:45] =>  0:26
+  CLOCK: [2020-08-04 Tue 20:27]--[2020-08-04 Tue 20:33] =>  0:06
   CLOCK: [2020-08-04 Tue 17:43]--[2020-08-04 Tue 18:00] =>  0:17
   CLOCK: [2020-08-04 Tue 17:02]--[2020-08-04 Tue 17:09] =>  0:07
   CLOCK: [2020-08-03 Mon 19:47]--[2020-08-03 Mon 20:17] =>  0:30
@@ -456,6 +458,171 @@ Code Body
 *** Common simplifications:
 **** If a given subclass is the last subclass of its type, we can reduce the test to just the guard, i.e. (number? c)
 **** If all remaining subclasses are of the same type, then we can eliminate all of the guards
+** HtDF with Interval
+*** a function that consumes an interval type, aka non-primitive data, aka data you define
+     Problem:
+    Imagine that you are desigining a program to manage ticket sales for a theater that is
+    perfectly rectangular in shape.
+    Design a data definition to represent a seat number in a row, where each row has 32
+    seats. Just the seat number, not the row number.
+
+    So a seat number will be a number like 1, 2, 3.... all the way up to 32
+    ;; SeatNum is Natural[1, 32]
+    Say name of the value, its type, then it's (range) exclusive
+    Meanwhile [] inclusive. They can be mixed and matched.
+    ;; interp. seat numbers in a row, 1 and 32 are aisle seats
+    That's the correspondence between information and data, the interpretation
+    Include anytyhing that could help understand data
+
+    Examples:
+    (define SN1 1) ;aisle
+    (define SN2 12) ;middle
+    (define SN1 32) ;aisle
+
+    Template:
+    (define (fn-for-seat-num)
+      (... sn)
+    )
+
+    ; Template rules used:
+    ; - atomic non-distinct: Natural(1, 32)
+
+    ;; Functions:
+
+    ;; SeatNum -> Boolean
+    ;; produce true if the given seat number is on the aisle
+    (check-expect (aisle? 1) true)
+    (check-expect (aisle? 16) false)
+    (check-expect (aisle? 32) true)
+
+    (define (aisle? sn) false) ;stub
+
+    ; use template from SeatNum
+
+    (define (asile? sn)
+      (or (= sn 1)
+          (= sn 32)))
+** HtDF with Enumeration
+   Problem:
+   Using the LetterGrade data definition below design a function that
+   consumes a letter grade and produces the next highest letter grade.
+   Call your function bump-up.
+
+   ;; Data Definitions:
+   ;; LetterGrade is one of:
+   ;; - "A"
+   ;; - "B"
+   ;; - "C"
+   ;; interp. the letter grade in a course
+   ;; <examples are redundant for enumerations>
+
+    Template:
+    (define (fn-for-letter-grade lg)
+    (cond [(string=? lg "A" (...)]
+          [(string=? lg "B" (...)]
+          [(string=? lg "C" (...)]))
+
+    ;;Template rules used:
+    ;; - one of: 3 cases
+    ;; atomic distinct value: "A"
+    ;; atomic distinct value: "B"
+    ;; atomic distinct value: "C"
+
+    ;; Functions:
+    ;; LetterGrade -> LetterGrade
+    ;; produce next highest letter grade (no change for A)
+    (check-expect (bump-up "A") "A")
+    (check-expect (bump-up "B") "A")
+    (check-expect (bump-up "C") "B")
+
+    ;(define (bump-up lg) "A") ;stub
+
+    ;use template from LetterGrade
+    (define (fn-for-letter-grade lg)
+    (cond [(string=? lg "A") "A"]
+          [(string=? lg "B") "A"]
+          [(string=? lg "C") "B"]))
+*** example enumeration problem 2:
+    ;; Season is one of:
+    ;; - "spring"
+    ;; - "summer"
+    ;; - "fall"
+    ;; - "winter"
+    ;; interp. the four seasons of the year
+    ;; <examples are redundant for enumerations>
+
+    (define (fn-for-season s)
+      (cond [(string=? "spring" s) (...)]
+            [(string=? "summer" s) (...)]
+            [(string=? "fall" s) (...)]
+            [(string=? "winter" s) (...)]))
+
+    ;; Template Rules used:
+    ;; - one of: 4 cases
+    ;; - atomic distinct: "spring"
+    ;; - atomic distinct: "summer"
+    ;; - atomic distinct: "fall"
+    ;; - atomic distinct: "winter"
+
+    ;; Functions:
+    (define (next-season s)
+      (cond [(string=? "spring" s) "summer"]
+            [(string=? "summer" s) "fall"]
+            [(string=? "fall" s) "winter"]
+            [(string=? "winter" s) "spring"]))
+
+** HtDF with Itemization
+         Type comment:
+      ;; CountDown is one of:
+      ;; - false
+      ;; - Natural[1, 10]
+      ;; - "complete"
+
+      ;; interp
+      ;; false means countdown has not yet started
+      ;; Natural[1, 10] means countdown is running and how many seconds left
+      ;; "complete" means countdown is over
+
+      Examples:
+      (define CD1 false)
+      (define CD2 10) ; just started running
+      (define CD3 1) ;almost over
+      (define CD4 "complete")
+
+      Template:
+      (define (fn-for-countdown c)
+      (cond [(false? c) (...)]
+      ;; have to be careful with <= because it's mixed data itemization
+      ;; have to guard eht <= being called with non number
+            [(and (number? c) (<= 1 c) (<= c 10)) (...c)]
+            [else (...)]))
+      ;; we can use else because in this course you can assume that a function
+      ;; is called with arguments that match it's signature
+      ;; some programming languages enforce this automatically (huh so
+      ;; typescript can be useful lol)
+
+      ;; Template rules used:
+      cond with one subclass per subclass of the "one of"
+      ;; - one of: 3 cases
+      ;; - atomic distinct: false
+      ;; - atomic non-distinct: Natural[1, 10]
+      ;; - atomic distinct: "complete"
+
+      ;; Functions:
+      ;; Countdown -> Image
+      ;; produce nice image of current state of countdown
+      (check-expect (countdown-to-image false) (square 0 "solid" "white"))
+      (check-expect (countdown-to-image 5) (text (number->string 5) 24 "black"))
+      (check-expect (countdown-to-image "complete") (text "Happy New Year!!!" 24 "red"))
+
+      (define (countdown-to-image c) (square 0 "solid" "white")) ;stub
+
+      ;<use template from Countdown>
+      (define (countdown-to-image c)
+      (cond [(false? c) (square 0 "solid" "white")]
+            [(and (number? c) (<= 1 c) (<= c 10)) (text (number->string c) 24 "black")]
+            [else (text "Happy New Year!!!" 24 "red")]))
+
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
   Leanr how to use the HtDW recipe to design interactive programs with atomic world state
 * Compound Data (3 lectures, 4-6 hours)
