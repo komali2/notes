@@ -624,7 +624,66 @@ Code Body
             [else (text "Happy New Year!!!" 24 "red")]))
 
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
+  :PROPERTIES:
+  :Effort:   3:00
+  :END:
+  :LOGBOOK:
+  CLOCK: [2020-08-12 Wed 18:22]--[2020-08-12 Wed 18:43] =>  0:21
+  :END:
   Leanr how to use the HtDW recipe to design interactive programs with atomic world state
+
+** Overview
+   Learn how to design interactive programs that use... drracket big bang functionality?
+   Stuff like simple animations
+   Also basic techniques for systemiatizing work on larger programs.
+   Complemented by the Compound module (next) which will let us create more complex data definitions
+   Apparently some of the videos are hella long
+*** Learning goals
+**** be able to explain the inherent structure of interactive graphical programs
+**** be able to use the How to Design Worlds HtDW recipe to design interactive programs with atomic world state.
+**** Be able to read and write big-bang expressions.
+** Interactive Programs
+*** will learn how to design simple interactive programs
+    plain graphics but core structures will be like that of more sophisticated versions of the same program
+**** animations
+**** games
+**** desktop applications
+** The Big Bang Mechanism
+   The inherent behind the scenes functionality of interactive programs
+   The big-bang primitive
+*** Big bang is a mechanism that supports interactive programs
+*** Example programs
+**** count down from 10 program, resets on space bar
+***** changing state
+****** the number on the screen
+****** image displaying the number
+****** both "tick" once per second
+***** changing display
+***** keyboard or mouse affects behavior
+**** Cat moving left to right, resets on space bar
+***** x position changes, thus position of cat image changes
+***** Data:
+****** numbers representing psoition of cat
+       Cat is a number
+       Interpret number to be x coordinate of a cat
+       Simple Atomic Data
+       Two functions:
+       render-cat: takes a cat and returns an image of the cat at the appropriate position on the background
+       next-cat: takes us from one cat to the next cat, in other words, advances cat's x position by 3
+
+       0 (render-cat 0) (next-cat 0)
+       3 (render-cat 3) (next-cat 3)
+       6 (render-cat 6) (next-cat 6)
+       9 (render-cat 9) (next-cat 9)
+       To wire expresions together like this, dr racket uses big-bang expression
+       Need an expression that evaluates to initial world state
+
+       (big-bang 0              ; Cat
+         (on-tick next-cat)     ; Cat -> Cat
+         (to-draw render-cat))  ; Cat -> Image
+
+       big-bang is polymorphic: works for any type of world state
+       It's a user interface framework - a tool that integrates a bunch of functionality together to get a UI
 * Compound Data (3 lectures, 4-6 hours)
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
 * Self-reference (7 lectures, 5-7 hours)

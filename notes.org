@@ -10,3 +10,97 @@ anywhere for people to poop doesn't mean they stop pooping.
 ** 2020-08 August
 *** 2020-08-05 Wednesday
 **** Test
+*** 2020-08-06 Thursday
+**** Pluralist emai[[mu4e:msgid:mailman.1.1596729601.22695.plura-list@pluralistic.net][ Plura-list Digest, Vol 24, Issue 3]]l
+***** Contextual ads
+****** behavior advertising is mainstay of online advertising
+******* uses preferences based on dossiers of activity
+****** real time auctions:
+******* website publisher fetches yoru cookie,
+******* correlates with identity in multiple DBs,
+******* then auctions a chance to advertise to you to several brokers
+****** An alternative is contextual ads
+******* publishers sell the right to advertise to you based on the subject of an article you're reading
+******* or your location and other metadata
+******* GDPR makes this more desirable
+******* companies are finding little difference in revenue
+         https://www.wired.com/story/can-killing-cookies-save-journalism/
+******* actually increase up to 62% n revenue, with none going to middlemen
+***** GE Tax fraud
+****** UK tax authority accused GE of 1b tax fraud
+****** GE former tax exec Will Morris implicated
+****** one of largest tax fraud lawsuits in history
+***** Qanon as ARG
+****** formoest ARG designer Six to Start Adrian Hon wrote an article
+       https://mssv.net/2020/08/02/what-args-can-teach-us-about-qanon/
+******
+***** Cori Bush wins Missouri
+****** won against lacy clay 50 year family incumbent
+****** aoc endorsement
+****** sander endorsement
+****** crowdsourced campaign contributions
+****** medicare for all
+****** green new deal
+****** defunding the police
+****** featured in netflix "knock down the house"
+*** 2020-08-11 Tuesday
+**** How to stop [[file:20200225193201_procrastination.org][procrastinating]] by using the [[file:20200811100209-fogg_behavior_model.org][fogg behavior model]]
+     https://www.deprocrastination.co/blog/how-to-stop-procrastinating-by-using-the-fogg-behavior-model
+***** [[file:20200811100220-behavior.org][Behavior]] = [[file:20200308174558_motivation.org][motivation]] + [[file:20200811100230-ability.org][ability]] + [[file:20200811100238-trigger.org][trigger]]
+****** we need all three at the same time in order to act
+***** [[file:20200308174558_motivation.org][motivation]]
+      Even if you have the ability and the trigger (time window), we don't feel motivated.
+      No excitement.
+****** doesn't come out of the blue
+******* needs to be built
+****** how to build [[file:20200308174558_motivation.org][motivation]]
+       Motivation is when we vicerally feel how an action is meaningful or valuable to us
+       Also, we believe we can take the action
+       Inability to see meaning or value means no motivation.
+******* remind yourself of the why
+        Remember why you wrote down a [[file:20200315133807-todo_list.org][todo]].
+        Try to remember in vivid detail.
+        Don't just remember the reason, feel it, get excited about it.
+******** did you want to learn the thing?
+******** did you want to make more money?
+******** did you want to help someone?
+******* Link the task to a personal [[file:20200811100324-goal.org][goal]] that you want to achive
+******** Attach exciting reasons to the task
+***** [[file:20200811100230-ability.org][Ability]]
+      Sometimes we have the motivation but the tasks seems too hard.
+      [[file:20200225193201_procrastination.org][Procrastination]] though doesn't make it any easier of course, even though it feels easier than the work.
+****** Turn down the difficulty dial by focusing on small steps
+******* break a [[file:20200811100344-task.org][task]] down into pieces that are not too hard to complete
+******** this might be hard. Identify them. List them.
+******** identify the distinct parts that form the whole.
+******** If it's too hard to identify parts, create a simple [[file:20200811100354-timeline.org][timeline]]
+         Can be simple, bulleted.
+********* start with the due date
+********* go back day by day (or week by week) and write down what you'd like to have done by then
+          until you get to today
+********* put this [[file:20200811100354-timeline.org][timeline]] where you'll see it
+********* start working on the first piece of the puzzle
+***** [[file:20200811100238-trigger.org][Trigger]]
+      When we feel capable and motivated, but we don't know where to start, that's missing a trigger.
+      A coach is good at giving triggers - do this, then. You know exactly what to do and when.
+      Reflecting, this is why I was able to start running so consistently - the therapist told me to do it, and I did it.
+      Also, I did really well in the [[file:20200811100520-bootcamp.org][bootcamp]], probably for this reason.
+****** We have to make the decision to start
+****** We have to [[file:20200811100238-trigger.org][trigger]] ourselves into [[file:20200811100534-action.org][action]]
+       If we leave the trigger to circumstance, we start right before the deadline. Deadline becomes the only trigger.
+****** How to add a [[file:20200811100238-trigger.org][trigger]]
+******* A sense of "I'm supposed to be doing this, right now" is the key
+******* [[file:20200811100354-timeline.org][Timeline]] exercise from previous point can help, but it doesn't provide a cue
+******* need to create a [[file:20200315131149-habit_cue.org][cue]]:
+******** can be sitting down to work
+********* as soon as sit down, look at [[file:20200315133807-todo_list.org][todo]] list, and take 5-15 mins to decide which task to start on
+********** cue 1: sitting down to work = time to find the first task
+********** cue 2: time limit ends = time to work
+******* At the end of one work day, determine where you want to start on the next day and put into calendar
+******* Define a specific task to do, at a specific place, at a specific moment in time
+*** 2020-08-12 Wednesday
+**** Talk with joe
+***** if you understand what you value better, it helps you better understand what your goals are
+***** when you list your values, track weekly what you've done against those values
+****** joe uses a trello board for this
+***** question: do you list your values, or what you want your values to be?
