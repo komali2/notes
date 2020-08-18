@@ -628,6 +628,7 @@ Code Body
   :Effort:   3:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-17 Mon 20:02]--[2020-08-17 Mon 20:04] =>  0:02
   CLOCK: [2020-08-17 Mon 19:43]--[2020-08-17 Mon 19:55] =>  0:12
   CLOCK: [2020-08-12 Wed 18:22]--[2020-08-12 Wed 18:43] =>  0:21
   :END:
@@ -730,6 +731,11 @@ Code Body
 ******* 2.c.1 Main first (based on 1.c, 1.d, and 2.b)
 ******* 2.c.2 wish list entries for big-bang handlers
 ****** 2.d Work through wish list until done
+** Program through main Function
+*** templates
+    Before i start on this program, what do i know about the basic structure before i get the details?
+    Given that I'm using this basic kind of algorithm, what must be true about the basic structure of the program
+      before I get into the details?
 * Compound Data (3 lectures, 4-6 hours)
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
 * Self-reference (7 lectures, 5-7 hours)
