@@ -628,6 +628,7 @@ Code Body
   :Effort:   3:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-17 Mon 19:43]--[2020-08-17 Mon 19:55] =>  0:12
   CLOCK: [2020-08-12 Wed 18:22]--[2020-08-12 Wed 18:43] =>  0:21
   :END:
   Leanr how to use the HtDW recipe to design interactive programs with atomic world state
@@ -682,8 +683,53 @@ Code Body
          (on-tick next-cat)     ; Cat -> Cat
          (to-draw render-cat))  ; Cat -> Image
 
-       big-bang is polymorphic: works for any type of world state
+       big-bang is [[file:20200817194436-polymorphic.org][polymorphic]]: works for any type of world state
        It's a user interface framework - a tool that integrates a bunch of functionality together to get a UI
+** Domain analysis
+   We about to get into the How to Design Worlds recipe
+   Analysis which happens with pencil and paper
+   Only then do we get into code
+*** Interactive program problem
+    Problem: how to Design Worlds recipe to design a cat walking across the page problem?
+
+    Domain Analysis:
+      1.a. Sketch program scenarioes
+
+        (cat drawing 1) cat on left of screen
+        (cat drawing 2) cat in middle of screen
+        (cat drawing 3) cat on right side of string
+
+      1.b. identify constant information
+
+        width (of screen)
+        height (of screen)
+        ctr-y center of screen y
+        mts image of screen
+        cat image
+
+      1.c. identify changing information
+
+        x coordinate of cat
+
+      1.d. identify big bang options
+
+        on-tick because the cat position changes all the time
+        to-draw to draw the cat every time it changes position
+
+**** World Program Design
+     Divided into two parts
+***** 1. Domain Analysis (use a piece of paper)
+****** 1.a sketch program scenarios
+****** 1.b identify constant information
+****** 1.c Identify changing information
+****** 1.d Identify big-bang options
+***** 2. Build the actual program
+****** 2.a Constants (based on 1.b)
+****** 2.b Data definition using HtDD (based on 1.c)
+****** 2.c Functions using HtDF
+******* 2.c.1 Main first (based on 1.c, 1.d, and 2.b)
+******* 2.c.2 wish list entries for big-bang handlers
+****** 2.d Work through wish list until done
 * Compound Data (3 lectures, 4-6 hours)
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
 * Self-reference (7 lectures, 5-7 hours)

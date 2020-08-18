@@ -1,0 +1,3 @@
+#+title: polymorphic
+
+* Data that works for any type of state?
