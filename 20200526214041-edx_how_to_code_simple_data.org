@@ -628,6 +628,7 @@ Code Body
   :Effort:   3:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-18 Tue 14:54]--[2020-08-18 Tue 15:07] =>  0:13
   CLOCK: [2020-08-17 Mon 20:02]--[2020-08-17 Mon 20:04] =>  0:02
   CLOCK: [2020-08-17 Mon 19:43]--[2020-08-17 Mon 19:55] =>  0:12
   CLOCK: [2020-08-12 Wed 18:22]--[2020-08-12 Wed 18:43] =>  0:21
@@ -736,6 +737,74 @@ Code Body
     Before i start on this program, what do i know about the basic structure before i get the details?
     Given that I'm using this basic kind of algorithm, what must be true about the basic structure of the program
       before I get into the details?
+**** example template for cat problem
+     ;; A cat that walks from left to right across the screen.
+
+     ;; =====
+     ;; constants: (comes straight from analysis, done earlier)
+
+     (define WIDTH 600)
+     (define HEIGHT 400)
+
+     ;; Always use constants
+     (define CTR-Y (/ HEIGHT 2))
+
+     (define MTS (empty-scene WIDTH HEIGHT))
+
+     ;; in the video he pasted an image straight here lol
+     (define CAT_IMG pasted_image)
+
+     ;; now do changing variables
+     ;; also known as Data Definitions
+
+     ;; ====
+     ;; Data Definitions:
+
+     ;; Cat is Number
+     ;; interp. x position of the cat in screen coordinates
+
+     ;examples
+     (define C1 0) ;left edge
+     (define C2 (/ WIDTH 2)) ;middle
+     (define C3 WIDTH) ;right edge
+
+     ;template
+
+     (define (fn-for-cat c)
+       (... c))
+
+     ;; Template rules used:
+     ;; - atomic non-distinct: Number
+
+     ;; =====
+     ;; Functions:
+
+     ;; Cat -> Cat
+     ;; start the world with....
+     ;;
+     (define (main c)
+       (big-bang c ; Cat
+         (on-tick advance-cat) ; Cat -> Cat
+         (to-draw render)) ; Cat -> Image
+
+     ;; Cat -> Cat
+     ;; produce the next, by advancing it 1 pixel to right
+     ;; !!!
+     (define (advance-cat c) 0)
+
+     ;; Cat -> Image
+     ;; render the cat image at appropriate place on MTS
+     ;; !!!
+     (define (render c) MTS)
+
+
+***** Traceability: you can look at analysis and look at code and understand where everything in the analysis showed up in the code
+***** Being easy to change is one of the most important properties for a program to have
+***** Wish List Entry: a signature, purpose, !!!, and stub
+      A promise to come back and finish the function later
+      Bigger programs might have 10s or 100s of pending wish list entries
+      Be disciplined about writing these in
+      !!! is probably what we would call TODO, he searches across the file for !!! to find things to work on
 * Compound Data (3 lectures, 4-6 hours)
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
 * Self-reference (7 lectures, 5-7 hours)
