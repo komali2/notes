@@ -628,6 +628,7 @@ Code Body
   :Effort:   3:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-19 Wed 19:06]--[2020-08-19 Wed 19:12] =>  0:06
   CLOCK: [2020-08-18 Tue 14:54]--[2020-08-18 Tue 15:07] =>  0:13
   CLOCK: [2020-08-17 Mon 20:02]--[2020-08-17 Mon 20:04] =>  0:02
   CLOCK: [2020-08-17 Mon 19:43]--[2020-08-17 Mon 19:55] =>  0:12
@@ -805,6 +806,33 @@ Code Body
       Bigger programs might have 10s or 100s of pending wish list entries
       Be disciplined about writing these in
       !!! is probably what we would call TODO, he searches across the file for !!! to find things to work on
+** Working through the wish list
+   Completing the world program involves systematically going through the wish list and completing
+   the design of everyh "wished-for" function
+*** use the wishlist mechanism to keep track of what needs to be done
+    starts out looking like:
+    ;; Cat -> Cat
+     ;; produce the next, by advancing it 1 pixel to right
+     ;; !!!
+     (define (advance-cat c) 0)
+
+     ;; Cat -> Image
+     ;; render the cat image at appropriate place on MTS
+     ;; !!!
+     (define (render c) MTS)
+
+     Search for "!!!" to find out what to work on next
+
+     ;; Cat -> Cat
+     ;; produce the next, by advancing it 1 pixel to right
+     (check-expect (advance-cat 3) 4)
+     ;(define (advance-cat c) 0)
+
+     ; <use template from Cat>
+     (define (advance-cat c)
+       (+ c 1))
+
+
 * Compound Data (3 lectures, 4-6 hours)
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
 * Self-reference (7 lectures, 5-7 hours)
