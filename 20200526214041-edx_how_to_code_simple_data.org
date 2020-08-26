@@ -897,6 +897,7 @@ Code Body
   :Effort:   4:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-26 Wed 14:59]--[2020-08-26 Wed 15:15] =>  0:16
   CLOCK: [2020-08-25 Tue 18:59]--[2020-08-25 Tue 19:08] =>  0:09
   :END:
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
@@ -929,7 +930,61 @@ Code Body
       First and Last name of a person
       Name, supervisor, and salary of an employee
       x and y coordinates of something
+*** structs
+    V structure name V   Vfield namesV
+    (define-struct pos (x y))
 
+    This structure will help represent x y positions
+    This is a constructor
+    Use it like:
+    (make-pos 3 6)
+    The order of the arguments matter, first to x, second to y
+    Thus it is a [[file:20200826150150-boa_constructor.org][boa constructor]]
+
+    (define P1 (make-pos 3 6)) ;; constructors
+    (define P2 (make-pos 2 8))
+
+    That puts them together, how do you take them apart?
+
+    (pos-x P1) ;; return 3 ;; selectors
+    (pos-y P2) ;; return 8 ;; selectors
+
+    Check if instance of struct
+    (pos? P1) ; true
+    (pos? 'hello') ; false
+** Compound Data Definitions
+   How to form compound data definitions using the [[file:20200826150531-htdd.org][HtDD]] recipe
+
+   PROBLEM:
+   Design a data definition to represent hockey players, including both their first and last names.
+   ;; these are two values that naturally fit together
+   ;; thus [[file:20200825190046-compound_data.org][compound data]]
+
+*** data definition:
+    1. a possible structure definition
+
+    (define-struct player (fn ln))
+
+    1. a type comment
+       ;; Player is (make-player String String)
+    2. an interpretation
+      ;; interp. (make-player fn ln) is a hockey player with
+      ;; ;; fn is the first naame
+      ;; ;; ln is the last naame
+    3. one or more examples
+      (define P1 (make-player "Bobby" "orr"))
+      (define P2 (make-player "Wayne" "Noob"))
+    4. a template
+
+       (define (fn-for-player p)
+         (... (player-fn p)  ;String
+              (player-ln p))) ;String
+
+       ;; Template rules used:
+       ;; - Compound : 2 fields
+       ;; Must work on all fields of the struct
+** HtDW With [[file:20200825190046-compound_data.org][Compound Data]]
+*** cow animation lol
 * Self-reference (7 lectures, 5-7 hours)
   Learn how to use well-formed self-referential data definitions to represent arbitrary sized data.
 * Reference (3 lectures, 4-6 horus)
