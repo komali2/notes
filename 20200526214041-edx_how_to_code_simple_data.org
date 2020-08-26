@@ -628,6 +628,7 @@ Code Body
   :Effort:   3:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-08-25 Tue 18:34]--[2020-08-25 Tue 18:58] =>  0:24
   CLOCK: [2020-08-19 Wed 19:06]--[2020-08-19 Wed 19:12] =>  0:06
   CLOCK: [2020-08-18 Tue 14:54]--[2020-08-18 Tue 15:07] =>  0:13
   CLOCK: [2020-08-17 Mon 20:02]--[2020-08-17 Mon 20:04] =>  0:02
@@ -831,10 +832,104 @@ Code Body
      ; <use template from Cat>
      (define (advance-cat c)
        (+ c 1))
+** Improving a world program - add SPEED
+   Mostly just an another example of using HtDF and HtDW
+*** the previous analysis is a model of the program
+    Add the speed constant
 
+    (define SPEED 3)
+    The analysis lets us know we also need to look at the on-tick handler
+
+    We can see that it invokes advance-cat, the function we need to change
+*** Making a good model lets us change by thinking at the model level
+    This is the difference between program designers and people who write code that just happens to work
+    wow ok personal attack there lol
+** Improving a world program - add key handler
+   Mostly review. New Material: testing and templating functions that operate on large enumerations
+*** Adding the on-key handler
+    No need to make a chagne to the constants or changing, but we do add it to the big bang options
+
+    ;; =====
+     ;; Functions:
+
+     ;; Cat -> Cat
+     ;; start the world with....
+     ;;
+     (define (main c)
+       (big-bang c ; Cat
+         (on-tick advance-cat) ; Cat -> Cat
+         (to-draw render) ; Cat -> Image
+         (on-key handle-key))) ; Cat KeyEvent -> Cat
+
+     ;; This function doesn't exist yet, so add a wishlist entry!
+     ;; Grab the signature
+
+     ;; Cat KeyEvent -> Cat
+     ;; reset cat to left edge when space key is pressed
+     ;; !!!
+     (define (handle-key c key) 0) ;stub
+*** Handling huge enumerations
+     ;; Cat KeyEvent -> Cat
+     ;; reset cat to left edge when space key is pressed
+     ;; !!!
+     (check-expect (handle-key 10 " ") 0)
+     (check-expect (handle-key 10 "a") 10)
+     (check-expect (handle-key 0 " ") 0)
+     (check-expect (handle-key 0 "a") 0)
+     ;; (define (handle-key c key) 0) ;stub
+
+     ;; It's a very large enumeration, do i need to test all the case?
+     ;; Nah, not really, because we kinda know how this will work. But we don't, so we need to template.
+
+     (define (handle-key c ke)
+       (cond [(key=? ke " ") (... c)]
+             [else
+               (... c)]))
+
+     ;; if you followed normal data definition rule, you'd have to cover every single keyboard rule
+     ;; if it's a large numeration, we can focus on special cases, and then all the other cases will be handled similarly
+     ;; this is called [[file:20200825185450-white_box_testing.org][white box testing]]
+     ;; you know the condition has just two cases
+     ;; you allow yourself to know something about the structure of the function
 
 * Compound Data (3 lectures, 4-6 hours)
+  :PROPERTIES:
+  :Effort:   4:00
+  :END:
+  :LOGBOOK:
+  CLOCK: [2020-08-25 Tue 18:59]--[2020-08-25 Tue 19:08] =>  0:09
+  :END:
   Leanr how to use the HtDW recipe to design interactive programs with compound world state
+** Module overview
+   Learn how to design [[file:20200825190046-compound_data.org][compound data]] definitions to represent information that consists of two or more
+   naturally connected values, as well as how to use such data as world state in HtDW problems.
+*** Learning goals
+**** be able to identify [[file:20200825190335-domain_information.org][domain information]] that should be represented as [[file:20200825190046-compound_data.org][compound data]]
+**** be able to read and write define-struct definitions
+**** be able to design functions that consume and/or produce [[file:20200825190046-compound_data.org][compound data]]
+**** be able to design world programs that use compound world state
+** define-struct
+   A new mechanism from the BSL language allows us to build multi-part (or compound) values and later to
+   deconstruct the compound values to get the individual values back.
+
+   We've seen other data types previously
+   primitive
+   interval
+   enumeration
+   itemization
+
+   In each of thewse cases, a single data value really consists of just one value
+   They were [[file:20200825190631-atomic_data.org][atomic]]
+
+   We might want to represent xy position
+   or the first AND last name of someone
+*** [[file:20200825190046-compound_data.org][compound data]]
+    Data that involves pieces of information that naturally belong together
+    For example:
+      First and Last name of a person
+      Name, supervisor, and salary of an employee
+      x and y coordinates of something
+
 * Self-reference (7 lectures, 5-7 hours)
   Learn how to use well-formed self-referential data definitions to represent arbitrary sized data.
 * Reference (3 lectures, 4-6 horus)
