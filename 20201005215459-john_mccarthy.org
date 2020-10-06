@@ -1,0 +1,2 @@
+#+title: John McCarthy
+#+ROAM_TAGS: "computer science" lisp

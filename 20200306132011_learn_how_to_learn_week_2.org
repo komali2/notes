@@ -1,4 +1,5 @@
 #+TITLE: learn how to learn week 2
+#+ROAM_TAGS: learning "note taking" "writer's block"
 
 - tags :: [[file:20200224205504_learning.org][learning]], [[file:20200224205634_note_taking.org][note-taking, [[file:20200306130641_writer_s_block.org][writer's block]]]]
 

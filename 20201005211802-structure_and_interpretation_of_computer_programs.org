@@ -1,0 +1,24 @@
+#+title: structure and interpretation of computer programs
+#+ROAM_KEY: https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html#%_chap_1
+#+ROAM_TAGS: "computer science" programming lisp
+
+- tags :: [[file:20200526214234-computer_science.org][computer science]], [[file:20200928105602-programming.org][programming]], [[file:20201005211934-lisp.org][lisp]]
+
+
+* Chapter 1. Building Abstractions with Procedures
+** Deals with [[file:20201005214915-computational_process.org][computational process]].
+   abstract beings that inhabit computers
+   They evolve and process [[file:20200825190220-data.org][data]]
+   The evolution is directed by a pattern of rules called a [[file:20201005215025-program.org][program]]
+   Programs direct processes
+*** Programs are composed from programing languages that prescribe tasks for processes to perform
+** [[file:20201005211934-lisp.org][Lisp]]
+*** invented 1950
+    Conceinved by [[file:20201005215459-john_mccarthy.org][John McCarthy]], based on his paper Recursive Functions of Symbolic Expressions and Their Computation by Machine
+*** invented to reason about [[file:20201005215359-recursion_equations.org][recursion equations]]
+*** first interpreter implemented by [[file:20201005215459-john_mccarthy.org][McCarthy]]
+**** helped by artificial intelligence group at MIT research lab of electronics and MIT computation center
+*** acronym: LISt Processing
+*** usage of new data objects "atoms" and "lists" made it unique
+*** relatively inefficient language, used in special cases that don't require massive efficiency
+*** unique: Lisp descriptions of processes, called procedures, can be represented and manipulated as Lisp data

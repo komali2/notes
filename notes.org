@@ -8,8 +8,6 @@ anywhere for people to poop doesn't mean they stop pooping.
 **
 * 2020
 ** 2020-08 August
-*** 2020-08-05 Wednesday
-**** Test
 *** 2020-08-06 Thursday
 **** Pluralist emai[[mu4e:msgid:mailman.1.1596729601.22695.plura-list@pluralistic.net][ Plura-list Digest, Vol 24, Issue 3]]l
 ***** Contextual ads
@@ -105,3 +103,28 @@ anywhere for people to poop doesn't mean they stop pooping.
 ****** joe uses a trello board for this
 ***** question: do you list your values, or what you want your values to be?
 *** 2020-08-24 Monday
+    :PROPERTIES:
+    :ID:       6c942fb6-f498-4dde-b1c5-69646f3d60fb
+    :END:
+** 2020-09 September
+*** 2020-09-28 Monday
+**** Box Model MDN
+- source :: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
+***** everything in [[file:20200928105617-css.org][CSS]] has a box around it, this is the [[file:20200928105457-box_model.org][box model]]
+      :PROPERTIES:
+      :ID:       d24f1e7c-25db-4ec4-aedd-d414e75ae393
+      :END:
+***** Block and inline boxes
+      These are generally the two types of boxes. The names refer to how the box behaves in terms of page flow, and
+their relations to other boxes on the page.
+****** block boxes
+******* breaks onto new line
+******* extend in the inline direction to fill the space in its container
+        usually this means the box will become as wide as its container, i.e., fill up 100% of space available
+******* width and height properties are respected
+******* padding, margin, and border will cause other elements to be pushed away
+******* default elements:
+******** headings <h1>
+******** paragraph <p>
+****** inline boxes
+******* doesn't break onto a new line

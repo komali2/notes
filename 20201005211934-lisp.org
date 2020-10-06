@@ -1,0 +1,4 @@
+#+title: lisp
+#+ROAM_TAGS: programming
+
+- tags :: [[file:20200928105602-programming.org][programming]]
