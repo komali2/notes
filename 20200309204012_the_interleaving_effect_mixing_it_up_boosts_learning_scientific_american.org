@@ -1,4 +1,5 @@
 #+TITLE: the interleaving effect: mixing it up boosts learning scientific american
+#+ROAM_TAGS: learning interleaving
 
 - tags :: [[file:20200224205504_learning.org][learning]], [[file:20200308142019_interleaving.org][interleaving]]
 - source :: https://www.scientificamerican.com/article/the-interleaving-effect-mixing-it-up-boosts-learning/

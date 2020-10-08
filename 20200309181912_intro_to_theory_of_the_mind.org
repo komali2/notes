@@ -1,4 +1,5 @@
 #+TITLE: intro to theory of the mind
+#+ROAM_TAGS: "theory of the mind" consciousness mind brain philosophy
 
 - tags :: [[file:20200309182101_theory_of_the_mind.org][theory of the mind]], [[file:20200224214214_consciousness.org][consciousness]], [[file:20200309182115_mind.org][mind]], [[file:20200309182121_brain.org][brain]], [[file:20200309182127_philosophy.org][philosophy]],
 

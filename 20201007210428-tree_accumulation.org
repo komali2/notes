@@ -1,0 +1,2 @@
+#+title: tree accumulation
+#+ROAM_TAGS: "computer science" tree programming recursion

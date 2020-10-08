@@ -1,0 +1,2 @@
+#+title: primitive procedures
+#+ROAM_TAGS: "computer science" programming

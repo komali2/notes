@@ -1,0 +1,2 @@
+#+title: operand
+#+ROAM_TAGS: "computer science" programming

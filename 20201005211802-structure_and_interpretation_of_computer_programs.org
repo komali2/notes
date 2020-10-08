@@ -22,3 +22,89 @@
 *** usage of new data objects "atoms" and "lists" made it unique
 *** relatively inefficient language, used in special cases that don't require massive efficiency
 *** unique: Lisp descriptions of processes, called procedures, can be represented and manipulated as Lisp data
+
+* 1.1 [[https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html][Elements of Programming]]
+** [[file:20201007202644-primitive_expressions.org][Primitive Expressions]]
+   represent the simplest entities the language is concerned with
+** Means of Combination
+   by which compound elements are built from simpler ones
+** Means of abstraction
+   by which compound elements can be named and manipulated as units
+** Two kinds of elements
+*** procedures
+    descriptions of the rules for manipulating the data
+*** [[file:20200825190220-data.org][data]]
+    Stuff we want to manipulate
+** [[file:20201007203121-expressions.org][Expressions]]
+*** [[file:20201007203142-combinations.org][combinations]]
+    list of [[file:20201007203121-expressions.org][expressions]] within parentheses to denote procedures application. For example:
+      486 is a [[file:20201007202644-primitive_expressions.org][primitive expression]]
+      Combine it with an expression that represents a [[file:20201007203212-primitive_procedures.org][primitive procedures]], such as + (addition)
+      (+ 137 349) -> 486
+    The value of a combination is obtrained by applying the procedure specified by the operator to the arguments that are the values of the operands
+*** [[file:20201007203228-operator.org][operator]]
+    Leftmost element in a list of [[file:20201007203121-expressions.org][expressions]] that makes a [[file:20201007203142-combinations.org][combination]]
+    (+ 137 349) the plus is the operator
+*** [[file:20201007203249-operand.org][operand]]
+    Elements other than the [[file:20201007203228-operator.org][operator]] in a list of [[file:20201007203121-expressions.org][expressions]] that makes a combination
+    (+ 137 349) the 137 and 349 are the operands
+*** [[file:20201007203359-prefix_notation.org][Prefix notation]]
+    Putting the operator to the left of the operands, i.e. as in lisp
+    An advantage is that it accomodates procedures that take arbitrary number of arguments, such as
+      (+ 21 34 12 7) -> 75
+    Also allows for combinations to be nested
+      (+ (* 3 5) (- 10 5)) -> 19
+*** [[file:20201007203718-repl.org][read-eval-print loop]]
+    The [[file:20201007203659-interpreter.org][interpreter]]'s basic cycle: Read expression from [[file:20201007203739-terminal.org][terminal]], evaluate the [[file:20201007203121-expressions.org][expression]], print the result.
+      Note that you don't need to explicitly instruct the interpreter to print the value of the expression.
+** Naming and the environment
+   Programming languages provide means to use names to refer to computational objects
+*** a name identifies a [[file:20201007203908-variable.org][variable]] whose [[file:20201007203922-value.org][value]] is the object
+*** scheme lisp - "define"
+    Name things with "define"
+
+    #+begin_src scheme
+    (define pi 3.14159)
+    (define radius 10)
+    (* pi (* radius radius))
+    ;; 314.159
+    (define circumference (* 2 pi radius))
+    circumference
+    ;; 62.8318
+    #+end_src
+*** [[file:20201007204845-environment.org][environment]]
+    Being able to associate [[file:20201007203922-value.org][values]] with symbols, and later retrieve the values through the symbols, is a sort of memory
+    That memory is called the "environment" or "global environment" - there can be many levels of "environment"
+** Evaluating Combinations
+   When evaluating combinations, the interpreter follows the following procedure:
+     1. Evaluate the subexpressions of the combination
+     2. Apply the procedure that is the [[file:20201007203922-value.org][value]] of the leftmost subexpression (the [[file:20201007203228-operator.org][operator]]) to the arguments that are the [[file:20201007203922-value.org][values]]
+        of the other subexpressions (the [[file:20201007203249-operand.org][operands]])
+   Thus is evaluating combinations [[file:20201007205328-recursion.org][recursive]]
+     One of the steps invokes the rule itself
+   Consider:
+
+   #+begin_src scheme
+       (* (+ 2 (* 4 6))
+          (+ 3 5 7))
+   #+end_src
+
+   This can be visualized as a [[file:20201007210248-tree.org][tree]]
+
+   #+begin_example
+                390
+              /  |     \
+            *    |       \
+                 |         \
+                26          15
+              /  |  \       / | \ \
+             +   2   \    +   3  5  7
+                      24
+                    /  | \
+                   *   4   6
+   #+end_example
+
+   In the [[file:20201007210248-tree.org][tree]], [[file:20201007210331-terminal_nodes.org][terminal nodes]] (nodes with no branches stemming from them) represent either [[file:20201007203249-operand.org][operands]] or numbers
+   [[file:20201007203922-value.org][Values]] of the [[file:20201007203249-operand.org][operands]] percolate upward, starting at the [[file:20201007210331-terminal_nodes.org][terminal nodes]] and that combining at higher and higher levels
+     This is is an example of a process known as [[file:20201007210428-tree_accumulation.org][tree accumulation]]
+   Thus is [[file:20201007205328-recursion.org][recursion]] a powerful tool for dealing with treelike objects
