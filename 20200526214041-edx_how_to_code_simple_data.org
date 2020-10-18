@@ -1,5 +1,6 @@
 #+TITLE: EDX How to Code: Simple Data
 #+ROAM_KEY: https://www.edx.org/course/how-to-code-simple-data
+#+ROAM_TAGS: "computer science" data functions
 
 - tags :: [[file:20200526214234-computer_science.org][computer science]], [[file:20200805181814-data_types.org][data types]],
 
@@ -26,6 +27,9 @@ Then the program is easy to read and easy to modify.
    Work on practic e problems from scratch before looking at he solution.
 2. Don't worry about making mistakes
 * Beginning student language (8 lectures, 5-8 hours)
+    :LOGBOOK:
+    CLOCK: [2020-10-18 Sun 10:00]--[2020-10-18 Sun 12:00] =>  2:00
+  :END:
   Learn to program with the core of the programming language used throughout the course.
 ** Expressions
 *** To form an expression
