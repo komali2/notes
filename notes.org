@@ -128,3 +128,10 @@ their relations to other boxes on the page.
 ******** paragraph <p>
 ****** inline boxes
 ******* doesn't break onto a new line
+
+** 2020-10 October
+
+*** 2020-10-19 Monday
+**** Pluralist
+     - source ::[[mu4e:msgid:mailman.733.1603121636.1933.plura-list@pluralistic.net][ Plura-list Digest, Vol 35, Issue 1]]
+*****

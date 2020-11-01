@@ -42,6 +42,9 @@ Then the program is easy to read and easy to modify.
     (sqr 3)
     (sqrt 3)
 * How to Design Functions (HtDF) Recipe (6 lectures, 4-7 hours)
+  :LOGBOOK:
+  CLOCK: [2020-10-31 Sat 20:49]--[2020-10-31 Sat 21:17] =>  0:28
+  :END:
   Learn to use the HtDF recipe to design fucntions that consume simple primitive data.
 ** Goals
 *** Be able to use the How to Design Function (HtDF) recipe to design fucntions that operate on primitive data
