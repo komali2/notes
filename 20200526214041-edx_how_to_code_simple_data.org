@@ -43,6 +43,7 @@ Then the program is easy to read and easy to modify.
     (sqrt 3)
 * How to Design Functions (HtDF) Recipe (6 lectures, 4-7 hours)
   :LOGBOOK:
+  CLOCK: [2020-11-01 Sun 19:56]--[2020-11-01 Sun 19:57] =>  0:01
   CLOCK: [2020-10-31 Sat 20:49]--[2020-10-31 Sat 21:17] =>  0:28
   :END:
   Learn to use the HtDF recipe to design fucntions that consume simple primitive data.
@@ -182,6 +183,7 @@ Code Body
   :Effort:   5:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-11-01 Sun 19:57]--[2020-11-01 Sun 20:09] =>  0:12
   CLOCK: [2020-08-05 Wed 18:19]--[2020-08-05 Wed 18:45] =>  0:26
   CLOCK: [2020-08-04 Tue 20:27]--[2020-08-04 Tue 20:33] =>  0:06
   CLOCK: [2020-08-04 Tue 17:43]--[2020-08-04 Tue 18:00] =>  0:17
