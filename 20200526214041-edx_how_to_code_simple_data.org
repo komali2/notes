@@ -183,6 +183,7 @@ Code Body
   :Effort:   5:00
   :END:
   :LOGBOOK:
+  CLOCK: [2020-12-24 Thu 12:21]--[2020-12-24 Thu 12:48] =>  0:27
   CLOCK: [2020-11-01 Sun 19:57]--[2020-11-01 Sun 20:09] =>  0:12
   CLOCK: [2020-08-05 Wed 18:19]--[2020-08-05 Wed 18:45] =>  0:26
   CLOCK: [2020-08-04 Tue 20:27]--[2020-08-04 Tue 20:33] =>  0:06
@@ -581,6 +582,7 @@ Code Body
             [(string=? "winter" s) "spring"]))
 
 ** HtDF with Itemization
+*** Itemizations are used for information comprised of 2 or more categories, at least one of which is non-distinct
          Type comment:
       ;; CountDown is one of:
       ;; - false
@@ -631,6 +633,7 @@ Code Body
       (cond [(false? c) (square 0 "solid" "white")]
             [(and (number? c) (<= 1 c) (<= c 10)) (text (number->string c) 24 "black")]
             [else (text "Happy New Year!!!" 24 "red")]))
+
 
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
   :PROPERTIES:
