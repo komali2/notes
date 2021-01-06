@@ -1,3 +1,4 @@
 #+title: compound data
+#+ROAM_TAGS: "computer science" data
 
 - tags :: [[file:20200825190220-data.org][data]], [[file:20200526214234-computer_science.org][computer science]]

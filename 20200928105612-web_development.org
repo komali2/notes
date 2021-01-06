@@ -1,2 +1,3 @@
 #+title: web development
+#+ROAM_TAGS: programming javascript css html
 - tags :: [[file:20200928105602-programming.org][programming]], [[file:20200928105617-css.org][css]], [[file:20200928105650-javascript.org][javascript]]

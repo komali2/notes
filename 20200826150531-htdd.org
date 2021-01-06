@@ -1,1 +1,4 @@
 #+title: HtDD
+#+ROAM_TAGS: "computer science" data
+
+* Means "How to Design Data," mostly a concept from the comp sci class I took on edx.

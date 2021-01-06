@@ -1,4 +1,6 @@
 #+title: boa constructor
+#+ROAM_TAGS: programming
+
 - tags :: [[file:20200526214234-computer_science.org][computer science]]
 
 * A constructor that takes positional based arguments?
