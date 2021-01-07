@@ -1,4 +1,5 @@
 #+TITLE: khan academy pre algebra
+#+ROAM_TAGS: math algebra multiplication division
 
 - tags :: [[file:20200225193832_math.org][math]], [[file:20200324175939-algebra.org][algebra]], [[file:20200324175947-multiplication.org][multiplication]], [[file:20200324175951-division.org][division]]
 

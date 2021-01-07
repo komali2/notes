@@ -1,3 +1,4 @@
 #+title: white box testing
+#+ROAM_TAGS: "computer science" software testing qa
 
 - tags :: [[file:20200825185648-software.org][software]], [[file:20200825185643-testing.org][testing]], [[file:20200825185629-qa.org][qa]], [[file:20200526214234-computer_science.org][computer science]]
