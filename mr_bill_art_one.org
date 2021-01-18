@@ -1,0 +1,9 @@
+* opposite of arrangement page takes "clips"
+** session page
+* under settings turn off auto warp and auto fade
+* right arrow key to open channel
+* if you ctrl r rename a track, then hit tab, you'll move to rename nmext track
+* turn samples down if they're clipping
+** if you turn down at track level, you're not prevent clipping before it goes through your plugins
+* freeze then flatten to.. transform midi channel into audio? 
+** seems to show waveform anyway, that's fuckin lit
