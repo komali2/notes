@@ -7,3 +7,4 @@
 ** if you turn down at track level, you're not prevent clipping before it goes through your plugins
 * freeze then flatten to.. transform midi channel into audio? 
 ** seems to show waveform anyway, that's fuckin lit
+* ctrl + drag clip to drag without honoring grid

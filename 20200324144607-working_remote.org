@@ -1,1 +1,39 @@
 #+TITLE: working remote
+#+ROAM_TAGS: tax income "digital nomad" taiwan
+
+* forumos
+  https://tw.forumosa.com/t/working-remotely-for-us-company-from-taiwan-issues/196475
+** it's possible that as a contractor i need to register as a self employed
+*** but
+**** wut
+
+* IRS
+https://www.irs.gov/individuals/international-taxpayers/self-employment-tax-for-businesses-abroad
+**  "If you are a self-employed U.S. citizen or resident, the rules for paying self-employment tax are generally the same whether you are living in the United States or abroad."
+** Gotta pay [[file:20210125154734-self_employment_tax.org][self employment tax]]
+** well, at least i apparently get automatic 2 month extension on file date
+   https://www.irs.gov/individuals/international-taxpayers/taxpayers-living-abroad
+** there may be an opportunity to deduct housing
+   https://www.irs.gov/individuals/international-taxpayers/foreign-housing-exclusion-or-deduction
+** but they probably have to do social security witholding
+   https://www.irs.gov/individuals/international-taxpayers/wages-paid-to-us-citizens-and-resident-aliens-employed-abroad
+
+* Self employment
+** As a self-employed individual, generally you are required to
+*** file an annual return and
+*** pay estimated tax quarterly.
+** Self-employed individuals generally must pay self-employment tax (SE tax) as well as income tax.
+** You determine your self employment / income tax by deducting your business expenses from income
+   Let’s say you work self-employed abroad and qualify for the Foreign Earned Income Exclusion.
+   Your foreign earned income is $80,000 and your business deductions total $20,000, so your net profit is $60,000.
+   You don’t have to pay federal income tax because you can exclude all of your foreign income.
+   But you have to pay the 15.3% self-employment tax on all $60,000 of your net profit.
+   https://onlinetaxman.com/self-employed-abroad-7-things-expats-nomads-need-know-self-employment-tax-foreign-income/
+*** expenses less than income is net profit
+**** net profit becomes part of your income
+** TODO maybe can choose a business structure later:
+   https://www.irs.gov/businesses/small-businesses-self-employed/business-structures
+** Can possibly deduct home office stuff:
+ https://www.irs.gov/businesses/small-businesses-self-employed/home-office-deduction
+** 1099 vs w2
+   https://onlinetaxman.com/self-employed-abroad-7-things-expats-nomads-need-know-self-employment-tax-foreign-income/
