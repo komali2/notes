@@ -139,3 +139,28 @@ their relations to other boxes on the page.
 ** 2020-12 December
 
 *** 2020-12-24 Thursday
+
+* 2021
+
+** 2021-01 January
+
+*** 2021-01-26 Tuesday
+**** Stop saying censorship if it's not the government?
+    [[mu4e:msgid:c7a662c7-b3da-b2d1-a401-87b08028e2c9@craphound.com][[Plura-list] Stop saying "it's not censorship if it's not the government"; Trump's swamp gators find corporate refuge; and more!]]
+***** like imagine when John Birch Society burned rock records and novels
+***** or MPAA ratings
+****** scope "this film is not yet rated" for good intro on this
+       https://en.wikipedia.org/wiki/This_Film_Is_Not_Yet_Rated
+***** but don't impose speech duties on private platforms
+****** fairness doctrine leads to BBC hostsing anti vaxxers and climate deniers
+****** you can't improve the judgement of tech companies
+****** demanding army of moderators simply means nobody can challenge twitter google
+       because nobody can afford that many moderators
+***** instead
+****** block mergers
+****** unwind mergers
+        https://www.eff.org/deeplinks/2020/07/dont-believe-proven-liars-absolute-minimum-standard-prudence-merger-scrutiny
+******* fb/ig/wa
+******* google/yt/ad/doubleclick
+****** force interoperability
+       https://www.eff.org/deeplinks/2019/10/adversarial-interoperability
