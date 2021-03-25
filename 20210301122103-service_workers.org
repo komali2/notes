@@ -1,0 +1,39 @@
+#+title: service workers
+#+ROAM_TAGS: javascript "web development"
+
+
+* Service Worker API MDN
+  https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+** Proxy servers that sit between [[file:20210301123036-web_app.org][web apps]], [[file:20210301123042-browsers.org][browser]], and network
+*** intent:
+**** create offline experiences
+**** intercept [[file:20210301123052-network_requests.org][network requests]]
+**** update server-side assets
+**** allow access to [[file:20210301123101-push_notifications.org][push notifications]]
+**** allow access to background sync APIs
+** [[file:20210301123110-event_driven.org][event-driven]]
+** registered against an origin and a path
+** form: javascript file that can control site it's associated with
+** no [[file:20210301123123-dom.org][DOM]] access
+** runs on different [[file:20210301123135-processor_threads.org][thread]] than javascript app
+*** non-blocking
+** fully [[file:20210301123143-async.org][async]]
+*** synchronous [[file:20210301123151-xhr.org][XHR]] unavailable
+*** [[file:20210301122624-web_storage.org][web storage]] unavailable
+    https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+** runs over [[file:20210301123156-https.org][HTTPS]] only
+** can't be used in [[file:20210301123202-firefox.org][firefox]] private browsing mode
+** usage:
+*** ServiceWorkerContainer.register()
+*** if success, downloaded, attempts to install/activate
+*** updated when:
+**** navigation to an in-scope page occurs
+**** event fired on service worker and it hasn't been downloaded in 24 hrs
+** use cases:
+*** background data sync
+*** responding to resource requests from other origins
+*** receive centralized updates to expensive-to-calculate data
+*** clinet-side compiling and dependency management of [[file:20210301123215-coffeescript.org][coffeescript]], [[file:20210301123220-less_css.org][less]], CJS/AMD modules
+*** hooks for background services
+*** custom templating based on URL patterns
+*** performance enhancements
