@@ -1,0 +1,26 @@
+#+title: convert to npm package
+#+ROAM_TAGS: npm javascript node
+
+* Node docs
+  https://nodejs.org/api/packages.html#packages_package_entry_points
+** Need to use either main and exports, or just main
+   if do exports, all subpaths are encapsulated, and unavailable
+   unless explicitly defined I guess?
+   I guess you can get around this like with "./"
+   #+begin_src json
+     {
+       {
+       "main": "./main.js",
+       "exports": {
+         ".": "./main.js",
+         "./submodule": "./src/submodule.js"
+       }
+     }
+   #+end_src
+
+   #+begin_src javascript
+     import submodule from 'es-module-package/submodule';
+     // Loads ./node_modules/es-module-package/src/submodule.js
+     import submodule from 'es-module-package/private-module.js';
+     // Throws ERR_PACKAGE_PATH_NOT_EXPORTED
+   #+end_src

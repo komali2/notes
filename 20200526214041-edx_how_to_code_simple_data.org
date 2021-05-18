@@ -924,6 +924,9 @@ Code Body
 **** be able to design functions that consume and/or produce [[file:20200825190046-compound_data.org][compound data]]
 **** be able to design world programs that use compound world state
 ** define-struct
+   :LOGBOOK:
+   CLOCK: [2021-04-30 Fri 13:59]--[2021-04-30 Fri 14:05] =>  0:06
+   :END:
    A new mechanism from the BSL language allows us to build multi-part (or compound) values and later to
    deconstruct the compound values to get the individual values back.
 
@@ -933,7 +936,7 @@ Code Body
    enumeration
    itemization
 
-   In each of thewse cases, a single data value really consists of just one value
+   In each of these cases, a single data value really consists of just one value
    They were [[file:20200825190631-atomic_data.org][atomic]]
 
    We might want to represent xy position
@@ -1000,7 +1003,54 @@ Code Body
 ** HtDW With [[file:20200825190046-compound_data.org][Compound Data]]
 *** cow animation lol
 * Self-reference (7 lectures, 5-7 hours)
+  :LOGBOOK:
+  CLOCK: [2021-05-18 Tue 15:27]--[2021-05-18 Tue 15:41] =>  0:14
+  :END:
   Learn how to use well-formed self-referential data definitions to represent arbitrary sized data.
+  This lets us represent arbitrarily large amounts of information
+  Before, we could represent a single city name but not all cities in a tour
+** Arbitrary-sized information
+   information that we don't know the size of in advance
+** Learning goals
+*** Be able to use list mechanisms to construct and destruct lists
+*** identify problem domain information of arbitrary size that should be represented using lists and lists of structures
+*** use HtDD, HtDF, Data Drive Template recipes with such data
+*** explain what makes a self-referential data definition well formed
+*** identify whether a particular self-referential data definition is well formed
+*** able to design functions that consume and produce lists and lists of structures
+*** able to predict and identify the correspondence between self-references in a data definition and natural recursions in functions that operate on the data
+** Introduction to arbitrary sized data
+*** all previous data definitions were fixed-size
+** List Mechanisms
+*** How to represent arbitrary sized data
+**** Compound data
+     we'll get to this later
+**** Lists of values
+     the simplest way
+*** Syntax
+    #+begin_src lisp
+empty
+    #+end_src
+
+    Represents an empty list of any type of value
+
+    #+begin_src lisp
+(cons "Flames" empty)
+    #+end_src
+
+    A list with "Flames" on the front of an  empty list
+    a list of 1 element
+
+    #+begin_src lisp
+(cons "Leafs" (cons "Flames" empty))
+    #+end_src
+
+    List of two elements
+    Read as:
+      Construct a list in which leafs is the first element
+      add leafs to the front of
+        construct a list in which you add flames to the front of the list empty
+
 * Reference (3 lectures, 4-6 horus)
   Learn to predict and identify the correspondence between refercnes in a data definition and helper
 function calls in functions that operate on the data

@@ -164,3 +164,24 @@ their relations to other boxes on the page.
 ******* google/yt/ad/doubleclick
 ****** force interoperability
        https://www.eff.org/deeplinks/2019/10/adversarial-interoperability
+
+** 2021-04 April
+
+*** 2021-04-07 Wednesday
+**** Package something as NPM package
+***** creating and publishing private npm packages
+      https://docs.npmjs.com/creating-and-publishing-private-packages
+****** nevermind this is about using npm for private packages
+***** Using a local folder
+****** stackoverlow answer
+       https://stackoverflow.com/a/14387210/2590119
+#+begin_src json
+  {
+    {
+      "name": "baz",
+      "dependencies": {
+        "bar": "file:../foo/bar"
+      }
+    }
+  }
+#+end_src
