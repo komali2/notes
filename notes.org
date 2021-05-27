@@ -185,3 +185,16 @@ their relations to other boxes on the page.
     }
   }
 #+end_src
+
+** 2021-05 May
+
+*** 2021-05-19 Wednesday
+**** Doctorow on [[file:20210519152202-ransomware.org][ransomware]] email :ransomware:
+    [[mu4e:msgid:08b81dbd-f265-7db5-2adb-7b6a00c39737@craphound.com][[Plura-list] A simple, incomplete ransomware defense; Community Health Services sued its way through the pandemic; Apple's complicity in Chinese state oppression; What Would Open Source Look Like If It Were Healthy?]]
+***** all sorts of different ransomeware actors
+      like state sponsored, idiots, etc
+      makes me think of pirates in the old days, privateers etc
+      should read into that more and think about how that might apply today
+***** apparently you can install a russian keyboard to avoid ransomware lmao
+      because russian hackers don't want to accidentally pick up russian targets
+***** TODO install russian keyboards on all systems :life:

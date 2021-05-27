@@ -1,0 +1,56 @@
+#+title: yale linear regression
+#+ROAM_TAGS: math, statistics
+#+ROAM_KEY: http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm
+
+* [[file:20210527195023-linear_regression.org][Linear regression]]
+  attempts to model the relationship between two variables by
+  fitting [[file:20210527195050-linear_equation.org][linear equation]] to observed data.
+  One variable is an explanatory variable, and the other is a dependent variable
+** Example
+   Relate the weights of individuals to their heights
+** there should be a relationship between the variables of interest
+*** does not need to be a causal relation
+**** example
+     higher SAT scores do not cause higher college grades
+*** There must be significant association between the two variables
+*** [[file:20210527195359-scatterplots.org][scatterplots]] can help determine the strength of the relationship between the two variables
+**** must indicate increasing or decreasing trends
+*** correlation coefficient can help
+    This is a numerical measure of association between two variables.
+    It's value between -1 and 1 indicating the strength of the association of the observed
+    data for the two variables..
+** Equation
+   A linear regression line has an equation of the form
+   Y = a + bX
+
+   X is the explanatory variable
+   Y is the dependent variable
+   b is the slope of the line
+   a is the intercept (the value of y when x = 0)
+
+* Least-Squares regression
+** most common method for fitting a regression line
+** calculates the best-fitting line for the observed data
+   Does so by minimizing the sum of the squares of the vertical deviations from each data
+   point to the line.
+   If a point lies on the fitted line exactly, then its vertical deviation is 0.
+   Because deviatiosn are first squared and then summed, there are no cancellations between
+   positive and negative values.
+** Example
+*** Dataset: Televisions, Physicians, Life Expectancy
+    Contains, for 40 countries:
+      Number of people per television set
+      Number of people per physician
+
+    Both variables probably reflect the level of wealth in each country
+      Therefore, it's reasonable to assume that there is some positive
+      association between them.
+
+    Remove 8 countries with missing values from the dataset (why does this matter lol)
+    Remaining 32 countries have a correlation coefficient of 0.852 for number of people per
+    television set and number of people per physician.
+
+    The r^2 value is 0.726
+      This is the square of the correlation coefficient.
+      This indicates that 72.6% of the variation in one variable may be explained by the other
+        I guess this is explained in correlation: http://www.stat.yale.edu/Courses/1997-98/101/correl.htm

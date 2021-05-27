@@ -635,7 +635,6 @@ Code Body
             [(and (number? c) (<= 1 c) (<= c 10)) (text (number->string c) 24 "black")]
             [else (text "Happy New Year!!!" 24 "red")]))
 
-
 * How to Design Worlds (HtDW) Recipe (7 lectures, 3-5 hours)
   :PROPERTIES:
   :Effort:   3:00
@@ -914,7 +913,7 @@ Code Body
   CLOCK: [2020-08-26 Wed 14:59]--[2020-08-26 Wed 15:15] =>  0:16
   CLOCK: [2020-08-25 Tue 18:59]--[2020-08-25 Tue 19:08] =>  0:09
   :END:
-  Leanr how to use the HtDW recipe to design interactive programs with compound world state
+  Learn how to use the HtDW recipe to design interactive programs with compound world state
 ** Module overview
    Learn how to design [[file:20200825190046-compound_data.org][compound data]] definitions to represent information that consists of two or more
    naturally connected values, as well as how to use such data as world state in HtDW problems.
@@ -1002,8 +1001,9 @@ Code Body
        ;; Must work on all fields of the struct
 ** HtDW With [[file:20200825190046-compound_data.org][Compound Data]]
 *** cow animation lol
-* Self-reference (7 lectures, 5-7 hours)
+* Self-reference ( 7 lectures, 5-7 hours)
   :LOGBOOK:
+  CLOCK: [2021-05-26 Wed 14:12]--[2021-05-26 Wed 14:48] =>  0:36
   CLOCK: [2021-05-18 Tue 15:27]--[2021-05-18 Tue 15:41] =>  0:14
   :END:
   Learn how to use well-formed self-referential data definitions to represent arbitrary sized data.
@@ -1028,20 +1028,21 @@ Code Body
 **** Lists of values
      the simplest way
 *** Syntax
-    #+begin_src lisp
+**** Defining
+    #+begin_src racket
 empty
     #+end_src
 
     Represents an empty list of any type of value
 
-    #+begin_src lisp
+    #+begin_src racket
 (cons "Flames" empty)
     #+end_src
 
     A list with "Flames" on the front of an  empty list
     a list of 1 element
 
-    #+begin_src lisp
+    #+begin_src racket
 (cons "Leafs" (cons "Flames" empty))
     #+end_src
 
@@ -1051,6 +1052,111 @@ empty
       add leafs to the front of
         construct a list in which you add flames to the front of the list empty
 
+*** Accessing
+
+    #+begin_src racket
+
+            (define L1 (cons "Flames" empty))
+            (first L1)
+      ; first consumes a list with at least one element
+      ; and produces the first element of the list
+    #+end_src
+    first is kind of like a selector
+
+    rest produces the rest of the list
+
+    #+begin_src racket
+      (rest l1) ;empty
+      (define L2 (cons 10 (cons 9 (cons 10 empty))))
+      (rest L2)
+      ; (cons 9 (cons 10 empty))
+    #+end_src
+
+*** empty
+    #+begin_src racket
+      (empty? empty)
+                                              ;true
+      (empty? L1)
+                                              ;false
+    #+end_src
+    Empty bool checks if list is empty
+
+** List data definition
+*** Problem quidditch team
+    Imagine that you are desigining a program that will keep track of quidditch teams.
+    Design a data definition to represent alist of quidditch teams.
+
+    # Informaiton: #data:
+      UBC            "UBC"
+      McGill         "mcGil"
+      THMNBN        "THMNBM"
+
+      #+begin_src racket
+        (cons "UBC"
+              (cons "mcGil"
+                    empty))
+      #+end_src
+
+      Kind of a list of strings
+      Every element in the list is a string, so we'll call it ListOfString
+
+      Note that the above list is recursively a list of favorite teams
+      ubc, mcgil, empty
+      mcgil, empty
+      empty
+      All are valid against this data definition again
+      I guess that explains the wack ass syntax, tryna show off recursiveness. Interesting.
+
+      ;; ListOfString is one of:
+      ;; - empty
+      ;; - (cons String ListOfString)
+      ;; interp. a list of strings
+
+      Notice that this definition is a [[file:20210526142749-self_referential.org][self-reference]]
+
+      Examples:
+      #+begin_src racket
+        (define LOS1 empty)
+        (define LOS2 (cons "McGill" empty))
+        (define LOS3 (cons "ubc" (cons "mcgill" empty)))
+      #+end_src
+
+      is empty ListOfString? yes.
+
+      What about (cons "mcgill" empty)?
+      Well both it and the definition have a start and end paraentheses, so sure
+      and "mcgill" is a string so that's good
+      and empty is valid ListOfString so that's good
+      Oh, smart, nice. Hence the recursiveness.
+
+      This lets us have arbitrarily long lists
+
+      Template:
+
+      #+begin_src racket
+        (define (fn-for-los los)
+          (cond [(empty? los) (...)]
+                [else
+                 (... (first los) ;String
+                      (fn-for-los (rest los)))])) ;ListOfString
+      #+end_src
+
+      Remember that cons is compound data
+
+      ;; template rules used:
+      ;; - one of: 2 cases
+      ;; - atomic distinct: empty
+      ;; - compound: (cons String ListOfString)
+*** Discussion topic
+    The self-reference in the ListOfNatural type comment means that the type describes arbitrary-sized data.
+    The list can have 0 elements, 1, 2 … any number.
+    The idea that something can refer to itself may be surprising to you.
+    Have you seen anything like self reference before?
+    Where? (If you have programmed before, please do not use loops of any kind from other languages.)
+
+    Outside of programming? Maybe ethics? For example, what is "doing good?" Well it's when you do
+    stuff that makes you feel "good." Feeling good is when you do stuff that makes you... feel good!
+    That's an extreme oversimplification, but self reference is sprinkled throughout ethical philosophy.
 * Reference (3 lectures, 4-6 horus)
   Learn to predict and identify the correspondence between refercnes in a data definition and helper
 function calls in functions that operate on the data

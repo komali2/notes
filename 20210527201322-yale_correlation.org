@@ -1,0 +1,62 @@
+#+title: yale correlation
+#+ROAM_TAGS: math
+#+ROAM_KEY: http://www.stat.yale.edu/Courses/1997-98/101/correl.htm
+
+* [[file:20210527201341-correlation.org][Correlation]]
+** [[file:20210527201424-correlation_coefficient.org][correlation coefficient]]
+  The strength of the linear association between two variables.
+*** formula
+  Given a set of observations
+
+\begin{equation}
+(x_1, y_1), (x_2, y_2),...(x_n,y_n)
+\end{equation}
+
+  the formula for computing the correlation coefficient is given by
+
+  \begin{equation}
+r = 1 / n - 1 \sum (x - ^\complement{x} / s_x)(y - ^\complement{y} / s_y)
+  \end{equation}
+
+[[./correlationcoefficient.jpg]]
+
+  The correlation coefficient always takes a value between -1 and 1
+
+*** Perfect correlation
+    1 or -1 indicates perfect correlation
+    all points would lie along a straight line in this case
+*** [[file:20210527204721-positive_correlation.org][Positive correlation]]
+    A positive correlation indicates a positive association between the variables.
+    Increasing values in one variable correspond to increasing values in the other variable.
+*** [[file:20210527204717-negative_correlation.org][Negative correlation]]
+    indicates a negative association between the variables.
+    Increasing values in one variable corresponds to decreasing values in the other variable.
+*** Correlation close to 0 indicates no association between the variables
+*** The formula standardizes the variables
+    Since the formula for calculating the correlation coefficient standardizes the variables:
+    Changes in scale or units of measurement will not affect its value. (Wait, really? What lol)
+**** Thus, more useful than graphical depiction in determining strength of association between two variables
+* [[file:20210527201341-correlation.org][Correlation]] in [[file:20210527195023-linear_regression.org][Linear Regression]]
+  The square of the correlation coefficient, r^2, is a useful value in linear regression
+** square of the correlation coefficient r^2
+   Represents the fraction of the variation in one variable that may be explained by the other variable.
+   If a correlation of 0.8 is observed between two variables (like height and weight), then a
+   linear regression model attempting to explain either variable in terms of the other variable
+   will account for 64% of the variability in the data.
+
+   I don't understand that literally at all. Need to find examples.
+** Relation to regression line
+   Correlation Coefficient also relates directly to the [[file:20210527205331-regression_line.org][regression line]] Y = a + bX for any two variables
+   where
+
+\begin{equation}
+   b = r(s_y / s_x)
+\end{equation}
+
+[[./regressionline.gif]]
+
+  Because the least-squares regression line will always pass through the means of x and y,
+  the regression line may be entirely described by the [[file:20210527205804-mean.org][means]], [[file:20200312204550-standard_deviation.org][standard deviations]], and
+  [[file:20210527201341-correlation.org][correlation]] of the two variables under investigation.
+* Further reading
+ it's a fokken broken LINK bruh
