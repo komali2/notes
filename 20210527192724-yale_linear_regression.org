@@ -1,8 +1,8 @@
 #+title: yale linear regression
-#+ROAM_TAGS: math, statistics
+#+ROAM_TAGS: math statistics
 #+ROAM_KEY: http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm
 
-* [[file:20210527195023-linear_regression.org][Linear regression]]
+* [[file:20210611165147-linear_regression.org][Linear regression]]
   attempts to model the relationship between two variables by
   fitting [[file:20210527195050-linear_equation.org][linear equation]] to observed data.
   One variable is an explanatory variable, and the other is a dependent variable
@@ -54,3 +54,76 @@
       This is the square of the correlation coefficient.
       This indicates that 72.6% of the variation in one variable may be explained by the other
         I guess this is explained in correlation: http://www.stat.yale.edu/Courses/1997-98/101/correl.htm
+      Taking the number of people per television as the explanatory variable,
+      and the number of people per physician as the dependent variable:
+        Use the MINITAB "REGRESS" command:
+          The regression equation is People.Phys. = 1019 + 56.2 People.Tel.
+**** plotting
+     You can view the fit of the model to the observed data
+     Plot the computed regression line over the actual data points to evaluate the results
+     See below,
+       x: explanatory variable: number of individuals per television set
+       y: dependent variable: number of individuals per physician
+
+       Most of the data points are clustered on the lower left corner of the screen
+         This indicates relatively few individual per television set and per physician
+
+       There are a few points which lie far away from the main cluster of the data.
+         These are called [[file:20210528140606-outliers.org][outliers]]
+         Depending on their location may have a major impact on the regression line.
+
+       [[./leastsquaresregressionline.gif]]
+
+* [[file:20210528140606-outliers.org][Outliers]] and [[file:20210528140839-influential_observations.org][Influential Observations]]
+  A point which lies far from the line and has a large residual value is known as an outlier.
+  You see this after you compute a regression line.
+
+** Potential causes
+*** Erroneous data
+*** Poorly fitting regression line
+** [[file:20210528140839-influential_observations.org][Influential Observation]]
+   When a point lies far from other data in the horizontal direction.
+   Such points may have a significant impact on the [[file:20210602150349-slope.org][slope]] of the [[file:20210527205331-regression_line.org][regression line]].
+
+   In the above example, there is an influential observation.
+   If it's removed, the equation becomes
+
+\begin{equation}
+People.Phys = 1650 + 21.3 People.Tel.
+\end{equation}
+
+  And I guess looks like this:
+
+[[./lsline2.gif]]
+
+  The correlation between the two variables has dropped to .0427
+  Thus the r^2 value is reduced to 0.182
+  Thus, less than 20% of the variation in number of people per physicians may be explained by
+  the number of people per TV.
+  Note that there are still influential observations in the new model. Their investigation should be investigated.
+
+* [[file:20210602160647-residuals.org][Residuals]]
+  Residuals are deviations from the fitted line to the observed values
+** Examining residuals allows modeler to investigate the validity of the assumption that a linear relationship exists
+   Plotting the residuals on the y-axis against the explanatory variable on the x-axis reveals any possible non-linear relatioship
+   among the variables
+   Or it might indicate [[file:20210602160826-lurking_variables.org][lurking variables]]
+   See below, a residual plot amplifies the presence of outliers
+  [[./lsresid.gif]]
+
+** [[file:20210602160826-lurking_variables.org][Lurking Variables]]
+   A third variable, not included in the modeling effort,
+   that significantly affects the relationship between two variables
+   Worth considering as relevant if non-linear trends are visible in the relationship between an explanatory
+   and dependent variable.
+
+*** May be a factor of time
+    FOr example, the effect of political or economic cycles
+**** Thus a [[file:20210602161127-time_series_plot.org][time series plot]] of the data is useful in identifying the presence of [[file:20210602160826-lurking_variables.org][lurking variables]]
+
+* [[file:20210602161145-extrapolation.org][Extrapolation]]
+  is when Attempting to use a regression equation to predict values outside the range of the data,
+  which is inappropriate and may yield "incredible" answers.
+  Consider a linear model which relates weight gain to age for young children.
+    Applying such a model to adults would be absurd, because the relationship between
+    age and weight gain is not consistent for all age groups.

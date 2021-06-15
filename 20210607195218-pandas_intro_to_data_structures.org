@@ -1,0 +1,55 @@
+#+title: pandas intro to data structures
+#+ROAM_TAGS: pandas "data structures"
+#+ROAM_KEY: https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html
+
+* Overview of fundamental data structures
+** Data alignment is intrinsic
+   the link between labels and data will not be broken unless done so explicitly by me
+** import NumPy and load pandas into namespace
+
+#+begin_src python
+    import numpy as np
+    import pandas as pd
+#+end_src
+** Series
+   a one dimensional labeled array capable of holding any data types
+   (integers, strings, floating point numbers, Python objects, etc)
+   Axis labels collectively referred to as the index
+*** Basic method to create a Series is to call as follows:
+
+#+begin_src python
+  s = pd.Series(data, index=index)
+#+end_src
+
+Where `data` can be one of many things, such as
+- a Python dict
+- an ndarray
+- a [[file:20210607195919-scalar.org][scalar]] value (like 5)
+
+Where the passed `index` is a list of axis labels.
+
+index Separates into a few cases depending on what data is
+**** if data is an [[file:20210607200014-ndarray.org][ndarray]]
+     if data is an ndarray, index must be the same length as data
+     if no index is passed, one will be created that has values:
+     `[0, ..., len(data) - 1]`
+
+#+begin_src python
+    s = pd.Series(np.random.randn(5), index=["a", "b", "c" , "d", "e"])
+    print(s)
+    # a 0.469112
+    # b   -0.282863
+    # c   -1.509059
+    # d   -1.135632
+    # e    1.212112
+    # dtype: float64
+    print(s.index)
+    # Index(['a', 'b', 'c', 'd', 'e'], dtype='object')
+    print(pd.Series(np.random.randn(5))
+    # 0   -0.173215
+    # 1    0.119209
+    # 2   -1.044236
+    # 3   -0.861849
+    # 4   -2.104569
+    # dtype: float64
+#+end_src

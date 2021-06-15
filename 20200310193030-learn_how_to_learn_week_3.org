@@ -14,7 +14,7 @@
 *** we [[file:20200311211408-focus.org][focus]] instead on a more pleasant thing
 **** thus feel happy temporarily
 ** but putting off studies can be more painful in the long term
-** keystone bad [[file:20200311211242-habit.org][habit]]
+** keystone bad
 *** habit that influences many other parts of your life
 *** so fix it, and get many more better changes
 ** shares features with [[file:20200311211351-addiction.org][addiction]]
@@ -22,14 +22,14 @@
 *** start to tell yourself stories
 *** devise irrational excuses
 *** may tell yourself that [[file:20200225193201_procrastination.org][procrastination]] is innate and unchangeable
-** mastering [[file:20200311211242-habit.org][habits]] important to defeating [[file:20200225193201_procrastination.org][procrastination]], overcoming unthinking zombies - habits
+** mastering [[file:20200311211325-habits.org][habits]] important to defeating [[file:20200225193201_procrastination.org][procrastination]], overcoming unthinking zombies - habits
 ** strategies for defeating are simple
 ** riding a bike or backing out driveway difficult at first
 *** influx of information is huge
 *** eventually, you get used to it, and your brain goes zombie mode, only paying attention to the necessary data
-** [[file:20200311211242-habit.org][habit]] is an energy saving force
+** [[file:20200311211325-habits.org][habits]] is an energy saving force
 *** you don't have to think while you're performing the habit, thus saves energy
-* [[file:20200311211242-habit.org][habit]]
+* [[file:20200311211325-habits.org][habits]]
 ** has several parts
 *** [[file:20200315131149-habit_cue.org][the cue]]
 **** trigger that launches yo uinto "zombie mode"
@@ -46,7 +46,7 @@
 **** could be useful or harmful
 *** the reward
 **** habits develop and continue because they reward us in some way
-**** [[file:20200225193201_procrastination.org][procrastination]] is an easy [[file:20200311211242-habit.org][habit]] to develop because the reward happens so quickly and easily
+**** [[file:20200225193201_procrastination.org][procrastination]] is an easy [[file:20200311211325-habits.org][habits]] to develop because the reward happens so quickly and easily
 **** finding ways to reward good [[file:20200308141953_studying.org][study]] habits is important for escaping procrastination
 **** think about why you're procrastinating
 ***** can you supplement the good feelings of not having to do the hard work into something else?
@@ -55,7 +55,7 @@
 ****** this can cause rewiring
 ****** setting a reward at a certain time can spur work with a mini-deadline
 *** the [[file:20200309182745_belief.org][belief]]
-**** [[file:20200311211242-habit.org][habits]] have power because of your belief
+**** [[file:20200311211325-habits.org][habits]] have power because of your belief
 **** to change your habit you have to change your underlying belief
 **** you have to believe you can change your procrastionation habit
 ***** or you'll fall into older, easier belif

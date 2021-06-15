@@ -1,0 +1,157 @@
+#+title: how to do machine learning 2020 hackernews
+#+ROAM_TAGS: "machine learning" "deep learning" ai
+#+ROAM_KEY: https://news.ycombinator.com/item?id=21924298
+
+* ML engineer perspective
+  https://news.ycombinator.com/item?id=21930309
+
+** do [[file:20210611163826-andrew_ng.org][andrew ng]]'s class on [[file:20210611163830-coursera.org][coursera]]
+   https://www.coursera.org/learn/machine-learning
+
+*** need [[file:20210611163812-calculus.org][calculus]]:
+**** [[file:20210611163816-single_variable_derivatives.org][single variable derivatives]]
+**** [[file:20210611163821-partial_derivatives.org][partial derivatives]]
+*** need [[file:20210611163911-linear_algebra.org][linear algebra]]
+**** [[file:20210611163907-matrix_multiplication.org][matrix multiplication]]
+*** took him about 30 hours, thinks can get done in 2-3 weeks
+*** most ML engineers he met don't have theory like:
+   multivariable calculus
+   statistics
+   linear algebra
+
+* Random shit people recommend
+** kaggle
+   "and looking through the competitions for ones vaguely similar to yours. They've done all the hard work of choosing a challenging but solvable problem, sourcing and splitting the data, and choosing a metric. You then can see what techniques actually work really well, and benchmark different approaches. "
+** imagenet
+** coco
+** learn about automated differentiation
+   and how "gradients flow backwards through the network"
+** learn about gradient descent
+** https://www.tensorflow.org/tutorials/generative/cyclegan
+   related to gradient descent
+   "just click run in google colab and start evaluating code blocks"
+** Learn basic statistics
+   dude says 99% of the stuff can be done with basic staticis
+   and you can do the "for dummy" versions that various disciplines use
+*** biology basis stats
+    to learn about compare, so you can A/B test
+*** psychology factor analysis
+    to know PCA, to learn dimension reduction
+*** econometrics basic regression
+    to know [[file:20210611165147-linear_regression.org][linear regression]]
+
+** [[file:20210611163826-andrew_ng.org][andrew ng]]'s class
+   on coursera
+*** good for [[file:20210611170306-machine_learning.org][machine learning]]
+** [[file:20210611170317-geoffrey_hinton.org][Geoffrey Hinton]]'s class
+   on coursera
+*** good for [[file:20210611170257-neural_network.org][neural networks]]
+** [[file:20210611170410-michael_neilsen.org][Michael Neilsen]]'s online essay on deep learning
+   http://neuralnetworksanddeeplearning.com/
+** fast.ai
+   hella people recommend this, but also tons of people are like waah this is just seo
+   also some people describe it as copy/pasting copy/pasted code
+   some say it's a "good intro on practical neural networks"
+*** "begin with practical deep learning for coders" and then "advanced deep learning for coders
+*** one person says pair this with one of the classic books
+    either elements statistical learning or machine learning: a probabilistic perspective
+** mlcourse ai
+   https:/mlcourse.ai/
+*** "kraggle focused"
+*** modern and has interesting projects
+** coursera's deep-learning specialization
+   https://www.coursera.org/specializations/deep-learning
+** [[file:20210611170708-scott_young.org][Scott Young]]'s Ultralearning
+   some sort of [[file:20200224205504_learning.org][learning]] resource i guess
+*** [[file:20210611170830-self_improvement.org][self improvement]]
+** [[file:20210611170751-azeria.org][Azeria]]'s self improvement posts
+   https://azeria-labs.com/the-importance-of-deep-work-the-30-hour-method-for-learning-a-new-skill/
+*** [[file:20210611170826-self_improvement.org][self improvement]] and [[file:20200224205504_learning.org][learning]]
+** [[file:20210611170921-mit.org][MIT]]: Big Picture of [[file:20210611163812-calculus.org][Calculus]]
+   free
+** Harvard: [[file:20200312204711-statistics.org][Stats]] 110
+   free
+** MIT: [[file:20210611171032-matrix_methods.org][Matrix Methods]] in [[file:20210611171028-data_analysis.org][Data Analysis]], [[file:20210611171023-signal_processing.org][Signal Processing]], and [[file:20210611170306-machine_learning.org][Machine Learning]]
+** Khan Academy
+*** precalculus
+*** linear algebra
+*** calculus
+** Foundations of Data Science by Blum
+** Elements of Statistical Learning
+   But this is hella hard and grad level so instead do:
+** Introduction to Statistical Learning
+   with free companion course on stanford's website
+   by hastie et all maybe?
+   recommended by someone else alongside Max Kuhn's APplied Predictive MOdelling
+   damn hella people recommending this
+   i'm liking the idea of this alongside fast.ai maybe
+** Machine Learning: A probabilistic perspective by Murphy
+   also vouched for by others, called "a classic"
+   https://www.cs.ubc.ca/~murphyk/MLbook/
+** Hands-On Machine Learning with Scikit-Learn and Tensorflow
+   but get the second edition which covers tensorflow 2
+** Applied Predictive modelling by [[file:20210611171802-max_kuhn.org][Max Kuhn]]
+* Another data scientist / machine learning engineer here to tear shit up
+  https://news.ycombinator.com/user?id=StClaire
+  https://news.ycombinator.com/item?id=21926560
+** recommends learning theory and practice in lockstep
+** didn't like fast ai cause it just wrapped pytorch
+** order of operations:
+*** get solid in [[file:20210611163911-linear_algebra.org][linear algebra]]
+    a lot of machine learning can be formulated in terms of a series of [[file:20210614103729-matrix_operations.org][matrix operations]]
+    "Coding the Matrix" pretty good, first few chapters
+*** read up on basic [[file:20210607151516-optimization.org][optimization]]
+    most of the time makes sense to formulate algorithm in terms of [[file:20210607151516-optimization.org][optimization]]
+    usually want to minimize some [[file:20210614103715-loss_function.org][loss functions]]
+    regularization terms though make things tricky
+    also helpful to learn why you would [[file:20210614103659-regularize.org][regularize]]
+*** learn probability
+    the more the better when it comes to running simulations
+    jaynes has a good non-elementary book
+*** learn statistical distributions
+**** gaussian
+**** poisson
+**** exponential
+**** beta
+*** play with linear regression and its varients
+    for tabular data, an appropriate regression is better to do before doing something more complicated
+    it's straightforward and fast
+    lets you see what's happening with data
+      where data is missing
+      what transformations you should perform
+    interpretable
+**** polynomial
+**** lasso
+**** logistic
+*** tree based models
+    more straightforward and forgiving than neural networks
+    explore how the complexity of models affects predictions
+    get a feeling for hyper-parameter optimization
+**** start with basic trees
+     in [[file:20210614104329-scikit_learn.org][scikit-learn]]
+**** then, random forests
+**** then explore gradient boosted trees with [[file:20210614104320-xgboost.org][XGBoost]]
+     neural networks rarely outperform models built in XGBoost on tabular data
+** [[file:20210614104501-hands_on_machine_learning.org][Hands-On Machine Learning]] by Geron
+** wide world of neural networks
+*** [[file:20210614104554-keras.org][keras]]
+*** [[file:20210614104537-pytorch.org][PyTorch]]
+    attack object classification problems with, and without, pre-trained backends
+    get into detection and NLP
+    play with weight regularization
+    [[file:20210614104810-batch_norm.org][batch norm]]
+    [[file:20210614104813-group_norm.org][group norm]]
+    different learning rates
+    or get into hella deep [[file:20210614104802-cuda.org][CUDA]]
+** [[file:20210614104751-deep_learning_with_python_by_francois_chollet.org][Deep Learning with Python by Chollet]]
+* Also 2019 hackernews
+  https://news.ycombinator.com/item?id=18996481
+** calctech "Learning from Data"
+   https://work.caltech.edu/telecourse.html
+   Makes "tricky concepts seem trivial"
+** Google ML Crash course
+https://developers.google.com/machine-learning/crash-course/
+** Facebook field guide to machine learning
+   https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/
+** Training on machine learning with AWS
+   https://aws.amazon.com/training/learn-about/machine-learning/

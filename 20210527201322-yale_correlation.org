@@ -36,7 +36,7 @@ r = 1 / n - 1 \sum (x - ^\complement{x} / s_x)(y - ^\complement{y} / s_y)
     Since the formula for calculating the correlation coefficient standardizes the variables:
     Changes in scale or units of measurement will not affect its value. (Wait, really? What lol)
 **** Thus, more useful than graphical depiction in determining strength of association between two variables
-* [[file:20210527201341-correlation.org][Correlation]] in [[file:20210527195023-linear_regression.org][Linear Regression]]
+* [[file:20210527201341-correlation.org][Correlation]] in [[file:20210611165147-linear_regression.org][linear regression]]
   The square of the correlation coefficient, r^2, is a useful value in linear regression
 ** square of the correlation coefficient r^2
    Represents the fraction of the variation in one variable that may be explained by the other variable.
@@ -60,3 +60,5 @@ r = 1 / n - 1 \sum (x - ^\complement{x} / s_x)(y - ^\complement{y} / s_y)
   [[file:20210527201341-correlation.org][correlation]] of the two variables under investigation.
 * Further reading
  it's a fokken broken LINK bruh
+ oh nvm got the new one:
+** https://dasl.datadescription.com/datafiles/?_sfm_methods=Correlation&_sfm_cases=4+59943

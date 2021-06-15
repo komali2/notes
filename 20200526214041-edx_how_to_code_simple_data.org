@@ -1,6 +1,6 @@
 #+TITLE: EDX How to Code: Simple Data
 #+ROAM_KEY: https://www.edx.org/course/how-to-code-simple-data
-#+ROAM_TAGS: "computer science" data functions
+#+ROAM_TAGS: "computer science" data functions "curriculum"
 
 - tags :: [[file:20200526214234-computer_science.org][computer science]], [[file:20200805181814-data_types.org][data types]],
 
@@ -1168,3 +1168,4 @@ using this new data definition
 * Binary Search Trees (6 lectures, 5-6 hours)
   Design a data definition for Binary Search Trees, and learn to write functions operating
 on BSTs
+yeas

@@ -1,0 +1,10 @@
+#+title: modular robotics
+#+ROAM_TAGS: robotics
+
+* modrobotics.com
+** Talkin about cubelets
+
+* Wikipedia
+  https://en.wikipedia.org/wiki/Self-reconfiguring_modular_robot
+
+** damn this shit hella interesting tho

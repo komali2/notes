@@ -22,3 +22,28 @@
 *** [[file:20200324175916-khan_academy_pre_algebra.org][Khan Academy pre algebra]]
 * Books
 ** [[file:20201005211802-structure_and_interpretation_of_computer_programs.org][Structure and Interpretation of Computer Programs]]
+* AI
+** fast.ai
+** Hands-On Machine Learning with Scikit-Learn, Kears, and TensorFLow
+   https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/
+** Introduction to Statistical Learning by Gareth M James
+** Probabilistic Programming & Bayesian Methods for Hackers
+   https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
+** Machine Learning: A probabilistic perspective
+   ah this book has been updated and split in two, so
+*** “Probabilistic Machine Learning: An Introduction”,
+** archived
+*** Nvidia deep learning institute
+**** Nvidia getting started with deep learning
+***** getting started with deep learning
+****** [[file:20210607195218-pandas_intro_to_data_structures.org::+ROAM_TAGS: pandas "data structures"][pandas intro to data structures]]
+****** [[file:20210527192724-yale_linear_regression.org::+title: yale linear regression][yale linear regression]]
+*** MIT micromasters statitsics and data science
+**** machine learning with python:
+ https://www.edx.org/course/machine-learning-with-python-from-linear-models-to
+**** probability
+     https://www.edx.org/course/probability-the-science-of-uncertainty-and-data
+**** first though need
+***** calculus
+*** Intro to tensorflow for deep learning
+   https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187

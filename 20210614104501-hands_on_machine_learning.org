@@ -1,0 +1,36 @@
+#+title: Hands-On Machine Learning
+#+ROAM_KEY: Hands-On Machine Learning with Scikit-Learn, Keras, & TensorFlow by Aurelien Geron
+#+ROAM_TAGS: "machine learning" scikit-learn keras tensorflow "computer science"
+
+* Preface
+  Assumption: I know nothing about Machine Learning
+  Book will give me concepts, tools, and intuition necessary to implement programs capable of learning from data.
+** frameworks used
+*** Scikit-learn
+    easy to use
+    implements many Machine Learning algorithms efficiently
+    good entry point
+*** TensorFlow
+    Complex library
+    Distributed numerical computation
+    Train and run very large neural networks efficiently
+      Does so by distributing the computations across 100s of multi-GPU servers
+    Created at google
+    open sourced in november 2015
+*** Keras
+    High level deep learning API
+    Can run on top of
+      TensorFlow
+      Theano
+      Microsoft Cognitive Toolkit (CNTK)
+**** tensorflow comes with implementation of kears api
+     tf.keras
+     provides support for advanced tensorflow features - efficiently load data
+** Code examples available as jupyter notebooks
+   https://github.com/ageron/handson-ml2.
+** Prerequisites
+*** numPy, pandas, matplotlib
+*** calculus
+*** linear algebra
+*** probabilities
+*** statistics

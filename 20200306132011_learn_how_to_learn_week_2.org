@@ -16,7 +16,7 @@
 **** often the solution is right there, you just gotta figure out how to put them together
 **** but you have to understand *why*, not just blindly follow directions
 ** how to chunk
-1. [[file:20200308144013_focus.org][focused]] [[file:20200308143941_attention.org][attention]]
+1.  [[file:20200308143941_attention.org][attention]]
 2. [[file:20200308143926_understanding.org][understanding]]
 3. [[file:20200225193908_practice.org][practice]]
 *** put your undivided [[file:20200308143941_attention.org][attention]] on the information you want to chunk
@@ -201,3 +201,40 @@
 **** most difficult problems solved by [[file:20200308181852_intuition.org][intuition]]
 **** semi-random
 **** solutions should be verified carefully using [[file:20200225194129_focused_thinking.org][focused mode]]
+* Anki
+** chunks forward
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_TAGS: org learn
+   :ANKI_NOTE_ID: 1623679766762
+   :END:
+*** Front
+    What's a chunk?
+*** Back
+    compact packages of information that your mind can easily access
+** chunks back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_TAGS: org learn
+   :ANKI_NOTE_ID: 1623679766863
+   :END:
+*** Front
+    compact packages of information that your mind can easily access are known as what in the field of memory?
+*** Back
+    chunk
+
+** steps to chunk forward
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_TAGS: org learn
+   :ANKI_NOTE_ID: 1623679766963
+   :END:
+*** Front
+    What are the steps to creating a chunk?
+*** Back
+1. [[file:20200308143941_attention.org][attention]]
+2. [[file:20200308143926_understanding.org][understanding]]
+3. [[file:20200225193908_practice.org][practice]]
