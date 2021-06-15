@@ -20,6 +20,8 @@
 **** Effort: 4-8 hours /week
 * Math
 *** [[file:20200324175916-khan_academy_pre_algebra.org][Khan Academy pre algebra]]
+*** Khan Academy Precalculus
+*** Khan Academy Calculus
 * Books
 ** [[file:20201005211802-structure_and_interpretation_of_computer_programs.org][Structure and Interpretation of Computer Programs]]
 * AI
