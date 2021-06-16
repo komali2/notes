@@ -34,3 +34,129 @@
 *** linear algebra
 *** probabilities
 *** statistics
+** Recommended introductory books for machine learning
+*** [[file:20210615183925-data_science_from_scratch_by_joel_grus.org][Data Science from Scratch by Joel Grus]]
+    pure python implementations, from scratch
+*** [[file:20210615183950-machine_learning_an_algorithmic_perspective_by_chapman_and_hall.org][Machine Learning: An Algorithmic Perspective by Chapman and Hall]]
+    wide intro of topics from scratch, but using numpy
+*** [[file:20210615184030-python_machine_learning_by_sebastian_raschka.org][Python Machine Learning by Sebastian Raschka]]
+    uses python open source libraries [[file:20210615184052-pylearn2.org][pylearn2]] and [[file:20210615184044-theano.org][theano]]
+*** [[file:20210614104751-deep_learning_with_python_by_francois_chollet.org][Deep Learning with Python by Francois Chollet]]
+    practical
+    covers large range of topics
+    concise
+    by the author of the keras library
+    favors code examples over math theory
+*** [[file:20210615184201-the_hundred_page_machine_learning_book_by_andriy_burkov.org][The Hundred-Page Machine Learning BOok by Andriy Burkov]]
+    very short
+    big range
+    approachable
+*** [[file:20210615184228-learning_from_data_by_yaser_s_abu_mostafa_et_al.org][Learning from Data by Yaser S. Abu-Mostafa et al]]
+    theoretical
+*** [[file:20210615184300-artificial_intelligence_a_modern_approach_3rd_ed_by_stuart_russell_and_peter_norvig.org][Artificial Intelligence: A Modern Approach, 3rd ed by Stuart Russell and Peter Norvig]]
+    huge
+*** [[file:20210615184320-kaggle.org][kaggle]].com
+* Part I The Fundamentals of Machine Learning
+** Chapter 1. The Machine Learning Landscape
+#+LOCATION: 21
+   Spam filter first mainstream ML application
+     back in the 90s
+*** What is Machine Learning?
+    Science and art of programming computers so that they can learn from data
+
+    Field of study that gives computers the ability to learn without being explicitly programmed
+      -- [[file:20210615190411-arthur_samuel.org][Arthur Samuel]], 1959
+
+    A computer program is said to learn from experience E with respect to
+    some task T and some performance measure P, if its performance on T,
+    as measured by P, improves with experience E.
+      — [[file:20210615190527-tom_mitchell.org][Tom Mitchell]], 1997
+**** spam filter example
+     Spam filter uses examples of spam emails (flagged by users) plus examples of regular emails to learn to flag spam
+     The examples the system uses to learn are called the [[file:20210615190626-training_set.org][training set]]
+     Each singular example is called a [[file:20210615190822-training_instance.org][training instance]] or [[file:20210615190826-training_sample.org][training sample]]
+
+     Using above quote,
+       Task T: flag spam for new emails
+       experience E: is the training data
+       performance measure P: needs to be defined
+         could use ratio of correctly classified emails
+           this is also known as accuracy
+             often used in classification tasks
+**** Training set
+     examples that a machine learning system uses to learn
+***** Training sample or training instance
+      a singular of a training example
+*** Why use Machine Learning?
+#+LOCATION: 23
+**** How would you make a spam filter with traditional programming?
+     1. Consider what spam normally looks like. Look for words, phrases like "4u" or "free"
+     2. write a detection algorithm for each pattern, flagging emails as spam if some number of patterns were detected
+     3. test and repeat steps 1 and 2 until good enough to launch
+
+     Will likely become a long list of hard to maintain rules
+***** Machine learning example better:
+      automatically learns which words and phrases are good predictors of spam by detecting unusually frequent patterns of words in the spam examples compared to the ham examples
+      Shorter program
+      easier to maintain
+      probably more accurate
+***** for example, if the data changes:
+      If spammers noticed "4u" is blocked and change to "for u"
+      The traditional spam filter would need to be updated
+      You'll have to keep writing new rules forever
+* Anki
+** what is ML
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+*** Front
+    What is Machine Learning?
+*** Back
+
+    Science and art of programming computers so that they can learn from data
+    Field of study that gives computers the ability to learn without being explicitly programmed
+      -- [[file:20210615190411-arthur_samuel.org][Arthur Samuel]], 1959
+
+    A computer program is said to learn from experience E with respect to
+    some task T and some performance measure P, if its performance on T,
+    as measured by P, improves with experience E.
+      — [[file:20210615190527-tom_mitchell.org][Tom Mitchell]], 1997
+** Training set
+*** training set forward
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+**** Front
+     What is a training set in Machine Learning?
+**** Back
+     examples that a machine learning system uses to learn
+*** training set back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+**** Front
+     What do you call examples that a machine learning system uses to learn?
+**** Back
+     a Training Set
+*** accuracy forward
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+**** Front
+     What is accuracy in a Machine Learning program?
+**** Back
+     Performance measurement indicating ratio of correct classification vs incorrect ones
+
+*** accuracy back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+**** Front
+     What is a performance measurement indicating ratio of correct classification vs incorrect ones called in machine learning?
+**** Back
+     Accuracy

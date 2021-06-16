@@ -1,0 +1,215 @@
+#+title: google cloud pub sub
+#+ROAM_TAGS: web
+#+ROAM_KEY: https://cloud.google.com/pubsub/docs/overview
+
+* [[file:20210616161237-pub_sub.org][pub/sub]]
+  asynchronous messaging service that decoubles services that produce events from services that process events
+** Usage
+   messaging-oriented middleware
+   event ingestion and delivery
+** Core concepts
+*** Topic
+    A named resource to which messages are sent by publishers
+*** Subscription
+    named resource representing the stream of messages from a single, specific topic
+    to be delivered to subscribing application
+*** Message
+    Combination of data and attributes that a publisher sends to a topic
+      eventually delivered to subscribers
+*** Message attribute
+    key-value pair that a publisher can define for a message
+    example:
+      key = iana.org/language_tag
+      value = en
+      added to messages to mark them as readable by english-speaking subscriber
+** publisher-subscriber relationshipos
+   A publisher application creates and sends messages to a topic
+   Subscriber applications create a subscription to a topic in order to receive messages from that topic
+*** one-to-many
+    fan-out
+
+             Publisher C
+                  ↓
+               Message 3
+                  ↓
+              Topic C
+           ↓              ↓
+   Subscription YC  Subscription ZC
+         ↓              ↓
+    Message 3         Message 3
+         ↓              ↓
+    Subscriber Y    Subscriber Z
+
+*** many-to-one
+
+    fan-in
+
+    Publisher A     Publisher B
+         ↓              ↓
+      Message 1      Message 2
+         ↓              ↓
+     Topic A         Topic B
+         ↓              ↓
+   Subscription XA  Subscription XB
+         ↓              ↓
+    Message 1         Message 2
+         ↳  Subscriber X   ↲
+
+*** many-to-many
+** [[file:20210616161237-pub_sub.org][Pub/Sub]] message flow
+
+1. Publisher application creates a topic in the pub/sub service. Sends messages to the topic. Message contains payload and optional attributes that describe payload content
+2. Service ensures that published messages are retained, until acknowledged by a subscriber.
+3. Pub/Sub forwards messages from a topic to all subscriptions individually
+4. Subscriber can receive messages from publisher *pushing* to subscriber endpoint, or by subscriber *pulling* from source
+5. Subscriber sends acknowledgement to pub/sub service for each received message
+6. Service removes acknowledged messages from the subscription's message queue
+
+
+                    Publisher
+                        ↓
+                  ① Message
+                        ↓
+                      Topic →  ②  Message Storage
+                        ↓
+                  ③ Subscription  ←  ↰
+                        ↓            ↑
+                  ④ Message        ⑤ Ack
+                        ↓            ↑
+                    👪 Subscriber →  ⬏
+
+* anki
+** pubsub front
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833612206
+   :END:
+
+*** Front
+  What is Pub/Sub?
+*** Back
+  asynchronous messaging service that decoubles services that produce events from services that process events
+
+** pubsub back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833612311
+   :END:
+
+*** Front
+  What is an asynchronous messaging service that decoubles services that produce events from services that process events?
+*** Back
+  Pub/Sub
+** topic front
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833644837
+   :END:
+
+*** Front
+    In a pub/sub model, what is a Topic?
+*** Back
+    A named resource to which messages are sent by publishers
+
+** topic back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833644936
+   :END:
+
+*** Front
+    In a pub/sub model, what is a named resource to which messages are sent by publishers?
+*** Back
+    a Topic
+
+** Subscription front
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645036
+   :END:
+
+*** Front
+    In a pub/sub model, what is a Subscription?
+*** Back
+    named resource representing the stream of messages from a single, specific topic
+    to be delivered to subscribing application
+
+** Subscription back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645136
+   :END:
+
+*** Front
+    In a pub/sub model, what isnamed resource representing the stream of messages from a single, specific topic?
+    That is to be delivered to subscribing application?
+*** Back
+    a Subscription
+
+** Message front
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645240
+   :END:
+
+*** Front
+    In a pub/sub model, what is a Message?
+*** Back
+    Combination of data and attributes that a publisher sends to a topic
+    eventually delivered to subscribers
+
+** Message back
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645412
+   :END:
+
+*** Front
+    In a pub/sub model, what is a Combination of data and attributes that a publisher sends to a topic
+    eventually delivered to subscribers?
+*** Back
+    a Message
+
+** one to etc
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645510
+   :END:
+
+*** Front
+    In a pub/sub model, what manner of relationships can a publisher application have with subscribers?
+*** Back
+    One to One (fan-out), many to one (fan in), and many to many
+
+** push pull
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645612
+   :END:
+
+*** Front
+    In a pub/sub model, via what means can a subscriber receive messages from a publisher
+*** Back
+  Subscriber can receive messages from publisher *pushing* to subscriber endpoint, or by subscriber *pulling* from source
+
+** ack
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623833645711
+   :END:
+
+*** Front
+    In a pub/sub model, what must happen before a publisher service will remove a message from the subscription's message queue?
+*** Back
+    Subscriber sends acknowledgement to pub/sub service for each received message
