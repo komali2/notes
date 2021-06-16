@@ -58,7 +58,9 @@
 *** [[file:20210615184320-kaggle.org][kaggle]].com
 * Part I The Fundamentals of Machine Learning
 ** Chapter 1. The Machine Learning Landscape
-#+LOCATION: 21
+   :PROPERTIES:
+   :LOCATION: 21
+   :END:
    Spam filter first mainstream ML application
      back in the 90s
 *** What is Machine Learning?
@@ -88,22 +90,115 @@
 ***** Training sample or training instance
       a singular of a training example
 *** Why use Machine Learning?
-#+LOCATION: 23
-**** How would you make a spam filter with traditional programming?
-     1. Consider what spam normally looks like. Look for words, phrases like "4u" or "free"
-     2. write a detection algorithm for each pattern, flagging emails as spam if some number of patterns were detected
-     3. test and repeat steps 1 and 2 until good enough to launch
+    :PROPERTIES:
+    :LOCATION: 23
+    :END:
+    :LOGBOOK:
+    CLOCK: [2021-06-16 Wed 17:00]--[2021-06-16 Wed 17:49] =>  0:49
+    :END:
+**** Because it can automate program improvement
+***** How would you make a spam filter with traditional programming?
+      1. Consider what spam normally looks like. Look for words, phrases like "4u" or "free"
+      2. write a detection algorithm for each pattern, flagging emails as spam if some number of patterns were detected
+      3. test and repeat steps 1 and 2 until good enough to launch
 
-     Will likely become a long list of hard to maintain rules
-***** Machine learning example better:
-      automatically learns which words and phrases are good predictors of spam by detecting unusually frequent patterns of words in the spam examples compared to the ham examples
-      Shorter program
-      easier to maintain
-      probably more accurate
-***** for example, if the data changes:
-      If spammers noticed "4u" is blocked and change to "for u"
-      The traditional spam filter would need to be updated
-      You'll have to keep writing new rules forever
+      Will likely become a long list of hard to maintain rules
+****** Machine learning example better:
+       automatically learns which words and phrases are good predictors of spam by detecting unusually frequent patterns of words in the spam examples compared to the ham examples
+       Shorter program
+       easier to maintain
+       probably more accurate
+****** for example, if the data changes:
+       If spammers noticed "4u" is blocked and change to "for u"
+       The traditional spam filter would need to be updated
+       You'll have to keep writing new rules forever
+******* but if spam filter is written with Machine Learning techniques
+        it will notice that "For U" has become unusually frequent in spam flagged by users
+        will start flagging them without programmer intervention
+**** For problems that are too complex or have no known algorithm
+***** speech recognition
+      try writing a program capable of distinguishing "one" and "two"
+      you could think ok "two" starts with a high-pitch sound, and hardcode
+      an algorithm that measures high-pitched sound and uses that to distinguish ones and twos
+      but the technique won't scale to thousands of words spoken by millions of different people in noisy environments
+****** machine learning solution
+       an algorithm that learns by itself given many example recording for each word
+**** to help humans learn
+     You can inspect ML algorithms to see what they've learned
+***** Spam filter can be inspected to see the list of words that it believes predicate spam
+      this can reveal unsuspected correlations or new trends
+      which leads to better understanding of the problem
+***** data mining
+      digging into large amounts of data to help discover patterns that were not immediately apparent
+**** summation; machine learning is good for:
+***** problems for which solutions require lots of fine-tuning or long lists of rules
+      machine learning algorithm can simplify code and perform better
+***** complex problems for which a traditional approach yields no good solution
+      best machine learning techniques can find a solution
+***** fluctuating environments
+      machine learning system can adapt to new data
+***** getting insights about complex problems and large amounts of data
+*** Machine learning application examples
+    :PROPERTIES:
+    :LOCATION: 27
+    :END:
+**** analyzing images of products on a production line to automatically classify them
+     image classification
+     typically [[file:20210616173546-convolutional_neural_networks.org][convolutional neural networks]] or [[file:20210616173546-convolutional_neural_networks.org][CNNs]]
+**** Detecting tumors in brain scans
+     Semantic segmentation, where each pixel is classified, typically using [[file:20210616173546-convolutional_neural_networks.org][convolutional neural networks]]
+**** automatically classifying news articles
+     [[file:20210616173716-natural_language_processing.org][Natural Language Processing]], or [[file:20210616173719-nlp.org][NLP]]
+       specifically text classification
+       can be tackled with
+         [[file:20210616173801-recurrent_neural_networks.org][recurrent neural networks]] or [[file:20210616173801-recurrent_neural_networks.org][RNNs]]
+         [[file:20210616173546-convolutional_neural_networks.org][CNNs]]
+         [[file:20210616173846-transformers.org][Transformers]]
+**** automatically flagging offensive comments on discussion forums
+     Text classification
+     same [[file:20210616173716-natural_language_processing.org][NLP]] tools as above
+**** summarizing long documents automatically
+     Branch of [[file:20210616173716-natural_language_processing.org][NLP]] called text [[file:20210616174008-summarization.org][summarization]], using same tools as above
+**** creating a chatbot or personal assistant
+     involves many [[file:20210616173716-natural_language_processing.org][NLP]] components
+       [[file:20210616174048-natural_language_understanding.org][natural language understanding]] or NLU
+       question-answering modules
+**** forecasting next year's revenue for your company based on multiple performance metrics
+     Regression task i.e. predicting values
+     Can use any regression model:
+       [[file:20210611165147-linear_regression.org][Linear Regression]]
+       [[file:20210616174147-polynomial_regression.org][Polynomial Regression]]
+       [[file:20210616174204-regression_svm.org][regression SVM]]
+       [[file:20210616174214-regression_random_forest.org][regression Random Forest]]
+       [[file:20210616174225-artificial_neural_network.org][artificial neural network]]
+     If you want to take into account sequences of past performance metrics, maybe use:
+       [[file:20210616173801-recurrent_neural_networks.org][RNNs]]
+       [[file:20210616173546-convolutional_neural_networks.org][CNNs]]
+       [[file:20210616173846-transformers.org][Transformers]]
+**** make app react to voice commands
+     Speech recognition, which requires processing audio samples
+     They're long and complex sequences
+     Typically processed using:
+       [[file:20210616173801-recurrent_neural_networks.org][RNNs]]
+       [[file:20210616173546-convolutional_neural_networks.org][CNNs]]
+       [[file:20210616173846-transformers.org][Transformers]]
+**** Detecting credit card fraud
+     [[file:20210616174511-anomaly_detection.org][Anomaly detection]]
+**** Segmenting clients based on their purchases so as to design a different marketing strategy for each segment
+     [[file:20210616174533-clustering.org][Clustering]]
+**** Represeting a complex, high-dimensional dataset in a clear and insightful diagram
+     Data visualization, involving [[file:20210616174604-dimensionality_reduction.org][dimensionality reduction]] techniques
+**** Recommending a product that a client may be interested in based on past purchases
+     Recommender system
+     Can feed past purchases to an [[file:20210616174225-artificial_neural_network.org][artificial neural network]] and get it to output the most likely next purchase
+     Neural net would typically be trained on past sequences of purchases across all clients
+**** Building an intelligent bot for a game
+     often tackled with [[file:20210616174737-reinforcement_learning.org][Reinforcement Learning]] or [[file:20210616174737-reinforcement_learning.org][RL]]
+       [[file:20210616174737-reinforcement_learning.org][RL]] is a branch of machine learning that trains agents (bots) to pick actions that will maximize their rewards over time
+         example: bot gets reward every time player loses life points
+         within a given environment (the game)
+       [[file:20210616174907-alphago.org][AlphaGo]] was built using [[file:20210616174737-reinforcement_learning.org][RL]]
+
 * Anki
 ** what is ML
    :PROPERTIES:
@@ -160,3 +255,19 @@
      What is a performance measurement indicating ratio of correct classification vs incorrect ones called in machine learning?
 **** Back
      Accuracy
+** why ML
+*** why tho
+   :PROPERTIES:
+   :ANKI_DECK: Org Learning
+   :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :END:
+**** Front
+     What kind of problems is Machine Learning great for solving?
+**** Back
+1 problems for which solutions require lots of fine-tuning or long lists of rules
+      machine learning algorithm can simplify code and perform better
+2 complex problems for which a traditional approach yields no good solution
+      best machine learning techniques can find a solution
+3 fluctuating environments
+      machine learning system can adapt to new data
+4 getting insights about complex problems and large amounts of data
