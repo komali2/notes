@@ -1,0 +1,11 @@
+#+title: Introduction to Statistical Learning by Gareth James
+
+* Authors
+
+** [[file:20210617103150-daniela_witten.org][Daniela Witten]]
+
+** [[file:20210617103211-gareth_m_james.org][Gareth M James]]
+
+** [[file:20210617103013-trevor_hastie.org][Trevor Hastie]]
+
+** [[file:20210617103032-robert_tibshirani.org][Robert Tibshirani]]

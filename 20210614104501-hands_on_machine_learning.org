@@ -204,6 +204,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836976740
    :END:
 *** Front
     What is Machine Learning?
@@ -222,6 +223,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836976838
    :END:
 **** Front
      What is a training set in Machine Learning?
@@ -231,6 +233,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836976936
    :END:
 **** Front
      What do you call examples that a machine learning system uses to learn?
@@ -240,6 +243,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836977011
    :END:
 **** Front
      What is accuracy in a Machine Learning program?
@@ -250,6 +254,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836977110
    :END:
 **** Front
      What is a performance measurement indicating ratio of correct classification vs incorrect ones called in machine learning?
@@ -260,6 +265,7 @@
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
+   :ANKI_NOTE_ID: 1623836977186
    :END:
 **** Front
      What kind of problems is Machine Learning great for solving?

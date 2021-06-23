@@ -1,0 +1,9 @@
+#+title: Introduction to Mathematical Statistics by Hogg McKean Craig
+
+* Authors
+
+** [[file:20210617103552-robert_hogg.org][Robert Hogg]]
+
+** [[file:20210617103604-joseph_mckean.org][Joseph McKean]]
+
+** [[file:20210617103613-allen_craig.org][Allen Craig]]

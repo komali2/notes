@@ -1,0 +1,123 @@
+#+title: mans search for meaning by viktor frankl
+#+ROAM_TAGS: philosophy "self help"
+#+ROAM_KEY: manssearch
+
+* Man's Search for Meaning by Viktor Frankl
+  :PROPERTIES:
+  :CUSTOM_ID: manssearch
+  :AUTHOR: Frankl, Viktor
+  :END:
+* Notes while I read
+
+** section 1 life in a concentration camp
+
+*** on publishing anonymously
+    Was initially going to do this.
+
+**** Why?
+     says goal was to "convey that life holds potential meaning... even under miserable conditions"
+     Didn't want book to build up a reputation on the part of the author
+       So... he wanted to objective of the book to remain pure?
+
+***** Later says wanted it to be anonymous because intimacy
+      Uncomfortable talking about "intimate details"
+
+**** Why decided not to?
+     Later, says anonymous would cause the book to "lose half its value"
+
+**** On [[file:20200306130119_success.org][success]] achieved anyway
+
+***** "Don't aim at success..."
+
+***** Argues against pursuing success because then you won't achieve it
+      tells his students this etc
+
+****** Says the same of happiness
+       "have to let it happen without caring about it"
+
+*** bruh dude stayed in austria despite having an opportunity to leave
+    through the visa to america
+    his parents found some slab of the 10 commandments about filial piety, it was his sign from god
+    think about later how he talks about the tiny snap decisions people make that alter their entire lives
+      or about how the prisoners entrusted themselves to fate, so as to avoid making a decision
+      i wonder if he would change that decision if he could go back in time
+      would acting on the visa have saved his wife's life as well? is he thus partially responsible for her death? Well, probably not, it's entirely the fault of the nazis, but i wonder if a question like that would chew at him.
+
+*** Wants to avoid book being "an account of facts" of the horrors of the concentration camp
+    why?
+    "They've been described often"
+    Does he think that that's often enough? I guess it doesn't fit within his goal of the book?
+
+**** Wants to answer the question:
+     "How was everyday life in a concentration camp reflected in the mind of the average prisoner?"
+
+*** On the scientific detachment of a psychological study from within the prison:
+
+**** "Does the man inside have enough detachment to make a methodical presentation?"
+***** Outsiders do, but they're "too removed" to "make any statements of real value"
+       Wonder what value means here
+***** The man inside's judgment may not be objective, but he does "know"
+       Know what?
+***** Avoiding bias is "the real difficulty" of the book
+*** Three phases of the inmate's mental reactions to camp life
+    1. Period following admission
+    2. When well entrenched in camp routine
+    3. Following release and liberation
+*** On reprieve being just around the corner
+    Talks about how all the prisoners thought reprieve was just around the corner
+      Like, they'd be turned away at the prison gates, or pulled out of the gas chamber line, etc.
+**** Denial of reality?
+     Describes first phase as characterized by "shock"
+     Or, maybe similar to stages of grief: first, denial
+       Were the stages of grief well defined when he wrote?
+       "[[file:20210623142621-five_stages_of_grief.org][Five stages of grief]]" wikipedia
+       "The model was introduced by Swiss-American psychiatrist [[file:20210623142631-elisabeth_kubler_ross.org][Elisabeth Kübler-Ross]] in her 1969 book On Death and Dying,[4] and was inspired by her work with terminally ill patients.[5]"
+       https://en.wikipedia.org/wiki/Five_stages_of_grief
+       So, no, probably not.
+***** in current circumstances, i.e. covid
+      Most countries slow to jump to full lockdown
+      slow to the jump
+      Many people sensing that lockdown will end "soon," rather than taking aggressive action early to ensure long term comfort
+        i.e. pushback on my suggestion way back in early may to immediately book a large airbnb in yilan for communal community living with a large social bubble
+        my own response, both times, to lockdown of a week or two of re-adjustment, failing to immediately respond to gym likely being closed for the next few months, etc
+*** Intense curiosity on the part of the prisoners
+    what will happen to us next? even if morbid
+    what will happen to me after being made to stand out in the cold?
+*** On human capability
+    Medical men "surprised" to find that humans don't actually "need" a certain amount of sleep
+    Before camp, he had convictions of things he "couldn't" do, i.e.
+      Sleep w/o this
+      live w/o that
+**** I been saying this shit for ages
+     human capacity way higher than we think
+     we always underestimate our ability
+     but imo humans are the most adaptable complex life on earth
+       we spread out across the entire planet
+       we adapt to environments through external changes rather than through evolutionary ones
+       i.e. we don't spend a million years evolving a new beak, we whack nuts with rocks
+       or cover ourselves in animal skins
+     Plus, whenever struggling, I try to think about how if dudes made it through concentration camps, humans at a baseline are capable of getting through all sorts of shit
+       BUT we often don't agree with that notion, or just aren't aware of it
+       Thinking of all the times someone surprised themselves with their own capabilities when forced to do something
+       Like when tammy pushed the motorcycle across the crosswalk
+       Or when I made it through the coding bootcamp
+         On that note, it'd be swell if there was a way we could leverage that power without external motivation
+           like, moms pulling kids off their toddlers
+           or me getting through the bootcamp cause the alternative was debt and what i believed would be an unfulfilling life (at minimum one without much money)
+           would be nice to be able to "kick that on" at will
+           or just be more realistically aware of our own capabilities
+**** Dostoevski: "Man can get used to anything"
+     "Yes, but don't ask us how"
+*** on what it took to survive, or the best dying
+    It took willingness to do anything, including betraying your friends, to survive. So he says "we all know that the best of us didn't make it."
+    Later he's talking about the maintenance of personal values and ethics, and whether the ministrations of the nazis forced people to become like animals, reacting in exactly the right way to survive, with no ability to be human and exert their value framework
+      he decides that no, humans can't be made to become as animals, utterly reactionary to their environment
+      but, his examples seem to include a lot of people who, by acting ethically or to their values, ended up dying as a result, because of the nazis
+      which, sure, you can decide to stick to your values and then die, but such an argument can be and is being weaponized by conservatives/reactionaries/republicans/fascists that simp for insurance companies, or billionaires
+      in america, the "choice" of participating in health insurance or not isn't actually a choice, because if you don't, you die when it comes time to get healthcare
+      pointing a gun at someone's head and saying "choose x or z, but if you choose z, i shoot you" isn't a real choice at all. Can someone in such a situation be blamed for choosing x, regardless of the immorality of x?
+        But, nazis used that same argument to try to weasel out of responsibility for being nazi fucks. The difference is they didn't *literally* have a gun pointed to their head. They had ample opportunity to defect, with a modicum of creativity applied.
+*** Death became less scary because it spared them having to kill themselves?
+    He promised not to kill himself b/c there'd be no point. His life expectancy was so short anyway.
+    Are they just adapting? Accepting? What is the point of their lives now? I guess he'll answer later.
+**** is this related to him saying elsewhere about how they'd leave decisions to fate where possible?

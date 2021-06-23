@@ -1,0 +1,6 @@
+#+title: Elements of Statistical Learning by Trevor Hastie
+
+* Authors
+** [[file:20210617103013-trevor_hastie.org][Trevor Hastie]]
+** [[file:20210617103032-robert_tibshirani.org][Robert Tibshirani]]
+** [[file:20210617103046-jerome_h_friedman.org][Jerome H. Friedman]]
