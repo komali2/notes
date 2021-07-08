@@ -1,0 +1,9 @@
+#+title: "How to Read a Book" by Mortimer Adler
+#+ROAM_TAGS: "self help"
+#+ROAM_KEY: howtoreadabookadler
+
+* "How to Read a Book" by Mortimer Adler
+  :PROPERTIES:
+  :CUSTOM_ID: howtoreadabookadler
+  :AUTHOR: Adler, Mortimer
+  :END:

@@ -7,9 +7,15 @@
   :CUSTOM_ID: manssearch
   :AUTHOR: Frankl, Viktor
   :END:
-* Notes while I read
+* Notes while I read "Man's Search for Meaning"
+  :LOGBOOK:
+  CLOCK: [2021-06-30 Wed 20:46]--[2021-06-30 Wed 20:47] =>  0:00
+  :END:
 
 ** section 1 life in a concentration camp
+   :LOGBOOK:
+   CLOCK: [2021-06-23 Wed 12:50]--[2021-06-23 Wed 13:46] =>  0:56
+   :END:
 
 *** on publishing anonymously
     Was initially going to do this.
@@ -121,3 +127,332 @@
     He promised not to kill himself b/c there'd be no point. His life expectancy was so short anyway.
     Are they just adapting? Accepting? What is the point of their lives now? I guess he'll answer later.
 **** is this related to him saying elsewhere about how they'd leave decisions to fate where possible?
+*** provisional existence
+    talking about how not knowing when or whether they would ever be able to escape the concentration camp
+    since they coudln't see the end of this existence, they couldn't aim at an ultimate goal in life
+    so they'd cease living for the future
+**** as in unemployed workers
+     they can't live for the future or aim at a goal
+**** time experience as a provisional being
+     a small time unit like a day feels endless
+     while a week passes quickly
+     like lockdown!!!
+*** past vs present
+    most concentration camp prisoners felt that the real opportunities in life had already passed
+    how depressing mang
+    viktor felt there was opportunity and challenge present
+    he felt the suffering was a challenge and opportunity to test his inner strength
+*** using a future goal as the means to weather suffering
+    he talks about this a lot throughout the book
+    there's a nietzhe quote he hits all the time as well
+    "He who has a why to live can bear almost any how"
+*** on the meaning of life, and the question of "what is the meaning of life"
+    talks about how it's a sort of ridiculous question to ask
+    like "asking a chess master, 'what is the best chess move?'"
+    the answer changes depending on the situation and the personality of the opponent
+    he says that a better question is what does life expect from us
+    he likes to frame it as life asking us what the meaning is, instead of asking life what its meaning is
+    we need to demonstrate our meaning
+    he uses a lot of examples of things that must be accomplished uniquely and only by a given person
+    a parent raising a child, a writer writing a specific book, etc
+    he call these "tasks"
+    says that these tasks form "man's destiny"
+    "no situation repeats itself, each situation calls for a different response"
+    sometimes given situations require taking action, other times they offer opportunities for contemplation, sometimes all that's required is to "bear the cross"
+    you must ask yourself "what is irreplaceable about me?"
+*** on nazis
+    he says basically "well there's good and there's bad people" and that that dichotomy can be found everywhere, in all groups of society
+    says there's two races, "decent men" and "indecent men"
+*** on being freed
+    said "freedom" so much, dreamt about it so much, that it had lost all meaning
+    what if this is like the hemm space stuff?
+    feels literally unreal, impossible, a fantasy concept
+    had lost the ability to feel pleased :(
+    said that some people turned bitter, said that for all they had suffered, who dare question them?
+      "no one has the right to do wrong, not even if wrong has been done to them"
+** section 2 logotherapy
+*** says "finding meaning in one's life is the primary motivational force in man"
+*** on conflict in life
+    says that not all conflict is neurotic
+    suffering not always a pathological phenomenon
+      suffering might be seen as a human achievement, especially when due to existential frustration
+    mental health based on tension
+      "between what one has already achieved and what one still ought to accomplish"
+      "between what one is and what one should be come"
+      it can be healthy to challenge people on thi s
+*** on automation
+    surprisingly gets a wee lil communist on me
+    says that the problem of boredom is increasing, and wil
+* BOOK CLUB                                                        :bookclub:
+** <2021-06-24 Thu> thursday bookclub meeting
+   :LOGBOOK:
+   CLOCK: [2021-06-24 Thu 20:00]--[2021-06-24 Thu 21:10] =>  1:10
+   :END:
+   Cameron, Ian, and Thomas
+*** Cameron
+    Making comparisons to life is beautiful
+      making something good of the camp
+      finding goodness where it's otherwise impossible
+    Not to sure how to take the book, what to take from it
+*** Caleb
+    why book club?
+*** Ian
+    growing problem that people need to solve - what?
+*** Cameron
+    Wants to know how we've experienced the book? What's our personal experience?
+    Been curious about the meaning of life, figures the answer is "it's up to you"
+    "Meaning" is too broad
+*** Ian
+    The prisoners didn't really wanna make decisions
+*** General - prisoners making decisions, "leaving to fate," bad luck of prisoners being locked in house and burned
+    Discussion of increasing personal entropy
+    Some of those prisoners were really unlucky. How can you increase your luck? Talking about increasing "surface area," increasing "personal entropy."
+    Caleb mentions giving advice to new engineers in a job hunt to prioritize getting as many resumes out as possible. Maximum opportunities for
+    "something to happen"
+    I mentions never really regretting going out the times I wanted to stay home, cause things are more likely to happen out than in.
+*** On reading
+    Cameron recommends [[file:20210703130419-how_to_read_a_book_by_mortimer_adler.org]["How to Read a Book" by Mortimer Adler]]
+    Talking about what it means to read a book
+      "Am I really applying what I read?"
+      Is there any point?
+      Cameron frustrated by how long books are, could be condensed into simple, applicable advice
+      I talk about how I have similar experience with self help books
+*** Sidetracked: Prepping
+**** websites
+     reddit.com/r/preppers
+     https://www.reddit.com/r/redpreppers/
+     https://collapseos.org/
+     https://www.reddit.com/r/collapse/
+** <2021-07-01 Thu> thursday bookclub meeting
+   :LOGBOOK:
+   CLOCK: [2021-07-01 Thu 20:00]--[2021-07-01 Thu 21:45] =>  1:45
+   :END:
+   Caleb and Cameron
+*** Cameron
+    Already finished the book, picked up "Endure"
+      Mentioned in previous meeting
+      Regarding physical human limitations in athletes
+      Doesn't recommend for book club b/c not "timeless"
+      I mention the AIESEC triple comfort circle
+        Outer: Panic, Middle: Discomfort, Center: Comfort
+        And how it is elastic
+*** Resistance to book's message, and messages of "here's how to live life in general"
+**** Cameron
+    When reading taglines etc, was concerned it would "be preachy"
+      This feeling affected his interpretation (his words)
+      Felt as if Viktor Frankl was telling Cameron that Cameron is living his life wrong
+    I push back, how?
+      Cameron: Viktor Frankl seems to focus on the importance of community
+        Cameron doesn't want to be part of communities
+        Not because he's "too cool" - missed opportunity to push him on this if it's like how when I say "i'm not that cool," when really I definitely think I am fucking cool as hell and I just also happen to know that society values humble and devalues arrogance
+        Rationalizes his way out of community, he's wary of it
+**** Caleb
+    I mention similar discomfort around community, my unwillingess to fully engage in AIESEC as an example. Rooted in some feeling of "other" to those people. Definitely some feeling of superiority, but also just general discomfort in being part of a greater whole?
+    I haven't yet finished the book, so my takeaway was not that community was important, nor that he was prescriptive. It seems more to me that "having purpose" or something to look forward to was the main indicator of whether a prisoner was to survive psychologically.
+    However, believe that scientifically speaking, it seems that having community/family/friends is one of the strongest correlations to having a long life.
+*** On prescriptive self-help, aka "live like this"
+**** Cameron
+     Mentions reading "5 regrets of the dying"
+       Writer interviews a ton of dying people
+       Correlates common advice
+       It's as you'd expect: Wish I had worked less, wish i had spent more time with family
+     Cameron seems to disagree, seems to value entrepreneurial behaviors more
+     Mentions Derek Sivers - Entrepreneur, writer
+       "How to Live" book of philosophy, no DRM btw
+       Sounds like an exploration of "what does life look like if you follow x y z value?"
+       Doesn't persuade, just speculates
+       Leaves reader to take that information, speculate on their own life, and make a choice of what values to follow, how to implement etc
+**** Caleb
+     Mentions "[[file:20210703132317-springboard_launching_your_personal_search_for_success_by_g_richard_shell.org][Springboard: Launching your Personal Search for Success]]"
+       Presents several examples of people, such as a stone mason with strong family ties, a rich jetsetting entrepreneur that's divorced, a broke teacher that everyone in town knows, etc
+       Helps the reader figure out from various stories, what types of success are important to the reader
+       Non-prescriptive
+       Helps define what success looks like to reader
+     Talks about how one-size-fits-all is inherently bad
+       For example, that navy seal shit that's the rage right now, "wake up at 4am" type stuff
+       There's some truth that adding structure can probably help everyone
+       And sure, some people might benefit from forcing themselves to wake up early
+       Remembers however reading a study that found there might be genetic markers for 4 kinds of people: early risers, night owls, etc
+       Some self advice might literally be arguing against people's genetic makeup
+*** On defining success
+**** Cameron
+     Changes based on mood
+**** Caleb
+     Not entirely sure if I have a definition yet
+     Can granular figure out whether a given day was more or less successful based on, for example, which of my daily habits I completed, how much time i spent on netflix/videogames rather than other things. Whether I controlled my diet etc. Can extrapolate that into larger week/month chunks. No matter what, though, never feel "done"
+     However, know enough about myself to know that "the pursuit" itself is what is satisfying for me
+     If I "learn" a thing, I don't feel good just stopping
+     I didn't stop at the bootcamp, I always want to be a better and better engineer
+     There's no end goal, just feeling successful with every improvement, or with the seeking of improvement
+     Also know that this can be mentally unhealthy if I never acknowledge my accomplishments. Must balance the "not doneness" advantage of always improving against the disadvantage of mental unhealth. For example, I've always felt the same amount of disappointment in my body appearance. However, Looking at old pictures of me, all I can think is damn, I was skinny as hell. Unfortunately, there is no gradiation in my level of motivation to improve my body against how fat I am, they're uncorrelated. It's always the same discomfort. So not only did I not get to enjoy my "skinnier" periods, my bodily discomfort didn't prevent me from gaining weight, nor is it causing me to lose it any faster now, than in previous periods of weight loss. Bummer.
+*** On reading as a time-spending activity, and how to spend time in general
+**** Cameron
+     Mentions the Duolingo CEO quote:
+       "Our goal is to create a slightly better way of wasting your time."
+       If you're on your phone anyway, studying a language, even somewhat ineffectually (as Cameron seems to imply), is better than scrolling instagram
+     So Cameron likes reading, because it's at least better than other things
+     Seems he also has a goal though, of building up to "high literature"
+     Doesn't want to "read junk food."
+     Mentions conversation with friend, exploring question "Do you have a book that changed your life?"
+       Well, he certainly doesn't have a youtube video that changed his life
+**** Caleb
+     Feels duolingo isn't totally ineffective, but really like this train of thought
+     Mentions story, dad with backscratcher:
+       Was twirling this long backstracher waiting for pokemon to come on
+       My dad says, "i'd rather you twirl that backscratcher for 4 hours than spend the same amount of time watching TV"
+       Idea is somehow whatever's happening when twirling the stick is better than whatever's happening when watching pokemon
+         I mean, speculating, it's a meditative activity combined with a minor increase in hand/eye coordination, minor increase in hand strength
+     I thoroughly enjoyed the "change your life" question
+       So, yes, that's a in general strong argument that books are a great way to spend your time, because it seems books are simply one of the most effective platforms/mediums at affecting you
+       Want to break the question down though and really explore it:
+         First, is something's ability to change your life, inherently good?
+           Getting arrested changes your life, after all
+         Fine, we modify the question to be "change your life for the better"
+           Now, not all life changing things can happen in the space of time it takes a book, but are still things that really should happen
+             For example, losing weight, getting fit
+             Maybe building a relationship
+             These take actions repeated over a long period of time
+             Arguably, one could say "the day I decided to begin a fitness journey, I made a life-changing decision"
+             Sure, but, you had to follow through, and from personal experience, that's the part that actually matters, the day to day decision to keep following through.
+         Also, life-changing-ness might be a limited portion in each life
+           How could you change your life for the better with every book you read? I mean, how many better life changes can possibly happen? Thinking about epoch-changing type changes. Sure, limited improvements great, but
+           for example, How to Win Friends and Influence People changed my life. Later, I read "How to Not Give a Fuck" or whatever by Mark Manson. I found the latter to take much from the former, so it didn't change my life nearly as much. I believe though that if I had read Manson first, it would have changed my life nearly as much as Carnegie had, and then, later, upon reading Carnegie, it wouldn't have changed my life quite as much, because the "Big Change" along the vein of what I learned from the two books had already been wrought
+     That being said, the question of how should one spend your time is a great one
+       I mean why not just sit. Just sit and let time go by.
+       I talk a bit about my occasional panic around how I can't stop time moving forward.
+*** On aging and being in our 30s
+**** Cameron
+     Life is objectively getting better as he ages
+     Believes he has lots of time left
+     Wants to find people to whom he can say "We have decades left! What are we gonna do? There's so much we could do!"
+     Talks about "unclean" motivations driving choice
+       For example, doing some productive activity not out of desire to improve, or do the productive thing, but rather from a negative motivation of shame at *not* doing a productive thing
+**** Caleb
+     really likes "we have decades left!"
+     Lately has felt like there's not nearly enough time to do in life what I wanna do
+     Kinda feels bad about sort of blowing my twenties
+     But in reality, a shitload can be done over the next few decades
+     Thinking about some of the random goals I have now, I could probably accomplish them before dying a natural death
+*** [[file:20210704115404-artificial_intelligence.org][AI]]
+**** Cameron
+     Looks forward to the invention of general AI
+     thinks it will be the most important thing
+     thinks bad AI killing us all would suck but still be kinda cool, like, as if life was like a videogame or something lol
+     In response to conversation about Roko's basilisk, mentions Effective Altruism
+       Sort of less grumpy, activist version of LessWrong
+       https://www.effectivealtruism.org/
+**** Caleb
+     Talks about how nobody takes the advent of AI seriously, or at least nobody that *should* be
+       Mentions always asking politicians what they're going to do when AI drives the value of human labor to essentially 0
+       What will people do with their time? How will we restructure our society to allow for nobody having to work, ever?
+       I mean the answer is, society as we know it will probably collapse in many ways
+       Capitalism can't handle humans that don't *somehow* add value. When it's literally impossible for humans to add value, capitalism will simply not work
+     We talk about how it feels like it's a fantasy, getting to AI
+       Presumably, it could bring about fantasy technologies, such as nanotechnology
+         Which, thus, would bring about fantasy results, such as ending disease, bringing about immortality
+         We both find this feasible, even in our lifetimes
+         I talk about how that's essentially my religion: a far-flung hope that maybe a singularity will happen in my lifetime
+     But why does it feel impossible?
+       I talk about Anathem and Hemm Space, a parallel universe's equivalent of some combination of phase space and configuration space
+         Talk about how for something to exist, it must have a predictable set of circumstances leading to its existence
+         For example, for a block of ice to exist in the sun in our universe, the circumstances of it arriving there need to have occured
+         A block of ice in a sun is *feasible* so long as that's true. Otherwise, it can't happen
+           i.e. a spaceship delivering it there with a thermal guard that melts at the right moment
+         I feel like the circumstances of us arriving at AI don't feel existent
+         While it's feasible to exist in our universe, the circumstances leading to it don't feel like they're happening anytime soon
+     I talk about Roko's basilisk
+       How everyone that can, should and must contribute to the creation of AI, to avoid eternal punishment for not bringing AI about sooner, and thus saving more lives
+       https://www.lesswrong.com/tag/rokos-basilisk
+*** On note taking and open source
+**** Brief conversation on the morality of open source vs the advantage of profit-motivated methods
+     i.e. apple's arguably more secure walled garden vs the more free android ecosystem (allowing for fdroid)
+     Talk about lineage OS https://lineageos.org/ apparently Cameron knows someone that works on that
+*** Talking about what a book club or meeting is
+**** Cameron
+     very interested in the nature of getting people together. I.e. what changes when one more person joins?
+**** Caleb
+     thinks it's kinda cool that, for example, the book club is somehow an existent entity
+     Its existence is defined by it bringing some number of people together every thursday at 8pm
+     and, it has output, in the form of affecting, somehow and in some way, the minds of all attendees
+** <2021-07-08 Thu> thursday bookclub meeting
+   :LOGBOOK:
+   CLOCK: [2021-07-08 Thu 20:00]--[2021-07-08 Thu 21:58] =>  1:58
+   :END:
+*** caleb, cameron, kai
+*** chatted about gold card trip to yilan, gold card coworking group
+    mang i wanna do more group trips, once pandemic is over
+    coworking group sounds fun too
+    though i always get distracted and just spend the time chatting to people
+*** on endure
+    cameron finished it at some point, was surprised to find it really digging into the details of the mechanical aspects of making athletes perform better
+    I figured it would try to take an abstract perspective like, ok the athletes do all this shit to push themselves to the next level, what are you willing to do
+    but nah, cameron says it's more like the author concluding you can achieve similar results through self actualizing language
+*** on "grit"
+    a book about ability to endure hard work
+    I feel like shit i can endure the hard work, that's no big deal, it's more like starting it, or knowing what work to do that's hard
+*** on the message in "man's search for meaning": is it really about focusing on seeking community?
+    I bring up how it seems viktor frankl was not really trying to say that
+    from the book
+    "according to logotherapy, we can discover this meaning in life in three different ways: 1 by creating a work or doing a deed; 2 by experiencing something or encountering someone; and 3 by the attitude we take toward unavoidable suffering
+    cameron still felt tilted from the book, as if it was telling him his life doesn't have meeting, and he needs the book to tell him how to find it
+    cameron finds meaning in the moment
+      i feel like that can be classified under "by experiencing something or encountering someone"
+    didn't find the book "useful"
+      what is "useful"?
+      useful might be "good for helping find meaning?"
+*** on logotherapy as one aspect of finding answers / meaning / solutions / reasons for happenstance of life
+    kai mentions elephant and 4 blind men
+      each blind man feels a different part of the elephant, seeing alternatively a snake, a tree trunk, etc
+    freud blames all issues on stuff in the past deep in the subconcious, but perhaps he's one of the blind men
+    logotherapy sees another perspective
+*** on how to be - is there "a holy grail" of how to be?
+    kai talks about how you go to a plumber for pipe advice, but perhaps that's not how we can deal with humans
+      frankl talks about this as well, how some psychologists are treating humans as machines, taking a freudian approach, that they can tinker in the subconscious to fix issues, while frankl hopes that therapists can be "human therapists," and approach humans as humans
+    kai - books alone can't teach how to be. Theres no good leadership book. Only way to learn how to lead is to lead.
+    kai - we've been talking about self help since ancient times
+    caleb - frankl talks about boredom vs strife, i feel like in ancient times the side of human struggle more common was strife, i.e. trying to eat, not get killed. I find that in situations where my suffering or whatever is sourced on that side of the spectrum, i easily achieve fulfillment. The tasks are uncomplicated, but strictly necessary. Such as when camping. Build shelter, make food. Yet at home, when the tasks are more complicated, i.e., do engineering, but not so necessary because i can run the credit card bill for months of food without consequences, boredom is more the thing causing me suffering, and it's harder to find fulfillment
+    kai - people never hit perfect equilibrium. they're never "done", it's never really "figured out"s
+    caleb - we talked a bit about that 2 times ago, how there is no "done," the enjoyment from these epistemological exercises comes from the constant improvement. Viktor talks about this as well, the conflict between who you are and who you ought to be. Between you now and you improved.
+
+*** on the subjective nature of human experience
+    kai - specifically regarding boredom. when meditating, boredom isn't really a "thing," each moment becomes interesting. Or when on acid, what would normally be quite boring moments are very interesting to the person on acid.
+    caleb - wish we could have discussed more about meditation, curious how people do it. I go more the angle of not really experiencing anything at all in meditation. the purpose for me is not to make the boring interesting, it's to not feel anything at all, while also dissolving the meaning of time, as a challenge, as there's always a part of me just "waiting" for the meditation to end so I can go do "more interesting" things. So how can i "increase" the "space" between the start and end of the meditation, using subjective experience of time?
+    kai - strife may also be subjective. Such as those navy seal dudes, they "embrace the suck," it doesn't seem so bad then
+    caleb - well that's what frankl suggested when recommending using humor as a way to overcome some forms of strife, or just in general how they overcame hardship in the camp. But then again, he wanted to avoid using mental tricks to avoid facing the suffering of the camp. He wanted to face it head-on, to take meaning from the suffering itself, and use it as an opportunity to strengthen himself spiritually.
+
+*** on reading books and why
+    cameron - thinking about how the timing of when a book is read can matter, is curious about other people's reading strategy
+    kai - many reasons.
+      habitually interesting
+        like some people enjoy doing hard things with their bodies, kai finds doing hard things with his mind at least once a month to be good for himself in some way
+      right now is a "gold rush" of book reading opportunities, what with so many books being digitized. That's cool, should take advantage of it.
+      it feels like a good idea in the same way that exercise feels like a good idea
+   caleb - the first reason sounds like epistemological motivation, a big part of why i started this book club. Also, thoughts on what cameron brought up last week, on reading being simply a better way to spend time than videogames or youtube?
+   kai - many different ways to read a book. Skimming vs note taking + discussing, which is expensive, not much room for many of those kinds of readings per year. A book like man's search for meaning "sails through international customs" without issue
+
+*** on books vs audiobooks vs podcasts
+    cameron - audiobooks seem not so ideal. They'll be quite long. Doesn't want to commit that kind of time.
+    kai - hit that 3x speed button
+    caleb - apply classic self-help advice. Break the book into smaller chunks. It's not 8 hours, it's 16 30 minute listen sessions. Combine with habit forming. If you jog every other day, simply listen to it on your jog, it's done in under a month, easily and without you needing to "think about" making time to read, as the habit is already there.
+    cameron - what about taking notes?
+    kai - not inline anymore, journal-style at some point, and outlines
+    caleb - reflection after taking in material scientifically demonstrated to improve retention. A big part of that 'learn how to learn' class gets into that, how that's how you form your little "chunks". Also, outlines are excellent ways to retain information, it's how we did shit back in the creative writing program. And, after martial arts, we were always made to sit quietly for a couple minutes and literally just replay the entire session.
+    cameron - this is his first time really taking notes on a book. It feels better for retention, or "embedding it in his life". Not sure if that's the goal. To "live with the book"
+
+*** on "gold star" books / media
+    cameron - does "man's search" really deserve this lauding? Maybe he's not getting something out of it cause it's a farce. Like citizen kane, is it really so good?
+    kai - it's interesting in finding a link between the old and new. Like citizen kane isn't necessarily enjoyable but it's cool to follow the thread through that movie to newer ones, the same techniques invented with kane and modified throughout the years. Plus, those things were classics in their time.
+    caleb - there was an islamic philosopher whose major contribution was translating plato for his era. People didn't really "get" plato, but he said that's cool, plato was speaking to greeks, using their metaphors and context. How could islamic peasants possibly understand? Perhaps all great works need to be "retranslated" for their era? And what plato did was still great, even if a lot of it doesn't necessarily stand the test of time. His job was arguably harder, talking about justice these days may be easier than it was talking about it with a bunch of greek peasants in an era where scarcity was still quite high.
+
+*** on next session
+    cameron and i chatted about book club strategy
+    I think i'm gonna try pretty hard to get more attendees for next week, i haven't been pushing too hard, but it's time to wrap the book up
+    probably do one or two more meetings on man's search, while setting up book sourcing and voting
+    might want to get a better perspective on what people are seeking from the club
+    and probably should apply that to individual book recommendations as well, like, why do you wanna read this book
+    cameron "wants to widen the context of knowledge" and get that info "from intelligent people"
+
+*** TODO make fun little meaningless trophies and put them in the gather town
+    like cameron for attendance,
+    kai for most invisible despite camera on (was his light off or what lol)
+    ian for having a dog

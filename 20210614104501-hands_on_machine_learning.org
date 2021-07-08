@@ -1,6 +1,7 @@
 #+title: Hands-On Machine Learning
 #+ROAM_KEY: Hands-On Machine Learning with Scikit-Learn, Keras, & TensorFlow by Aurelien Geron
 #+ROAM_TAGS: "machine learning" scikit-learn keras tensorflow "computer science"
+#+FILETAGS: lifetracker
 
 * Preface
   Assumption: I know nothing about Machine Learning
@@ -198,13 +199,177 @@
          example: bot gets reward every time player loses life points
          within a given environment (the game)
        [[file:20210616174907-alphago.org][AlphaGo]] was built using [[file:20210616174737-reinforcement_learning.org][RL]]
-
+*** Types of Machine Learning Systems
+    :PROPERTIES:
+    :LOCATION: 29
+    :END:
+    :LOGBOOK:
+    CLOCK: [2021-07-07 Wed 16:01]--[2021-07-07 Wed 16:28] =>  0:27
+    CLOCK: [2021-07-05 Mon 17:57]--[2021-07-05 Mon 18:00] =>  0:03
+    CLOCK: [2021-07-05 Mon 16:51]--[2021-07-05 Mon 17:21] =>  0:30
+    CLOCK: [2021-06-24 Thu 15:21]--[2021-06-24 Thu 16:50] =>  1:29
+    :END:
+**** ML systems Classification categories done by criteria:
+***** Whether or not trained with human supervision
+      classified according to the amount and type of supervision they get during training
+****** [[file:20210624111857-supervised_learning.org][supervised learning]]
+       the training set fed to the algorithm includes desired solutions, called labels
+******* typical task: classification
+******** example: spam filter
+         trained with many example emails along with their "class" (spam or ham)
+         must learn to classify new emails
+******* typical task: predict *target* numeric value, given a set of features / predictors
+        such as price of car (target)
+        mileage, age, brand (features, predictors)
+******** this is called a "regression"
+         to train, need to give many examples of cars, including their predictors and labels
+********* Regression algorithms can be used for classification, and vice versa
+********** [[file:20210624152319-logistic_regression.org][logistic regression]]
+           commonly used for classification
+           can output a value that corresponds to the probability of belonging to a certain class
+             e.g. 20% chance of being spam
+******* feature vs attribute
+******** attribute
+         a data type, e.g. "mileage"
+******** Feature
+         several meanings, usually means an attribute plus its value, e.g. "mileage = 15,000"
+******** Unfortunately, sometimes used interchangeably
+******* list of important [[file:20210624111857-supervised_learning.org][supervised learning]] algorithms
+******** [[file:20210611165147-linear_regression.org][Linear Regression]]
+******** [[file:20210624152319-logistic_regression.org][Logistic Regression]]
+******** [[file:20210624152324-support_vector_machines.org][Support Vector Machines]] (SVMs)
+******** [[file:20210624152331-decision_trees.org][Decision Trees]]
+******** [[file:20210616174214-regression_random_forest.org][Random Forests]]
+******** [[file:20210611170257-neural_network.org][Neural Networks]]
+******** [[file:20210624153901-k_nearest_neighbors.org][K-Nearest Neighbors]]
+****** [[file:20210624111902-unsupervised_learning.org][unsupervised learning]]
+       training data is unlabeled. The system tries to learn without a teacher.
+******* important [[file:20210624111902-unsupervised_learning.org][unsupervised learning]] algorithms
+******** [[file:20210616174533-clustering.org][clustering]]
+********* [[file:20210624154553-k_means.org][k-means]]
+********* [[file:20210624154557-dbscan.org][DBSCAN]]
+********* [[file:20210624154602-hierarchical_cluster_analysis.org][Hierarchical Cluster Analysis]] (HCA)
+******** [[file:20210616174511-anomaly_detection.org][Anomaly detection]] and [[file:20210624154731-novelty_detection.org][novelty detection]]
+********* [[file:20210624154847-one_class_svm.org][One-class SVM]]
+********* [[file:20210624154853-isolation_forest.org][isolation forest]]
+******** visualization and dimensionality reduction
+********* [[file:20210624154906-principal_component_analysis.org][principal component analysis]] (PCA)
+********* [[file:20210624154922-kernel_pca.org][kernel PCA]]
+********* [[file:20210624154927-locally_linear_embedding.org][locally linear embedding]] (LLE)
+********* [[file:20210624154939-t_distributed_stochastic_neighbor_embedding.org][t-Distributed Stochastic Neighbor Embedding]] (t-SNE)
+******** [[file:20210624155010-association_rule_learning.org][association rule learning]]
+********* [[file:20210624155017-apriori.org][apriori]]
+********* [[file:20210624155021-eclat.org][eclat]]
+******* example: blog visitors
+        If you have a lot of data about blog visitors, you might want to run a [[file:20210616174533-clustering.org][clustering]] algorithm to detect groups of similar visitors
+          You don't tell the algo which group a visitor belongs to, it finds the connections on its own
+            e.g. 40% of visitors are males who love comic books and read the blog in the evening
+        A [[file:20210624154602-hierarchical_cluster_analysis.org][hierarchical clustering algorithm]] allows subdivision of each group into smaller groups
+******* visualization algorithms
+        feed lots of complex, unlabeled data, and they output a 2d or 3d representation of the data for easy plotting
+******* dimensionality reduction
+        simplify the data without losing too much information
+        for example, by merging several correlated features into one
+          a car's mileage may be strongly correlated with its age, so dimensionality reduction algo with merge them into one feature
+          this feature can be called "wear and tear"
+        Doing a dimensionality reduction is a good idea before feed into another algorithm, such as supervised learning
+          will run much faster
+******** feature extraction
+         merging of features by dimensionality reduction
+******* anomaly detection
+        such as detecting unusual credit card transactions
+        shown mostly normal instances during training
+******* novelty detection
+        very similar to anomaly detection
+        aims to detect new instances that look different from all instances in the training set
+          requires having a very "clean" training set
+******* association rule learning
+        dig into a large amount of data and discover interesting relations between attributes
+          for example, running association rule on sales log may reveal that people who purchase BBQ sauce and potato chips also tend to buy steak
+****** [[file:20210624111908-semisupervised_learning.org][semisupervised learning]]
+       Algorithms that can deal with data that's partially labeled
+       Most are combinations of unsupervised and supervised algorithms
+******* example
+******** google photos
+         person A shoes up in photo 1, 5, 11
+         person B shows up in 2, 5, 7
+         this is the unsupervised portion (clustering)
+         once you tell it who people are, by adding one label per person, it can apply that label across the board
+******* deep belief networks (DBNs)
+        based on unsupervised components called restricted Botlzmann machines (RBMs) stacked on top of eachother
+        RBMs are trained sequentially and unsupervised, then fine-tuned using supervised learning techniques
+****** [[file:20210616174737-reinforcement_learning.org][reinforcement learning]]
+       the learning system is called an agent
+         the agent can observe the environment
+******* agent
+        the learning system in a reinforcement learning context is called an agent
+        it can:
+        - observe the environment
+        - select and perform actions
+        - get rewards and penalties
+        The agent learns what's the best strategy, also called "policy," to get the most reward over time
+******** policy
+         defines what action the agent should choose to do in a given situation
+         developed by the agent as it observes, selects actions, and gets rewards
+******* example
+        robots, learning how to walk
+        deepmind's alphago program
+          analyzed millions of games, then played games against itself
+***** Whether or not can learn incrementally, from stream of incoming data
+****** [[file:20210705171901-online_learning.org][online learning]]
+       train the system incrementally by feeding data instances sequentially
+         Data can come individually or in small groups called mini-batches
+       learning steps are fast and cheap
+       good for systems that receive data as a continuous flow like stock prices
+         and need to adapt to change rapidly or autonomously
+       can also be used to train systems on datasets so big they don't fit onto main memory
+         also called out-of-core learning
+         in this case data comes in i guess mini-batches
+******* learning rate
+        an important parameter of online learning systems that determines how fast they adapt to changing data
+        a high learning rate means the system will adapt quickly to new data, but will quickly forget old data
+          bad for spam filters, for example
+        a low learning rate will have more inertia
+          it learns slowly but will be less sensitive to noise or outliers
+****** [[file:20210705171856-batch_learning.org][batch learning]]
+       the system can't learn incrementally
+       must be trained using all available data
+       typically takes a lot of time and resources, so done offline
+       to add "new data," you have to add the new data to the old dataset, and then retrain the WHOLE system from scratch
+       allegedly, this training -> evaluating -> launching process can be automated
+******* [[file:20210705171851-offline_learning.org][offline learning]]
+        system is trained
+        launched into production
+        runs without learning anymore
+******* limitations
+        could take many hours to retrain, so doesn't work good for rapidly changing data
+        could require a lot of computing resources, so if lots of data with daily retraining, could cost a lot
+        not good for things that need to learn autonomously or has limited resources
+***** Whether they compare data points, or detect patterns
+      Whether they compare new datapoints to known datapoints, or
+      detect patterns in the training data and build a predictive model
+        i.e. like scientist do
+      How they generalize
+****** Instance-based learning
+       Comparing new datapoints to known datapoints
+       The system learns examples by heart, and then generalizes to new cases by using a similarity measure to copmare
+         for example, a spam filter could count the number of words between known spam emails, and a new email
+           if the email has many words in common with the known spam, it gets flagged
+******* measure of similarity
+        a measure used in instance-based learning systems to compare new instances to training instances
+****** Model-based learning
+       detecting patterns in the training data and building a predictive model
+       build a model of examples, and then use the model to make predictions
+**** Criteria are non-exclusive
+     e.g. spam filter may learn on the fly using a deep neural network model using examples of spam and ham
+       Thus it's an online, model-based, supervised learning system
 * Anki
 ** what is ML
    :PROPERTIES:
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
    :ANKI_NOTE_ID: 1623836976740
+   :ANKI_FAILURE_REASON: Note was not found: 1623836976740
    :END:
 *** Front
     What is Machine Learning?
@@ -224,6 +389,7 @@
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
    :ANKI_NOTE_ID: 1623836976838
+   :ANKI_FAILURE_REASON: Note was not found: 1623836976838
    :END:
 **** Front
      What is a training set in Machine Learning?
@@ -234,6 +400,7 @@
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
    :ANKI_NOTE_ID: 1623836976936
+   :ANKI_FAILURE_REASON: Note was not found: 1623836976936
    :END:
 **** Front
      What do you call examples that a machine learning system uses to learn?
@@ -244,6 +411,7 @@
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
    :ANKI_NOTE_ID: 1623836977011
+   :ANKI_FAILURE_REASON: Note was not found: 1623836977011
    :END:
 **** Front
      What is accuracy in a Machine Learning program?
@@ -255,6 +423,7 @@
    :ANKI_DECK: Org Learning
    :ANKI_NOTE_TYPE: Basic (and reversed card)
    :ANKI_NOTE_ID: 1623836977110
+   :ANKI_FAILURE_REASON: Note was not found: 1623836977110
    :END:
 **** Front
      What is a performance measurement indicating ratio of correct classification vs incorrect ones called in machine learning?
@@ -262,11 +431,12 @@
      Accuracy
 ** why ML
 *** why tho
-   :PROPERTIES:
-   :ANKI_DECK: Org Learning
-   :ANKI_NOTE_TYPE: Basic (and reversed card)
-   :ANKI_NOTE_ID: 1623836977186
-   :END:
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_NOTE_ID: 1623836977186
+    :ANKI_FAILURE_REASON: Note was not found: 1623836977186
+    :END:
 **** Front
      What kind of problems is Machine Learning great for solving?
 **** Back
@@ -277,3 +447,211 @@
 3 fluctuating environments
       machine learning system can adapt to new data
 4 getting insights about complex problems and large amounts of data
+** ML classification categories
+*** supervised learning front
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What is a Supervised Learning ML system?
+**** Back
+     A system where the training set fed to the algorithm includes desired solutions, also called labels.
+
+*** supervised learning back
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     what kind of ML system is A system where the training set fed to the algorithm includes desired solutions, also called labels.
+**** Back
+     Supervised Learning ML system
+
+*** supervised learning classification front
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What is a "classification" supervised learning task?
+**** Back
+     A system that's trained with many examples as well as their "class," that is then used to classify new input.
+     e.g. a spam filter trained on labeled instances of spam or ham
+
+*** supervised learning label front
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What is included on an instance of a desired solution in a training set of a supervised learning system, that indicates how similar instances should be classified?
+**** Back
+     A label.
+*** supervised learning regression front
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What is the purpose or outcome of a "regression" type task applied to a supervised learning system?
+**** Back
+     To predict a target numeric value, given a set of features.
+
+*** supervised learning regression feed me
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What input does a regression type task in a supervised learning system need to output a target numeric value?
+**** Back
+     Features, called predictors, as well as their labels.
+*** supervised learning list
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     What are 7 kinds of supervised learning algorithms?
+**** Back
+     K-nearest neighbors
+     Linear Regression
+     Logistic Regression
+     Support Vector Machines (SVMs)
+     Decision Trees
+     Random Forests
+     Neural Networks
+
+*** supervised learning list 1
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Linear Regression system is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 2
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Logistic Regression algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 3
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Support Vector Machines (SVMs) algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 4
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Decision Trees algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 5
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Random Forests algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 6
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A Neural Networks algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+
+*** supervised learning list 7
+    :PROPERTIES:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :ANKI_FAILURE_REASON: cannot create note because it is a duplicate
+    :END:
+**** Front
+     A k-nearest neighbors algorithm is classified as what kind of machine learning system?
+**** Back
+     Supervised Learning
+*** unsupervised 1
+    :properties:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :END:
+**** Front
+     a visualization algorithm falls into what supervision category of ML classification?
+**** Back
+     unsupervised learning
+
+*** unsupervised 2
+    :properties:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :END:
+**** Front
+     a dimensionality reduction system falls into what supervision category of ML classification?
+**** Back
+     unsupervised learning
+
+*** unsupervised 3
+    :properties:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :END:
+**** Front
+     a anomaly detection system falls into what supervision category of ML classification?
+**** Back
+     unsupervised learning
+
+*** unsupervised 4
+    :properties:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :END:
+**** Front
+     a novelty detection system falls into what supervision category of ML classification?
+**** Back
+     unsupervised learning
+
+*** unsupervised 5
+    :properties:
+    :ANKI_DECK: Org Learning
+    :ANKI_NOTE_TYPE: Basic (and reversed card)
+    :END:
+**** Front
+     a association rule learning system falls into what supervision category of ML classification?
+**** Back
+     unsupervised learning

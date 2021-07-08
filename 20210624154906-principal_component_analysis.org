@@ -1,0 +1,2 @@
+#+title: principal component analysis
+#+roam_alias: "PCA"

@@ -1,0 +1,5 @@
+#+title: t-Distributed Stochastic Neighbor Embedding
+#+roam_alias: "t-SNE"
+
+* t-SNE visualization
+[[./tsne.png]]

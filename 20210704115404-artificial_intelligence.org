@@ -1,0 +1,2 @@
+#+title: artificial intelligence
+#+roam_alias: ai

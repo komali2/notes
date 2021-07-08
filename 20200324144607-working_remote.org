@@ -31,7 +31,8 @@ https://www.irs.gov/individuals/international-taxpayers/self-employment-tax-for-
    https://onlinetaxman.com/self-employed-abroad-7-things-expats-nomads-need-know-self-employment-tax-foreign-income/
 *** expenses less than income is net profit
 **** net profit becomes part of your income
-** TODO maybe can choose a business structure later:
+** DONE maybe can choose a business structure later
+   CLOSED: [2021-07-08 Thu 12:38]
    https://www.irs.gov/businesses/small-businesses-self-employed/business-structures
 ** Can possibly deduct home office stuff:
  https://www.irs.gov/businesses/small-businesses-self-employed/home-office-deduction

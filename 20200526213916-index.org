@@ -49,3 +49,5 @@
 ***** calculus
 *** Intro to tensorflow for deep learning
    https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187
+* Mandarin
+** [[file:20210707140239-preply_lessons_with_yichun.org::+title: preply lessons with yichun][Preply lessons with yichun]]

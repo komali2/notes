@@ -1,0 +1,2 @@
+#+title: locally linear embedding
+#+roam_alias: "LLE"
