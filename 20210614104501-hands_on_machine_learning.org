@@ -11,7 +11,7 @@
     easy to use
     implements many Machine Learning algorithms efficiently
     good entry point
-*** TensorFlow
+*** [[file:20210712203812-tensorflow.org][TensorFlow]]
     Complex library
     Distributed numerical computation
     Train and run very large neural networks efficiently

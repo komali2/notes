@@ -1,1 +1,6 @@
 #+title: linear regression
+
+* Linear Regression Definition
+  attempts to model the relationship between two variables by
+  fitting [[file:20210527195050-linear_equation.org][linear equation]] to observed data.
+  One variable is an explanatory variable, and the other is a dependent variable

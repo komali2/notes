@@ -1003,6 +1003,7 @@ Code Body
 *** cow animation lol
 * Self-reference ( 7 lectures, 5-7 hours)
   :LOGBOOK:
+  CLOCK: [2021-07-14 Wed 14:50]--[2021-07-14 Wed 15:15] =>  0:25
   CLOCK: [2021-05-26 Wed 14:12]--[2021-05-26 Wed 14:48] =>  0:36
   CLOCK: [2021-05-18 Tue 15:27]--[2021-05-18 Tue 15:41] =>  0:14
   :END:
@@ -1157,6 +1158,42 @@ empty
     Outside of programming? Maybe ethics? For example, what is "doing good?" Well it's when you do
     stuff that makes you feel "good." Feeling good is when you do stuff that makes you... feel good!
     That's an extreme oversimplification, but self reference is sprinkled throughout ethical philosophy.
+** Function operating on list
+*** product true if list contains "UBC"
+
+#+begin_src racket
+  ;; ListOfString -> Boolean
+  ;; produce true if los includes "UBC
+  (check-expect (contains-ubc? empty) false)
+  (check-expect (contains-ubc? (cons "McGill" empty)) false)
+  (check-expect (contains-ubc? (cons "UBC" empty)) true)
+  (check-expect (contains-ubc? (cons "McGill" (cons "UBC" empty))) true)
+
+  (define (contains-ubc? los)
+    (cond [(empty? los) false]
+          [else
+           (if (string=? (first los) "UBC")
+               true
+               (fn-for-los (rest los)))]))
+#+end_src
+As you can see, contains a [[file:20201007205328-recursion.org][recursive]] call
+** revising the recipes for lists
+*** well formed self-reference
+    In order to accommodate an arbitrary amount of information, and meet the
+    requirement of arbitrary-sized data, A well formed self-reference has:
+   - at least one base case
+   - at least one self reference case
+
+     #+begin_src racket
+      ;; ListOfString is one of:
+      ;; - empty
+      ;; - (cons String ListOfString)
+     #+end_src
+*** writing check-expects (test) for recursive functions
+    Best to do base case examples / tests first
+    - base case tends to be simpler
+    - non-base cases tend to rely on it
+
 * Reference (3 lectures, 4-6 horus)
   Learn to predict and identify the correspondence between refercnes in a data definition and helper
 function calls in functions that operate on the data
@@ -1168,4 +1205,3 @@ using this new data definition
 * Binary Search Trees (6 lectures, 5-6 hours)
   Design a data definition for Binary Search Trees, and learn to write functions operating
 on BSTs
-yeas
